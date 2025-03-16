@@ -1,0 +1,31 @@
+query ($after: String) {
+  search(query: "language:Java stars:>1 sort:stars-desc", type: REPOSITORY, first: 20, after: $after) {
+    edges {
+      node {
+        ... on Repository {
+          name
+          stargazerCount
+          createdAt
+          releases {
+            totalCount
+          }
+          defaultBranchRef {
+            target {
+              ... on Commit {
+                history(first: 1) {
+                  nodes {
+                    committedDate
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}

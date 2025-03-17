@@ -2,9 +2,10 @@ import http.client
 import json
 import os
 import csv
+from datetime import datetime
 from dotenv import load_dotenv
 
-# Carregar variáveis do .env explicitamente
+# Carregar variáveis do .env
 dotenv_path = os.path.join(os.path.dirname(__file__), ".env")
 load_dotenv(dotenv_path)
 
@@ -12,7 +13,8 @@ load_dotenv(dotenv_path)
 TOKEN = os.getenv("GITHUB_TOKEN")
 if not TOKEN:
     raise ValueError("ERRO: GITHUB_TOKEN não foi carregado. Verifique seu arquivo .env!")
-print(f"GITHUB_TOKEN carregado com sucesso: {TOKEN[:5]}...")
+
+GITHUB_API_URL = "api.github.com"
 
 def load_query():
     """Carrega a query GraphQL a partir do arquivo `query.gql`."""
@@ -24,12 +26,10 @@ def load_query():
     with open(query_path, "r") as file:
         return file.read()
 
-# Carrega a query e a URL da API
 QUERY = load_query()
-GITHUB_API_URL = "api.github.com"
 
 def fetch_github_data(limit=100, batch_size=20):
-    """Faz requisições paginadas à API do GitHub para obter até 1.000 repositórios de 20 em 20."""
+    """Faz requisições paginadas à API do GitHub para obter repositórios."""
     conn = http.client.HTTPSConnection(GITHUB_API_URL)
     headers = {
         "Authorization": f"Bearer {TOKEN}",
@@ -72,20 +72,27 @@ def fetch_github_data(limit=100, batch_size=20):
     save_repositories_to_csv(repos)
     return repos[:limit]
 
-def save_repositories_to_csv(repos, filename="repositories.csv"):
-    """Salva os repositórios coletados em um arquivo CSV."""
+def save_repositories_to_csv(repos):
+    """Salva os repositórios coletados em um arquivo CSV dentro da pasta ../outputs/"""
+    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "outputs"))
+    os.makedirs(output_dir, exist_ok=True)  # Garante que a pasta exista
+
+    filename = os.path.join(output_dir, "repositories.csv")
+
+    # Criação/Substituição do arquivo CSV
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["Nome", "Owner", "Estrelas", "Criado em", "Forks", "Releases"])
+        writer.writerow(["Nome", "Dono", "Estrelas", "Maturidade (anos)", "Forks", "Releases"])
         
         for repo in repos:
-            owner = repo.get("owner", {}).get("login", "N/A")
-            
+            created_at = datetime.strptime(repo["createdAt"], "%Y-%m-%dT%H:%M:%SZ")
+            age_years = round((datetime.utcnow() - created_at).days / 365, 2)
+
             writer.writerow([
                 repo.get("name", "N/A"),
-                owner,
+                repo.get("owner", {}).get("login", "N/A"),
                 repo.get("stargazerCount", 0),
-                repo.get("createdAt", "N/A"),
+                age_years,
                 repo.get("forkCount", 0),
                 repo.get("releases", {}).get("totalCount", 0)
             ])

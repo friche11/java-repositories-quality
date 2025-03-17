@@ -4,8 +4,12 @@ query ($after: String) {
       node {
         ... on Repository {
           name
+          owner {
+            login
+          }
           stargazerCount
           createdAt
+          forkCount
           releases {
             totalCount
           }
@@ -20,6 +24,7 @@ query ($after: String) {
               }
             }
           }
+          url
         }
       }
     }

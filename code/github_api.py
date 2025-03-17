@@ -28,7 +28,7 @@ def load_query():
 QUERY = load_query()
 GITHUB_API_URL = "api.github.com"
 
-def fetch_github_data(limit=1000, batch_size=20):
+def fetch_github_data(limit=100, batch_size=20):
     """Faz requisições paginadas à API do GitHub para obter até 1.000 repositórios de 20 em 20."""
     conn = http.client.HTTPSConnection(GITHUB_API_URL)
     headers = {
@@ -56,6 +56,7 @@ def fetch_github_data(limit=1000, batch_size=20):
         new_repos = [edge["node"] for edge in search_results.get("edges", [])]
         
         if not new_repos:
+            print("Nenhum novo repositório encontrado. Encerrando...")
             break
         
         repos.extend(new_repos)
@@ -75,11 +76,14 @@ def save_repositories_to_csv(repos, filename="repositories.csv"):
     """Salva os repositórios coletados em um arquivo CSV."""
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["Nome", "Estrelas", "Criado em", "Forks", "Releases"])
+        writer.writerow(["Nome", "Owner", "Estrelas", "Criado em", "Forks", "Releases"])
         
         for repo in repos:
+            owner = repo.get("owner", {}).get("login", "N/A")
+            
             writer.writerow([
                 repo.get("name", "N/A"),
+                owner,
                 repo.get("stargazerCount", 0),
                 repo.get("createdAt", "N/A"),
                 repo.get("forkCount", 0),

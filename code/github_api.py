@@ -28,7 +28,7 @@ def load_query():
 
 QUERY = load_query()
 
-def fetch_github_data(limit=100, batch_size=20):
+def fetch_github_data(limit=1000, batch_size=20):
     """Faz requisições paginadas à API do GitHub para obter repositórios."""
     conn = http.client.HTTPSConnection(GITHUB_API_URL)
     headers = {
@@ -82,7 +82,7 @@ def save_repositories_to_csv(repos):
     # Criação/Substituição do arquivo CSV
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["Nome", "Dono", "Estrelas", "Maturidade (anos)", "Forks", "Releases"])
+        writer.writerow(["Repositório", "Dono", "Estrelas", "Maturidade (anos)", "Forks", "Releases"])
         
         for repo in repos:
             created_at = datetime.strptime(repo["createdAt"], "%Y-%m-%dT%H:%M:%SZ")

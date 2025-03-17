@@ -28,7 +28,7 @@ def load_query():
 QUERY = load_query()
 GITHUB_API_URL = "api.github.com"
 
-def fetch_github_data(limit=100, batch_size=20):
+def fetch_github_data(limit=1000, batch_size=20):
     """Faz requisições paginadas à API do GitHub para obter até 1.000 repositórios de 20 em 20."""
     conn = http.client.HTTPSConnection(GITHUB_API_URL)
     headers = {

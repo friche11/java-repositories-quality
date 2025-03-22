@@ -2,9 +2,9 @@ Repositório,Dono,Estrelas,Maturidade (anos),Forks,Releases,Medida,Acoplamento E
 JavaGuide,Snailclimb,148732,6.87,45765,0,,,,,
 hello-algo,krahets,110340,2.37,13740,9,,,,,
 java-design-patterns,iluwatar,91006,10.61,26846,0,,,,,
-mall,macrozheng,79508,6.96,29093,3,Média,3.9342105263157894,1.2394736842105263,1110.803947368421,132.7671052631579
+mall,macrozheng,79508,6.96,29093,3,Média,3.93,1.24,1110.8,132.77
 mall,macrozheng,79508,6.96,29093,3,Mediana,3.0,1.0,13.0,31.5
-mall,macrozheng,79508,6.96,29093,3,Desvio Padrão,4.966914318526482,0.43921085880212773,8155.555246123951,261.20182802565046
+mall,macrozheng,79508,6.96,29093,3,Desvio Padrão,4.97,0.44,8155.56,261.2
 advanced-java,doocs,77248,6.45,19162,1,,,,,
 spring-boot,spring-projects,76464,12.42,40989,300,,,,,
 LeetCodeAnimation,MisterBooo,75770,6.28,13977,0,,,,,

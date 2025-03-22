@@ -1,4 +1,4 @@
 Repositório,Medida,Acoplamento Entre Objetos (CBO),Profundidade da Árvore de Herança (DIT),Falta de Coesão dos Métodos (LCOM),Linhas de Código (LOC)
-mall,Média,3.9342105263157894,1.2394736842105263,1110.803947368421,132.7671052631579
+mall,Média,3.93,1.24,1110.8,132.77
 mall,Mediana,3.0,1.0,13.0,31.5
-mall,Desvio Padrão,4.966914318526482,0.43921085880212773,8155.555246123951,261.20182802565046
+mall,Desvio Padrão,4.97,0.44,8155.56,261.2

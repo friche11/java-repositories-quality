@@ -50,6 +50,9 @@ for repo_name in os.listdir(CK_DIR):
     grouped = class_metrics[available_metrics]
     summary = grouped.agg(["mean", "median", "std"]).reset_index()
 
+    # Arredondar os valores numéricos para duas casas decimais
+    summary[available_metrics] = summary[available_metrics].round(2)
+
     # Traduzir colunas para português
     summary.rename(columns={col: quality_metrics[col] for col in available_metrics}, inplace=True)
 
@@ -63,7 +66,7 @@ for repo_name in os.listdir(CK_DIR):
     # Renomear a coluna do índice para "Medida"
     summary.rename(columns={"index": "Medida"}, inplace=True)
 
-    # xtrair apenas o nome do repositório (removendo o dono)
+    # Extrair apenas o nome do repositório (removendo o dono)
     repo_clean_name = repo_name.split("_", 1)[-1] if "_" in repo_name else repo_name
 
     # Adicionar nome do repositório
@@ -101,4 +104,3 @@ resultados_df.to_csv(resultados_path, index=False, encoding="utf-8")
 print(f"Resultados salvos em: {resultados_path}")
 
 print("Processo finalizado.")
-

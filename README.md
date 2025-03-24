@@ -39,13 +39,26 @@ Este projeto analisa as seguintes métricas de qualidade de software:
    python code/clone_repos.py
    ```
 
-5. Após coletar as métricas com CK, execute o script abaixo para sumarizar dados em uma planilha `summary_metrics` e atualizar `resultados.csv`.
+5. Para coletar as métricas de qualidade com o CK você deve seguir as instruções de execução no repositório oficial abaixo:
+   ```bash
+   https://github.com/mauricioaniche/ck
+   ```
+
+6. Com o CK configurado na raiz do repositório, execute o script abaixo e selecione a opção 1 para rodar a ferramenta CK em cada repositório clonado:
    ```bash
    python code/calc_metrics.py
    ```
 
+7. Depois da ferramenta ter gerado várias planilhas execute novamente o script e escolha a opção 2 para gerar a planilha de resultados. Essa opção irá gerar planilhas de dados sumarizados para cada repositório e depois irá juntá-las com a planilha `repositories.csv`, gerando uma nova planilha `resultados.csv` com todos os dados necessários.
+
+8. Agora execute a opção 3 para gerar a planilha `analise_resultados.csv`. Ela terá os dados analisados divididos pela mediana.
+
+9. Agora execute a opção 4 para gerar a planilha `analise_correlacao_spearman.csv` e a imagem da matriz de correlação. 
+
+10. Se tiver dúvidas sobre o significado desses dados gerados e analisados, leia o relatório final localizado na pasta `docs`.
+
 ## Saída
-- Os dados formatados serão salvos na pasta `outputs/`, com arquivos CSV contendo as informações detalhadas de cada repositório.
+- Dentro da pasta `repositories` terá todos os repositórios clonados depois de executar o script de clone.
 - Dentro de `outputs/ck/` estarão os dados coletados pela ferramenta CK e os resultados sumarizados pelo script `calc_metrics.py`.
 - A planilha `repositories.csv` contém os dados coletados pela API do GitHub.
 - A planilha final consolidada de resultados será salva em `docs/resultados.csv`, contendo as métricas do CK combinadas com os dados do GitHub.

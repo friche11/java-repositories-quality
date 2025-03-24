@@ -1,347 +1,796 @@
 Repositório,Dono,Estrelas,Maturidade (anos),Forks,Releases,Medida,Acoplamento Entre Objetos (CBO),Profundidade da Árvore de Herança (DIT),Falta de Coesão dos Métodos (LCOM),Linhas de Código (LOC)
 JavaGuide,Snailclimb,148732,6.87,45765,0,,,,,
-hello-algo,krahets,110340,2.37,13740,9,,,,,
-java-design-patterns,iluwatar,91006,10.61,26846,0,,,,,
-mall,macrozheng,79508,6.96,29093,3,Média,3.93,1.24,1110.8,132.77
-mall,macrozheng,79508,6.96,29093,3,Mediana,3.0,1.0,13.0,31.5
-mall,macrozheng,79508,6.96,29093,3,Desvio Padrão,4.97,0.44,8155.56,261.2
-advanced-java,doocs,77248,6.45,19162,1,,,,,
-spring-boot,spring-projects,76464,12.42,40989,300,,,,,
+hello-algo,krahets,110340,2.37,13740,9,Média,1.19,1.0,4.71,14.75
+hello-algo,krahets,110340,2.37,13740,9,Mediana,1.0,1.0,1.0,9.0
+hello-algo,krahets,110340,2.37,13740,9,Desvio Padrão,1.17,0.0,10.46,15.24
+java-design-patterns,iluwatar,91006,10.61,26846,0,Média,2.2,1.2,1.88,9.66
+java-design-patterns,iluwatar,91006,10.61,26846,0,Mediana,2.0,1.0,0.0,5.0
+java-design-patterns,iluwatar,91006,10.61,26846,0,Desvio Padrão,2.15,0.53,6.56,15.49
+mall,macrozheng,79508,6.96,29093,3,Média,1.69,1.24,1110.8,10.5
+mall,macrozheng,79508,6.96,29093,3,Mediana,2.0,1.0,13.0,4.0
+mall,macrozheng,79508,6.96,29093,3,Desvio Padrão,1.7,0.44,8155.56,65.4
+advanced-java,doocs,77248,6.45,19162,1,Média,,,,
+advanced-java,doocs,77248,6.45,19162,1,Mediana,,,,
+advanced-java,doocs,77248,6.45,19162,1,Desvio Padrão,,,,
+spring-boot,spring-projects,76464,12.42,40989,300,Média,2.83,1.23,13.09,10.28
+spring-boot,spring-projects,76464,12.42,40989,300,Mediana,2.0,1.0,0.0,4.0
+spring-boot,spring-projects,76464,12.42,40989,300,Desvio Padrão,3.87,0.7,133.68,29.9
 LeetCodeAnimation,MisterBooo,75770,6.28,13977,0,,,,,
-elasticsearch,elastic,72013,15.11,25136,174,,,,,
-interviews,kdn251,64018,8.09,12918,0,,,,,
+elasticsearch,elastic,72013,15.11,25136,174,Média,,,,
+elasticsearch,elastic,72013,15.11,25136,174,Mediana,,,,
+elasticsearch,elastic,72013,15.11,25136,174,Desvio Padrão,,,,
+interviews,kdn251,64018,8.09,12918,0,Média,1.1,1.0,0.29,17.12
+interviews,kdn251,64018,8.09,12918,0,Mediana,1.0,1.0,0.0,15.0
+interviews,kdn251,64018,8.09,12918,0,Desvio Padrão,1.19,0.06,0.93,10.32
 Java,TheAlgorithms,61101,8.67,19743,0,,,,,
-spring-framework,spring-projects,57557,14.28,38419,327,,,,,
-ghidra,NationalSecurityAgency,55399,6.05,6219,42,,,,,
+spring-framework,spring-projects,57557,14.28,38419,327,Média,2.73,1.47,30.03,12.2
+spring-framework,spring-projects,57557,14.28,38419,327,Mediana,2.0,1.0,0.0,4.0
+spring-framework,spring-projects,57557,14.28,38419,327,Desvio Padrão,3.59,1.4,274.18,46.08
+ghidra,NationalSecurityAgency,55399,6.05,6219,42,Média,,,,
+ghidra,NationalSecurityAgency,55399,6.05,6219,42,Mediana,,,,
+ghidra,NationalSecurityAgency,55399,6.05,6219,42,Desvio Padrão,,,,
 Stirling-PDF,Stirling-Tools,54234,2.14,4497,118,,,,,
-guava,google,50591,10.81,10964,48,,,,,
+guava,google,50591,10.81,10964,48,Média,2.3,1.8,47.81,12.14
+guava,google,50591,10.81,10964,48,Mediana,2.0,1.0,0.0,4.0
+guava,google,50591,10.81,10964,48,Desvio Padrão,2.96,2.26,446.17,48.98
 RxJava,ReactiveX,48040,12.19,7605,235,,,,,
-jadx,skylot,43192,12.01,5007,30,,,,,
-dbeaver,dbeaver,42277,9.41,3600,219,,,,,
+jadx,skylot,43192,12.01,5007,30,Média,2.32,1.66,31.85,14.08
+jadx,skylot,43192,12.01,5007,30,Mediana,1.0,1.0,0.0,4.0
+jadx,skylot,43192,12.01,5007,30,Desvio Padrão,3.56,1.24,316.25,43.11
+dbeaver,dbeaver,42277,9.41,3600,219,Média,,,,
+dbeaver,dbeaver,42277,9.41,3600,219,Mediana,,,,
+dbeaver,dbeaver,42277,9.41,3600,219,Desvio Padrão,,,,
 JeecgBoot,jeecgboot,41889,6.31,15160,54,,,,,
-dubbo,apache,40818,12.75,26506,109,,,,,
-termux-app,termux,39800,9.41,4268,91,,,,,
+dubbo,apache,40818,12.75,26506,109,Média,2.18,1.29,47.53,13.19
+dubbo,apache,40818,12.75,26506,109,Mediana,1.0,1.0,1.0,4.0
+dubbo,apache,40818,12.75,26506,109,Desvio Padrão,3.16,0.72,445.03,42.17
+termux-app,termux,39800,9.41,4268,91,Média,2.6,1.43,60.83,17.46
+termux-app,termux,39800,9.41,4268,91,Mediana,2.0,1.0,0.0,5.0
+termux-app,termux,39800,9.41,4268,91,Desvio Padrão,3.43,0.7,236.37,60.0
 MPAndroidChart,PhilJay,37862,10.9,9035,44,,,,,
-tutorials,eugenp,37086,11.89,54405,0,,,,,
-arthas,alibaba,36056,6.55,7535,59,,,,,
-hello-algorithm,geekxh,35512,4.8,6468,0,,,,,
-lottie-android,airbnb,35239,8.45,5438,56,,,,,
-halo,halo-dev,34984,6.99,9834,210,,,,,
-glide,bumptech,34816,11.7,6148,47,,,,,
-netty,netty,33879,14.36,16031,0,,,,,
-spring-boot-demo,xkcoding,33493,7.35,10946,0,,,,,
+tutorials,eugenp,37086,11.89,54405,0,Média,1.96,1.12,6.72,9.68
+tutorials,eugenp,37086,11.89,54405,0,Mediana,1.0,1.0,0.0,5.0
+tutorials,eugenp,37086,11.89,54405,0,Desvio Padrão,2.52,0.43,41.29,20.23
+arthas,alibaba,36056,6.55,7535,59,Média,1.84,1.36,36.49,13.41
+arthas,alibaba,36056,6.55,7535,59,Mediana,1.0,1.0,1.0,3.0
+arthas,alibaba,36056,6.55,7535,59,Desvio Padrão,3.16,0.72,172.26,36.17
+hello-algorithm,geekxh,35512,4.8,6468,0,Média,1.14,1.0,0.0,16.14
+hello-algorithm,geekxh,35512,4.8,6468,0,Mediana,1.0,1.0,0.0,15.0
+hello-algorithm,geekxh,35512,4.8,6468,0,Desvio Padrão,0.9,0.0,0.0,10.92
+lottie-android,airbnb,35239,8.45,5438,56,Média,2.94,1.29,33.39,16.05
+lottie-android,airbnb,35239,8.45,5438,56,Mediana,2.0,1.0,0.0,4.0
+lottie-android,airbnb,35239,8.45,5438,56,Desvio Padrão,4.12,0.65,283.16,50.31
+halo,halo-dev,34984,6.99,9834,210,Média,3.75,1.26,6.83,12.74
+halo,halo-dev,34984,6.99,9834,210,Mediana,3.0,1.0,0.0,6.0
+halo,halo-dev,34984,6.99,9834,210,Desvio Padrão,4.46,0.61,28.38,25.11
+glide,bumptech,34816,11.7,6148,47,Média,3.13,1.24,19.91,11.74
+glide,bumptech,34816,11.7,6148,47,Mediana,2.0,1.0,0.0,5.0
+glide,bumptech,34816,11.7,6148,47,Desvio Padrão,3.5,0.81,157.73,33.72
+netty,netty,33879,14.36,16031,0,Média,2.41,1.52,67.13,13.7
+netty,netty,33879,14.36,16031,0,Mediana,2.0,1.0,0.0,4.0
+netty,netty,33879,14.36,16031,0,Desvio Padrão,3.11,1.19,1154.59,58.05
+spring-boot-demo,xkcoding,33493,7.35,10946,0,Média,2.96,1.13,2.32,8.5
+spring-boot-demo,xkcoding,33493,7.35,10946,0,Mediana,2.0,1.0,0.0,4.0
+spring-boot-demo,xkcoding,33493,7.35,10946,0,Desvio Padrão,3.06,0.49,9.81,12.99
 AndroidUtilCode,Blankj,33491,8.64,10708,117,,,,,
-leetcode,doocs,33308,6.5,8718,21,,,,,
+leetcode,doocs,33308,6.5,8718,21,Média,1.14,1.01,0.34,11.37
+leetcode,doocs,33308,6.5,8718,21,Mediana,1.0,1.0,0.0,7.0
+leetcode,doocs,33308,6.5,8718,21,Desvio Padrão,1.43,0.08,0.73,13.01
+leetcode,doocs,33308,6.5,8718,21,Média,1.46,1.0,0.29,16.37
+leetcode,doocs,33308,6.5,8718,21,Mediana,1.0,1.0,0.0,12.0
+leetcode,doocs,33308,6.5,8718,21,Desvio Padrão,1.37,0.02,7.4,16.36
+leetcode,doocs,33308,6.5,8718,21,Média,1.05,1.0,0.7,16.46
+leetcode,doocs,33308,6.5,8718,21,Mediana,1.0,1.0,0.0,13.0
+leetcode,doocs,33308,6.5,8718,21,Desvio Padrão,0.79,0.0,2.05,14.42
 NewPipe,TeamNewPipe,33235,9.54,3156,135,,,,,
-easyexcel,alibaba,33210,7.11,7617,14,,,,,
-zxing,zxing,33156,13.44,9384,31,,,,,
-selenium,SeleniumHQ,31853,12.18,8365,102,,,,,
-nacos,alibaba,30991,6.76,12975,77,,,,,
+easyexcel,alibaba,33210,7.11,7617,14,Média,2.96,1.38,32.02,13.19
+easyexcel,alibaba,33210,7.11,7617,14,Mediana,2.0,1.0,1.0,4.0
+easyexcel,alibaba,33210,7.11,7617,14,Desvio Padrão,3.96,0.83,355.67,32.24
+zxing,zxing,33156,13.44,9384,31,Média,2.29,1.66,22.96,19.61
+zxing,zxing,33156,13.44,9384,31,Mediana,2.0,2.0,0.0,7.0
+zxing,zxing,33156,13.44,9384,31,Desvio Padrão,2.85,0.77,130.86,44.21
+selenium,SeleniumHQ,31853,12.18,8365,102,Média,2.85,1.38,32.42,13.19
+selenium,SeleniumHQ,31853,12.18,8365,102,Mediana,2.0,1.0,1.0,5.0
+selenium,SeleniumHQ,31853,12.18,8365,102,Desvio Padrão,3.79,1.04,279.1,33.61
+nacos,alibaba,30991,6.76,12975,77,Média,2.45,1.29,25.69,13.24
+nacos,alibaba,30991,6.76,12975,77,Mediana,2.0,1.0,0.0,5.0
+nacos,alibaba,30991,6.76,12975,77,Desvio Padrão,3.42,0.7,354.93,32.72
 WxJava,binarywang,30730,9.2,8802,30,,,,,
-spring-boot-examples,ityouknow,30401,8.37,12340,0,,,,,
-ruoyi-vue-pro,YunaiV,29683,4.15,6414,34,,,,,
-kafka,apache,29663,13.6,14239,0,,,,,
-hutool,chinabugotech,29620,10.93,7569,149,,,,,
-apollo,apolloconfig,29378,9.04,10228,41,,,,,
-canal,alibaba,28890,12.18,7648,32,,,,,
+spring-boot-examples,ityouknow,30401,8.37,12340,0,Média,2.25,1.03,5.03,6.7
+spring-boot-examples,ityouknow,30401,8.37,12340,0,Mediana,2.0,1.0,0.0,3.0
+spring-boot-examples,ityouknow,30401,8.37,12340,0,Desvio Padrão,2.48,0.16,16.35,9.7
+ruoyi-vue-pro,YunaiV,29683,4.15,6414,34,Média,4.2,1.23,16.6,10.12
+ruoyi-vue-pro,YunaiV,29683,4.15,6414,34,Mediana,3.0,1.0,0.0,4.0
+ruoyi-vue-pro,YunaiV,29683,4.15,6414,34,Desvio Padrão,4.82,0.44,525.21,26.08
+kafka,apache,29663,13.6,14239,0,Média,3.35,1.42,55.88,16.23
+kafka,apache,29663,13.6,14239,0,Mediana,2.0,1.0,0.0,5.0
+kafka,apache,29663,13.6,14239,0,Desvio Padrão,5.56,1.08,851.47,72.36
+hutool,chinabugotech,29620,10.93,7569,149,Média,1.76,1.28,104.02,11.91
+hutool,chinabugotech,29620,10.93,7569,149,Mediana,1.0,1.0,0.0,4.0
+hutool,chinabugotech,29620,10.93,7569,149,Desvio Padrão,2.03,0.74,969.5,40.22
+apollo,apolloconfig,29378,9.04,10228,41,Média,3.09,1.27,14.79,12.36
+apollo,apolloconfig,29378,9.04,10228,41,Mediana,2.0,1.0,0.0,4.0
+apollo,apolloconfig,29378,9.04,10228,41,Desvio Padrão,3.98,0.71,53.13,25.52
+canal,alibaba,28890,12.18,7648,32,Média,1.9,1.38,77.43,19.33
+canal,alibaba,28890,12.18,7648,32,Mediana,1.0,1.0,1.0,3.0
+canal,alibaba,28890,12.18,7648,32,Desvio Padrão,3.12,0.82,467.63,126.26
 SpringAll,wuyouzhuguli,28662,6.88,8182,0,,,,,
-xxl-job,xuxueli,28453,9.31,11109,36,,,,,
-spring-cloud-alibaba,alibaba,28306,7.3,8384,47,,,,,
-druid,alibaba,28088,13.38,8600,51,,,,,
-vhr,lenve,27656,7.2,10298,0,,,,,
+xxl-job,xuxueli,28453,9.31,11109,36,Média,2.02,1.13,20.59,17.54
+xxl-job,xuxueli,28453,9.31,11109,36,Mediana,1.0,1.0,0.0,4.0
+xxl-job,xuxueli,28453,9.31,11109,36,Desvio Padrão,3.27,0.39,98.81,48.01
+spring-cloud-alibaba,alibaba,28306,7.3,8384,47,Média,1.79,1.08,3.84,6.36
+spring-cloud-alibaba,alibaba,28306,7.3,8384,47,Mediana,1.0,1.0,0.0,3.0
+spring-cloud-alibaba,alibaba,28306,7.3,8384,47,Desvio Padrão,2.66,0.49,11.49,8.82
+druid,alibaba,28088,13.38,8600,51,Média,1.98,1.94,231.16,15.62
+druid,alibaba,28088,13.38,8600,51,Mediana,1.0,2.0,0.0,5.0
+druid,alibaba,28088,13.38,8600,51,Desvio Padrão,5.34,0.83,5170.73,103.57
+druid,alibaba,28088,13.38,8600,51,Média,3.45,1.37,62.92,14.2
+druid,alibaba,28088,13.38,8600,51,Mediana,2.0,1.0,0.0,4.0
+druid,alibaba,28088,13.38,8600,51,Desvio Padrão,4.82,1.82,4571.7,44.71
+vhr,lenve,27656,7.2,10298,0,Média,1.33,1.02,48.33,7.09
+vhr,lenve,27656,7.2,10298,0,Mediana,1.0,1.0,6.0,3.0
+vhr,lenve,27656,7.2,10298,0,Desvio Padrão,2.8,0.15,225.79,19.1
 JCSprout,crossoverJie,27104,7.25,7075,0,,,,,
-miaosha,qiurunze123,26276,6.51,6618,0,,,,,
-keycloak,keycloak,25984,11.72,7132,76,,,,,
+miaosha,qiurunze123,26276,6.51,6618,0,Média,1.89,1.13,14.3,10.58
+miaosha,qiurunze123,26276,6.51,6618,0,Mediana,1.0,1.0,0.0,4.0
+miaosha,qiurunze123,26276,6.51,6618,0,Desvio Padrão,2.78,0.39,85.54,34.44
+keycloak,keycloak,25984,11.72,7132,76,Média,1.45,1.29,102.37,10.77
+keycloak,keycloak,25984,11.72,7132,76,Mediana,1.0,1.0,2.0,3.0
+keycloak,keycloak,25984,11.72,7132,76,Desvio Padrão,2.65,0.65,1464.25,31.43
 Telegram,DrKLO,25908,11.4,8300,95,,,,,
-fastjson,alibaba,25777,13.38,6494,84,,,,,
-incubator-seata,apache,25547,6.22,8816,42,,,,,
-butterknife,JakeWharton,25530,12.04,4598,0,,,,,
+fastjson,alibaba,25777,13.38,6494,84,Média,0.97,1.5,126.12,12.35
+fastjson,alibaba,25777,13.38,6494,84,Mediana,0.0,1.0,0.0,3.0
+fastjson,alibaba,25777,13.38,6494,84,Desvio Padrão,1.8,0.71,3281.97,76.53
+incubator-seata,apache,25547,6.22,8816,42,Média,2.17,1.87,574.56,13.9
+incubator-seata,apache,25547,6.22,8816,42,Mediana,1.0,1.0,3.0,3.0
+incubator-seata,apache,25547,6.22,8816,42,Desvio Padrão,8.25,15.87,16540.75,397.15
+butterknife,JakeWharton,25530,12.04,4598,0,Média,3.14,1.24,10.48,14.37
+butterknife,JakeWharton,25530,12.04,4598,0,Mediana,2.0,1.0,0.0,5.0
+butterknife,JakeWharton,25530,12.04,4598,0,Desvio Padrão,4.09,0.71,75.81,51.2
 toBeTopJavaer,hollischuang,25424,6.4,5452,0,,,,,
 SmartRefreshLayout,scwang90,25050,7.79,4967,14,,,,,
-proxyee-down,proxyee-down-org,24903,7.4,4427,49,,,,,
+proxyee-down,proxyee-down-org,24903,7.4,4427,49,Média,2.46,1.47,19.52,16.37
+proxyee-down,proxyee-down-org,24903,7.4,4427,49,Mediana,1.0,1.0,2.0,5.0
+proxyee-down,proxyee-down-org,24903,7.4,4427,49,Desvio Padrão,3.66,0.93,49.73,31.49
 EventBus,greenrobot,24740,12.68,4671,7,,,,,
-flink,apache,24640,10.78,13559,0,,,,,
+flink,apache,24640,10.78,13559,0,Média,3.2,1.64,30.95,13.12
+flink,apache,24640,10.78,13559,0,Mediana,2.0,1.0,1.0,4.0
+flink,apache,24640,10.78,13559,0,Desvio Padrão,4.7,2.05,627.8,44.23
 Hystrix,Netflix,24264,12.33,4729,79,,,,,
-skywalking,apache,24157,9.36,6567,61,,,,,
-libgdx,libgdx,23824,12.61,6472,13,,,,,
-bazel,bazelbuild,23782,10.77,4155,186,,,,,
-jenkins,jenkinsci,23754,14.33,8982,404,,,,,
-redisson,redisson,23668,11.19,5414,166,,,,,
-gson,google,23615,10.0,4313,9,,,,,
+skywalking,apache,24157,9.36,6567,61,Média,3.08,1.37,5.3,14.02
+skywalking,apache,24157,9.36,6567,61,Mediana,2.0,1.0,0.0,6.0
+skywalking,apache,24157,9.36,6567,61,Desvio Padrão,4.27,0.69,23.85,27.04
+libgdx,libgdx,23824,12.61,6472,13,Média,1.52,1.8,3464.77,10.06
+libgdx,libgdx,23824,12.61,6472,13,Mediana,1.0,1.0,0.0,3.0
+libgdx,libgdx,23824,12.61,6472,13,Desvio Padrão,3.0,1.62,144912.3,48.58
+bazel,bazelbuild,23782,10.77,4155,186,Média,2.41,1.39,20.35,13.31
+bazel,bazelbuild,23782,10.77,4155,186,Mediana,1.0,1.0,0.0,4.0
+bazel,bazelbuild,23782,10.77,4155,186,Desvio Padrão,6.88,0.83,70.59,32.24
+jenkins,jenkinsci,23754,14.33,8982,404,Média,2.81,1.91,46.09,13.73
+jenkins,jenkinsci,23754,14.33,8982,404,Mediana,2.0,2.0,0.0,4.0
+jenkins,jenkinsci,23754,14.33,8982,404,Desvio Padrão,4.27,1.79,913.52,50.54
+redisson,redisson,23668,11.19,5414,166,Média,2.67,1.35,178.35,11.73
+redisson,redisson,23668,11.19,5414,166,Mediana,2.0,1.0,0.0,3.0
+redisson,redisson,23668,11.19,5414,166,Desvio Padrão,4.1,0.78,1545.88,53.34
+gson,google,23615,10.0,4313,9,Média,2.61,1.28,20.55,13.82
+gson,google,23615,10.0,4313,9,Mediana,2.0,1.0,0.0,6.0
+gson,google,23615,10.0,4313,9,Desvio Padrão,2.76,1.03,379.06,46.66
 Mindustry,Anuken,23475,7.88,3041,160,,,,,
-openapi-generator,OpenAPITools,23097,6.85,6806,70,,,,,
+openapi-generator,OpenAPITools,23097,6.85,6806,70,Média,2.22,1.23,84.73,14.2
+openapi-generator,OpenAPITools,23097,6.85,6806,70,Mediana,1.0,1.0,1.0,4.0
+openapi-generator,OpenAPITools,23097,6.85,6806,70,Desvio Padrão,3.1,0.64,1071.69,64.44
 Sentinel,alibaba,22629,6.96,8083,25,,,,,
-source-code-hunter,doocs,22546,5.39,4168,0,,,,,
+source-code-hunter,doocs,22546,5.39,4168,0,Média,,,,
+source-code-hunter,doocs,22546,5.39,4168,0,Mediana,,,,
+source-code-hunter,doocs,22546,5.39,4168,0,Desvio Padrão,,,,
 FizzBuzzEnterpriseEdition,EnterpriseQualityCoding,22209,12.32,773,0,,,,,
 ExoPlayer,google,21801,10.77,6039,28,,,,,
 SmartTube,yuliskov,21800,4.64,1176,716,,,,,
-rocketmq,apache,21614,8.3,11808,21,,,,,
-awesome-system-design-resources,ashishps1,21609,1.39,5160,0,,,,,
-eladmin,elunez,21546,6.26,7381,1,,,,,
+rocketmq,apache,21614,8.3,11808,21,Média,2.44,1.33,114.24,16.39
+rocketmq,apache,21614,8.3,11808,21,Mediana,1.0,1.0,1.0,4.0
+rocketmq,apache,21614,8.3,11808,21,Desvio Padrão,4.6,0.76,2084.3,60.43
+awesome-system-design-resources,ashishps1,21609,1.39,5160,0,Média,0.48,1.0,0.0,12.85
+awesome-system-design-resources,ashishps1,21609,1.39,5160,0,Mediana,0.0,1.0,0.0,8.0
+awesome-system-design-resources,ashishps1,21609,1.39,5160,0,Desvio Padrão,0.55,0.0,0.0,11.71
+eladmin,elunez,21546,6.26,7381,1,Média,4.05,1.16,6.43,11.72
+eladmin,elunez,21546,6.26,7381,1,Mediana,2.0,1.0,0.0,5.0
+eladmin,elunez,21546,6.26,7381,1,Desvio Padrão,4.92,0.44,19.52,26.2
 Apktool,iBotPeaches,21514,13.0,3680,25,,,,,
 Chat2DB,CodePhiliaX,20888,1.74,2303,43,,,,,
-graal,oracle,20696,9.18,1678,32,,,,,
-jdk,openjdk,20598,6.5,5752,0,,,,,
+graal,oracle,20696,9.18,1678,32,Média,,,,
+graal,oracle,20696,9.18,1678,32,Mediana,,,,
+graal,oracle,20696,9.18,1678,32,Desvio Padrão,,,,
+jdk,openjdk,20598,6.5,5752,0,Média,,,,
+jdk,openjdk,20598,6.5,5752,0,Mediana,,,,
+jdk,openjdk,20598,6.5,5752,0,Desvio Padrão,,,,
 GSYVideoPlayer,CarGuo,20585,8.35,4240,48,,,,,
-conductor,conductor-oss,20404,1.27,554,19,,,,,
+conductor,conductor-oss,20404,1.27,554,19,Média,2.74,1.35,71.34,14.56
+conductor,conductor-oss,20404,1.27,554,19,Mediana,2.0,1.0,0.0,5.0
+conductor,conductor-oss,20404,1.27,554,19,Desvio Padrão,3.01,0.66,406.34,51.1
+conductor,conductor-oss,20404,1.27,554,19,Média,2.38,1.22,68.74,13.16
+conductor,conductor-oss,20404,1.27,554,19,Mediana,1.0,1.0,0.0,4.0
+conductor,conductor-oss,20404,1.27,554,19,Desvio Padrão,3.59,0.52,498.82,45.33
+conductor,conductor-oss,20404,1.27,554,19,Média,2.54,1.25,78.67,13.78
+conductor,conductor-oss,20404,1.27,554,19,Mediana,1.0,1.0,0.0,4.0
+conductor,conductor-oss,20404,1.27,554,19,Desvio Padrão,3.82,0.56,646.67,50.48
 HikariCP,brettwooldridge,20316,11.45,2967,0,,,,,
 DoKit,didi,20290,6.59,3143,10,,,,,
-shardingsphere,apache,20117,9.17,6792,58,,,,,
-mybatis-3,mybatis,19999,12.09,12923,46,,,,,
+shardingsphere,apache,20117,9.17,6792,58,Média,3.67,1.45,27.6,10.25
+shardingsphere,apache,20117,9.17,6792,58,Mediana,3.0,1.0,0.0,5.0
+shardingsphere,apache,20117,9.17,6792,58,Desvio Padrão,6.88,0.77,390.21,30.48
+mybatis-3,mybatis,19999,12.09,12923,46,Média,1.89,1.24,20.99,10.52
+mybatis-3,mybatis,19999,12.09,12923,46,Mediana,1.0,1.0,0.0,3.0
+mybatis-3,mybatis,19999,12.09,12923,46,Desvio Padrão,2.78,0.78,249.5,31.58
 RxAndroid,ReactiveX,19866,10.58,2947,20,,,,,
-dataease,dataease,19599,4.12,3496,91,,,,,
-litemall,linlinjava,19535,6.99,7259,8,,,,,
+dataease,dataease,19599,4.12,3496,91,Média,2.75,1.21,22.17,15.84
+dataease,dataease,19599,4.12,3496,91,Mediana,2.0,1.0,0.0,3.0
+dataease,dataease,19599,4.12,3496,91,Desvio Padrão,4.37,0.69,143.45,59.28
+litemall,linlinjava,19535,6.99,7259,8,Média,2.02,1.13,1532.88,11.47
+litemall,linlinjava,19535,6.99,7259,8,Mediana,2.0,1.0,1.0,4.0
+litemall,linlinjava,19535,6.99,7259,8,Desvio Padrão,1.99,0.33,9402.6,77.73
 SpringBoot-Labs,yudaocode,19464,6.52,6081,0,,,,,
 LSPosed,LSPosed,19452,4.26,3164,39,,,,,
 PhotoView,Baseflow,18832,12.67,3931,5,,,,,
-cat,dianping,18808,12.29,5428,3,,,,,
+cat,dianping,18808,12.29,5428,3,Média,2.11,1.43,23.04,14.97
+cat,dianping,18808,12.29,5428,3,Mediana,1.0,1.0,1.0,5.0
+cat,dianping,18808,12.29,5428,3,Desvio Padrão,3.34,0.71,104.21,33.67
 DSA-Bootcamp-Java,kunal-kushwaha,18553,3.63,11736,0,,,,,
-thingsboard,thingsboard,18432,8.3,5450,65,,,,,
+thingsboard,thingsboard,18432,8.3,5450,65,Média,,,,
+thingsboard,thingsboard,18432,8.3,5450,65,Mediana,,,,
+thingsboard,thingsboard,18432,8.3,5450,65,Desvio Padrão,,,,
 SpringCloudLearning,forezp,17924,7.95,8056,0,,,,,
 Algorithms,williamfiset,17753,8.0,4441,0,,,,,
-intellij-community,JetBrains,17734,13.47,5363,0,,,,,
-antlr4,antlr,17698,15.12,3340,31,,,,,
-disruptor,LMAX-Exchange,17674,12.49,3936,14,,,,,
+intellij-community,JetBrains,17734,13.47,5363,0,Média,4.24,1.87,44.58,16.27
+intellij-community,JetBrains,17734,13.47,5363,0,Mediana,3.0,1.0,1.0,5.0
+intellij-community,JetBrains,17734,13.47,5363,0,Desvio Padrão,5.74,1.45,571.73,51.01
+antlr4,antlr,17698,15.12,3340,31,Média,2.59,1.84,48.3,14.95
+antlr4,antlr,17698,15.12,3340,31,Mediana,2.0,1.0,0.0,5.0
+antlr4,antlr,17698,15.12,3340,31,Desvio Padrão,3.56,1.17,192.86,46.25
+disruptor,LMAX-Exchange,17674,12.49,3936,14,Média,2.77,1.29,25.88,10.91
+disruptor,LMAX-Exchange,17674,12.49,3936,14,Mediana,2.0,1.0,0.0,4.0
+disruptor,LMAX-Exchange,17674,12.49,3936,14,Desvio Padrão,3.03,0.81,224.7,31.77
 APIJSON,Tencent,17533,8.32,2188,107,,,,,
-tinker,Tencent,17255,8.53,3343,59,,,,,
+tinker,Tencent,17255,8.53,3343,59,Média,2.18,1.61,28.43,21.8
+tinker,Tencent,17255,8.53,3343,59,Mediana,1.0,1.0,0.0,6.0
+tinker,Tencent,17255,8.53,3343,59,Desvio Padrão,3.54,2.51,110.74,62.12
 Sa-Token,dromara,17203,5.12,2674,34,,,,,
-zipkin,openzipkin,17143,12.79,3101,96,,,,,
-fresco,facebook,17099,10.05,3758,55,,,,,
-yudao-cloud,YunaiV,16898,5.88,4180,20,,,,,
-analysis-ik,infinilabs,16866,13.26,3292,1,,,,,
+zipkin,openzipkin,17143,12.79,3101,96,Média,2.96,1.55,19.38,12.16
+zipkin,openzipkin,17143,12.79,3101,96,Mediana,2.0,1.0,1.0,4.0
+zipkin,openzipkin,17143,12.79,3101,96,Desvio Padrão,3.12,1.53,73.78,30.0
+fresco,facebook,17099,10.05,3758,55,Média,2.9,1.4,26.46,13.08
+fresco,facebook,17099,10.05,3758,55,Mediana,2.0,1.0,0.0,5.0
+fresco,facebook,17099,10.05,3758,55,Desvio Padrão,3.64,0.94,118.73,35.47
+yudao-cloud,YunaiV,16898,5.88,4180,20,Média,4.25,1.21,16.27,9.94
+yudao-cloud,YunaiV,16898,5.88,4180,20,Mediana,3.0,1.0,0.0,4.0
+yudao-cloud,YunaiV,16898,5.88,4180,20,Desvio Padrão,4.82,0.43,520.44,25.78
+analysis-ik,infinilabs,16866,13.26,3292,1,Média,1.91,1.38,14.16,15.4
+analysis-ik,infinilabs,16866,13.26,3292,1,Mediana,1.0,1.0,4.0,5.0
+analysis-ik,infinilabs,16866,13.26,3292,1,Desvio Padrão,2.21,0.49,26.57,32.97
 JustAuth,justauth,16798,6.13,2794,46,,,,,
 Android-Universal-Image-Loader,nostra13,16776,13.31,6087,0,,,,,
-java8-tutorial,winterbe,16772,11.01,4046,0,,,,,
-mybatis-plus,baomidou,16715,8.58,4342,34,,,,,
-zheng,shuzheng,16709,8.45,7360,0,,,,,
-material-components-android,material-components,16616,8.28,3116,102,,,,,
-kestra,kestra-io,16488,5.57,1392,202,,,,,
+java8-tutorial,winterbe,16772,11.01,4046,0,Média,0.75,1.0,3.91,12.65
+java8-tutorial,winterbe,16772,11.01,4046,0,Mediana,1.0,1.0,0.0,7.0
+java8-tutorial,winterbe,16772,11.01,4046,0,Desvio Padrão,0.87,0.0,9.33,13.9
+mybatis-plus,baomidou,16715,8.58,4342,34,Média,2.96,1.33,25.69,12.46
+mybatis-plus,baomidou,16715,8.58,4342,34,Mediana,2.0,1.0,0.0,4.0
+mybatis-plus,baomidou,16715,8.58,4342,34,Desvio Padrão,5.72,0.68,157.11,31.93
+zheng,shuzheng,16709,8.45,7360,0,Média,1.8,1.41,340.86,10.78
+zheng,shuzheng,16709,8.45,7360,0,Mediana,2.0,1.0,0.0,4.0
+zheng,shuzheng,16709,8.45,7360,0,Desvio Padrão,2.36,0.49,1786.34,49.58
+material-components-android,material-components,16616,8.28,3116,102,Média,2.96,1.53,89.62,13.06
+material-components-android,material-components,16616,8.28,3116,102,Mediana,2.0,1.0,1.0,4.0
+material-components-android,material-components,16616,8.28,3116,102,Desvio Padrão,3.85,0.97,923.89,54.0
+kestra,kestra-io,16488,5.57,1392,202,Média,3.95,1.4,13.19,12.82
+kestra,kestra-io,16488,5.57,1392,202,Mediana,3.0,1.0,0.0,5.0
+kestra,kestra-io,16488,5.57,1392,202,Desvio Padrão,5.07,0.69,78.23,32.31
 Grasscutter,Grasscutters,16472,2.92,4470,20,,,,,
-springboot-learning-example,JeffLi1993,16442,8.11,7126,0,,,,,
-caffeine,ben-manes,16386,10.27,1626,69,,,,,
+springboot-learning-example,JeffLi1993,16442,8.11,7126,0,Média,2.2,1.04,2.85,5.92
+springboot-learning-example,JeffLi1993,16442,8.11,7126,0,Mediana,1.0,1.0,0.0,3.0
+springboot-learning-example,JeffLi1993,16442,8.11,7126,0,Desvio Padrão,2.63,0.24,6.03,7.83
+caffeine,ben-manes,16386,10.27,1626,69,Média,3.38,1.63,146.89,14.9
+caffeine,ben-manes,16386,10.27,1626,69,Mediana,2.0,1.0,0.0,5.0
+caffeine,ben-manes,16386,10.27,1626,69,Desvio Padrão,3.73,1.48,1465.68,70.77
 DataX,alibaba,16291,7.16,5509,7,,,,,
-presto,prestodb,16265,12.61,5436,0,,,,,
+presto,prestodb,16265,12.61,5436,0,Média,2.7,1.53,43.08,12.37
+presto,prestodb,16265,12.61,5436,0,Mediana,2.0,1.0,1.0,4.0
+presto,prestodb,16265,12.61,5436,0,Desvio Padrão,3.77,1.46,307.15,35.06
 BigData-Notes,heibaiying,16257,6.02,4271,0,,,,,
 Ehviewer_CN_SXJ,xiaojieonly,16208,4.35,442,99,,,,,
 SpringBoot-Learning,dyc87112,15769,8.58,4879,0,,,,,
 VirtualXposed,android-hacker,15623,7.3,2508,50,,,,,
 Android-CleanArchitecture,android10,15532,10.58,3315,0,,,,,
-tech-interview-for-developer,gyoogle,15455,5.78,3510,0,,,,,
-mockito,mockito,15064,12.43,2595,219,,,,,
-questdb,questdb,14984,10.89,1217,84,,,,,
-hadoop,apache,14983,10.56,9012,0,,,,,
-bytecode-viewer,Konloch,14897,10.43,1170,60,,,,,
-flink-learning,zhisheng17,14694,6.21,3926,0,,,,,
+tech-interview-for-developer,gyoogle,15455,5.78,3510,0,Média,0.96,1.0,0.92,21.37
+tech-interview-for-developer,gyoogle,15455,5.78,3510,0,Mediana,1.0,1.0,0.0,11.0
+tech-interview-for-developer,gyoogle,15455,5.78,3510,0,Desvio Padrão,0.71,0.0,3.04,29.26
+mockito,mockito,15064,12.43,2595,219,Média,2.27,1.4,18.39,10.16
+mockito,mockito,15064,12.43,2595,219,Mediana,2.0,1.0,0.0,5.0
+mockito,mockito,15064,12.43,2595,219,Desvio Padrão,2.81,1.09,277.81,25.19
+questdb,questdb,14984,10.89,1217,84,Média,2.08,1.82,246.79,15.66
+questdb,questdb,14984,10.89,1217,84,Mediana,1.0,1.0,1.0,4.0
+questdb,questdb,14984,10.89,1217,84,Desvio Padrão,3.34,1.67,4406.65,84.43
+hadoop,apache,14983,10.56,9012,0,Média,2.84,1.66,55.77,17.39
+hadoop,apache,14983,10.56,9012,0,Mediana,2.0,1.0,0.0,5.0
+hadoop,apache,14983,10.56,9012,0,Desvio Padrão,4.59,1.49,857.38,68.73
+bytecode-viewer,Konloch,14897,10.43,1170,60,Média,2.32,2.06,13.29,18.14
+bytecode-viewer,Konloch,14897,10.43,1170,60,Mediana,1.0,1.0,0.0,6.0
+bytecode-viewer,Konloch,14897,10.43,1170,60,Desvio Padrão,3.55,1.81,57.89,45.31
+flink-learning,zhisheng17,14694,6.21,3926,0,Média,2.69,1.13,3.34,13.27
+flink-learning,zhisheng17,14694,6.21,3926,0,Mediana,2.0,1.0,0.0,6.0
+flink-learning,zhisheng17,14694,6.21,3926,0,Desvio Padrão,3.29,0.37,18.64,22.03
 CircleImageView,hdodenhof,14542,11.17,3117,0,,,,,
-pulsar,apache,14497,8.72,3621,102,,,,,
+pulsar,apache,14497,8.72,3621,102,Média,3.21,1.71,83.43,19.26
+pulsar,apache,14497,8.72,3621,102,Mediana,2.0,1.0,0.0,5.0
+pulsar,apache,14497,8.72,3621,102,Desvio Padrão,5.06,3.73,1387.55,78.76
 ARouter,alibaba,14475,8.26,2616,16,,,,,
 QMUI_Android,Tencent,14473,7.91,2678,35,,,,,
-vert.x,eclipse-vertx,14429,13.76,2087,0,,,,,
-logstash,elastic,14380,14.34,3517,174,,,,,
-jd-gui,java-decompiler,14374,9.99,2418,18,,,,,
+vert.x,eclipse-vertx,14429,13.76,2087,0,Média,,,,
+vert.x,eclipse-vertx,14429,13.76,2087,0,Mediana,,,,
+vert.x,eclipse-vertx,14429,13.76,2087,0,Desvio Padrão,,,,
+logstash,elastic,14380,14.34,3517,174,Média,2.7,1.64,21.43,12.55
+logstash,elastic,14380,14.34,3517,174,Mediana,2.0,1.0,1.0,4.0
+logstash,elastic,14380,14.34,3517,174,Desvio Padrão,3.33,2.22,101.08,33.28
+jd-gui,java-decompiler,14374,9.99,2418,18,Média,2.15,2.42,11.12,16.62
+jd-gui,java-decompiler,14374,9.99,2418,18,Mediana,1.0,1.0,1.0,5.0
+jd-gui,java-decompiler,14374,9.99,2418,18,Desvio Padrão,3.23,2.34,51.07,41.36
 Arduino,arduino,14278,14.51,6997,37,,,,,
-quarkus,quarkusio,14221,6.7,2782,368,,,,,
-neo4j,neo4j,13965,12.35,2419,72,,,,,
-supertokens-core,supertokens,13938,5.2,567,83,,,,,
-deeplearning4j,deeplearning4j,13861,11.31,3841,0,,,,,
-logger,orhanobut,13847,10.0,2140,16,,,,,
-jib,GoogleContainerTools,13830,7.15,1440,164,,,,,
-onedev,theonedev,13776,6.36,884,390,,,,,
-zuul,Netflix,13647,12.02,2407,15,,,,,
-druid,apache,13640,12.41,3730,64,,,,,
+quarkus,quarkusio,14221,6.7,2782,368,Média,2.19,1.54,18.82,15.56
+quarkus,quarkusio,14221,6.7,2782,368,Mediana,1.0,1.0,0.0,4.0
+quarkus,quarkusio,14221,6.7,2782,368,Desvio Padrão,3.9,1.07,88.97,50.16
+neo4j,neo4j,13965,12.35,2419,72,Média,,,,
+neo4j,neo4j,13965,12.35,2419,72,Mediana,,,,
+neo4j,neo4j,13965,12.35,2419,72,Desvio Padrão,,,,
+supertokens-core,supertokens,13938,5.2,567,83,Média,5.09,1.58,71.18,29.1
+supertokens-core,supertokens,13938,5.2,567,83,Mediana,4.0,1.0,3.0,11.0
+supertokens-core,supertokens,13938,5.2,567,83,Desvio Padrão,5.53,1.0,1153.23,74.84
+deeplearning4j,deeplearning4j,13861,11.31,3841,0,Média,2.31,1.43,36.55,13.94
+deeplearning4j,deeplearning4j,13861,11.31,3841,0,Mediana,1.0,1.0,1.0,4.0
+deeplearning4j,deeplearning4j,13861,11.31,3841,0,Desvio Padrão,3.76,0.72,210.1,44.95
+logger,orhanobut,13847,10.0,2140,16,Média,2.93,1.17,14.94,11.75
+logger,orhanobut,13847,10.0,2140,16,Mediana,3.0,1.0,0.0,3.0
+logger,orhanobut,13847,10.0,2140,16,Desvio Padrão,2.13,0.38,35.59,22.86
+jib,GoogleContainerTools,13830,7.15,1440,164,Média,3.32,1.17,15.76,13.03
+jib,GoogleContainerTools,13830,7.15,1440,164,Mediana,2.0,1.0,0.0,5.0
+jib,GoogleContainerTools,13830,7.15,1440,164,Desvio Padrão,3.92,0.59,65.41,27.22
+onedev,theonedev,13776,6.36,884,390,Média,3.03,1.42,23.31,15.13
+onedev,theonedev,13776,6.36,884,390,Mediana,2.0,1.0,0.0,4.0
+onedev,theonedev,13776,6.36,884,390,Desvio Padrão,5.14,0.87,417.24,60.67
+zuul,Netflix,13647,12.02,2407,15,Média,2.86,1.59,25.23,12.67
+zuul,Netflix,13647,12.02,2407,15,Mediana,2.0,1.0,1.0,5.0
+zuul,Netflix,13647,12.02,2407,15,Desvio Padrão,4.08,0.99,137.44,31.07
+druid,apache,13640,12.41,3730,64,Média,1.98,1.94,231.16,15.62
+druid,apache,13640,12.41,3730,64,Mediana,1.0,2.0,0.0,5.0
+druid,apache,13640,12.41,3730,64,Desvio Padrão,5.34,0.83,5170.73,103.57
+druid,apache,13640,12.41,3730,64,Média,3.45,1.37,62.92,14.2
+druid,apache,13640,12.41,3730,64,Mediana,2.0,1.0,0.0,4.0
+druid,apache,13640,12.41,3730,64,Desvio Padrão,4.82,1.82,4571.7,44.71
 Luban,Curzibn,13627,8.65,2247,6,,,,,
-spring-analysis,seaswalker,13606,8.52,4184,0,,,,,
+spring-analysis,seaswalker,13606,8.52,4184,0,Média,1.32,1.24,1.79,6.01
+spring-analysis,seaswalker,13606,8.52,4184,0,Mediana,1.0,1.0,0.0,4.0
+spring-analysis,seaswalker,13606,8.52,4184,0,Desvio Padrão,1.88,0.75,3.19,5.8
 AndroidAutoSize,JessYanCoding,13585,6.59,1986,14,,,,,
-pinpoint,pinpoint-apm,13543,10.41,3774,59,,,,,
-tink,tink-crypto,13521,10.79,1183,21,,,,,
+pinpoint,pinpoint-apm,13543,10.41,3774,59,Média,2.46,1.14,11.66,11.27
+pinpoint,pinpoint-apm,13543,10.41,3774,59,Mediana,1.0,1.0,0.0,4.0
+pinpoint,pinpoint-apm,13543,10.41,3774,59,Desvio Padrão,3.49,0.53,86.27,24.21
+tink,tink-crypto,13521,10.79,1183,21,Média,3.51,1.29,30.08,14.19
+tink,tink-crypto,13521,10.79,1183,21,Mediana,2.0,1.0,1.0,6.0
+tink,tink-crypto,13521,10.79,1183,21,Desvio Padrão,3.92,1.24,184.05,34.94
 Material-Animations,lgvalle,13512,10.03,2471,0,,,,,
 Android-PickerView,Bigkoo,13470,10.22,3456,0,,,,,
-piggymetrics,sqshq,13412,9.98,6195,2,,,,,
+piggymetrics,sqshq,13412,9.98,6195,2,Média,2.81,1.06,3.83,8.45
+piggymetrics,sqshq,13412,9.98,6195,2,Mediana,2.0,1.0,0.0,3.0
+piggymetrics,sqshq,13412,9.98,6195,2,Desvio Padrão,3.23,0.24,10.08,12.65
 PictureSelector,LuckSiege,13403,8.2,3035,116,,,,,
-doris,apache,13333,7.61,3427,64,,,,,
-dolphinscheduler,apache,13324,6.05,4736,52,,,,,
-zaproxy,zaproxy,13322,9.79,2341,9,,,,,
-mit-deep-learning-book-pdf,janishar,13203,7.95,2772,3,,,,,
+doris,apache,13333,7.61,3427,64,Média,,,,
+doris,apache,13333,7.61,3427,64,Mediana,,,,
+doris,apache,13333,7.61,3427,64,Desvio Padrão,,,,
+dolphinscheduler,apache,13324,6.05,4736,52,Média,,,,
+dolphinscheduler,apache,13324,6.05,4736,52,Mediana,,,,
+dolphinscheduler,apache,13324,6.05,4736,52,Desvio Padrão,,,,
+zaproxy,zaproxy,13322,9.79,2341,9,Média,1.91,1.91,69.58,15.04
+zaproxy,zaproxy,13322,9.79,2341,9,Mediana,1.0,1.0,1.0,5.0
+zaproxy,zaproxy,13322,9.79,2341,9,Desvio Padrão,2.82,1.8,346.78,51.52
+mit-deep-learning-book-pdf,janishar,13203,7.95,2772,3,Média,0.0,1.0,0.0,2.0
+mit-deep-learning-book-pdf,janishar,13203,7.95,2772,3,Mediana,0.0,1.0,0.0,2.0
+mit-deep-learning-book-pdf,janishar,13203,7.95,2772,3,Desvio Padrão,,,,
 Java,DuGuQiuBai,13194,9.32,5094,0,,,,,
-mall-learning,macrozheng,13085,5.93,8333,0,,,,,
-lombok,projectlombok,13064,15.78,2425,0,,,,,
-banner,youth5201314,12970,8.91,2522,0,,,,,
-languagetool,languagetool-org,12884,11.61,1421,0,,,,,
-conductor,Netflix,12790,8.28,2339,319,,,,,
-stetho,facebook,12693,10.15,1128,13,,,,,
+mall-learning,macrozheng,13085,5.93,8333,0,Média,1.84,1.1,229.51,9.43
+mall-learning,macrozheng,13085,5.93,8333,0,Mediana,2.0,1.0,0.0,4.0
+mall-learning,macrozheng,13085,5.93,8333,0,Desvio Padrão,2.22,0.31,1250.42,43.66
+lombok,projectlombok,13064,15.78,2425,0,Média,,,,
+lombok,projectlombok,13064,15.78,2425,0,Mediana,,,,
+lombok,projectlombok,13064,15.78,2425,0,Desvio Padrão,,,,
+banner,youth5201314,12970,8.91,2522,0,Média,2.7,1.84,47.68,12.32
+banner,youth5201314,12970,8.91,2522,0,Mediana,2.0,2.0,1.0,5.0
+banner,youth5201314,12970,8.91,2522,0,Desvio Padrão,3.56,0.69,350.9,36.27
+languagetool,languagetool-org,12884,11.61,1421,0,Média,2.0,1.49,82.02,20.46
+languagetool,languagetool-org,12884,11.61,1421,0,Mediana,1.0,1.0,1.0,4.0
+languagetool,languagetool-org,12884,11.61,1421,0,Desvio Padrão,2.98,0.94,438.46,148.17
+conductor,Netflix,12790,8.28,2339,319,Média,2.74,1.35,71.34,14.56
+conductor,Netflix,12790,8.28,2339,319,Mediana,2.0,1.0,0.0,5.0
+conductor,Netflix,12790,8.28,2339,319,Desvio Padrão,3.01,0.66,406.34,51.1
+conductor,Netflix,12790,8.28,2339,319,Média,2.38,1.22,68.74,13.16
+conductor,Netflix,12790,8.28,2339,319,Mediana,1.0,1.0,0.0,4.0
+conductor,Netflix,12790,8.28,2339,319,Desvio Padrão,3.59,0.52,498.82,45.33
+conductor,Netflix,12790,8.28,2339,319,Média,2.54,1.25,78.67,13.78
+conductor,Netflix,12790,8.28,2339,319,Mediana,1.0,1.0,0.0,4.0
+conductor,Netflix,12790,8.28,2339,319,Desvio Padrão,3.82,0.56,646.67,50.48
+stetho,facebook,12693,10.15,1128,13,Média,2.53,1.42,7.5,12.93
+stetho,facebook,12693,10.15,1128,13,Mediana,2.0,1.0,0.0,5.0
+stetho,facebook,12693,10.15,1128,13,Desvio Padrão,3.36,1.25,31.25,29.81
 greenDAO,greenrobot,12624,13.41,2887,8,,,,,
-dex2jar,pxb1988,12585,10.01,2146,8,,,,,
-guice,google,12581,10.81,1670,19,,,,,
+dex2jar,pxb1988,12585,10.01,2146,8,Média,2.92,1.57,21.13,25.38
+dex2jar,pxb1988,12585,10.01,2146,8,Mediana,2.0,1.0,0.0,7.0
+dex2jar,pxb1988,12585,10.01,2146,8,Desvio Padrão,3.91,0.98,136.51,77.34
+guice,google,12581,10.81,1670,19,Média,3.06,1.29,8.23,11.64
+guice,google,12581,10.81,1670,19,Mediana,2.0,1.0,0.0,4.0
+guice,google,12581,10.81,1670,19,Desvio Padrão,3.69,1.2,75.5,42.05
 Matisse,zhihu,12546,7.93,2062,15,,,,,
-cryptomator,cryptomator,12536,11.13,1081,183,,,,,
-eureka,Netflix,12507,12.65,3762,150,,,,,
-spring-boot-admin,codecentric,12501,10.65,3079,131,,,,,
+cryptomator,cryptomator,12536,11.13,1081,183,Média,3.1,1.44,17.9,10.88
+cryptomator,cryptomator,12536,11.13,1081,183,Mediana,2.0,1.0,1.0,3.0
+cryptomator,cryptomator,12536,11.13,1081,183,Desvio Padrão,4.3,1.0,61.49,22.08
+eureka,Netflix,12507,12.65,3762,150,Média,2.82,1.27,18.57,13.49
+eureka,Netflix,12507,12.65,3762,150,Mediana,2.0,1.0,0.0,5.0
+eureka,Netflix,12507,12.65,3762,150,Desvio Padrão,3.75,0.71,134.52,37.23
+spring-boot-admin,codecentric,12501,10.65,3079,131,Média,3.72,1.26,7.16,10.74
+spring-boot-admin,codecentric,12501,10.65,3079,131,Mediana,3.0,1.0,0.0,5.0
+spring-boot-admin,codecentric,12501,10.65,3079,131,Desvio Padrão,4.14,0.59,29.39,19.39
 AndroidViewAnimations,daimajia,12453,10.74,2425,9,,,,,
-zookeeper,apache,12411,15.98,7273,0,,,,,
+zookeeper,apache,12411,15.98,7273,0,Média,2.41,2.01,37.23,18.68
+zookeeper,apache,12411,15.98,7273,0,Mediana,1.0,1.0,0.0,6.0
+zookeeper,apache,12411,15.98,7273,0,Desvio Padrão,3.7,3.02,393.79,56.8
 AndroidSwipeLayout,daimajia,12399,10.57,2669,18,,,,,
 COLA,alibaba,12282,7.11,3138,11,,,,,
 Mybatis-PageHelper,pagehelper,12281,10.78,3134,14,,,,,
-mall-swarm,macrozheng,12193,5.31,5354,3,,,,,
-jedis,redis,11990,14.78,3884,109,,,,,
+mall-swarm,macrozheng,12193,5.31,5354,3,Média,1.65,1.23,1106.23,10.37
+mall-swarm,macrozheng,12193,5.31,5354,3,Mediana,2.0,1.0,13.0,4.0
+mall-swarm,macrozheng,12193,5.31,5354,3,Desvio Padrão,1.66,0.43,8134.41,64.83
+jedis,redis,11990,14.78,3884,109,Média,2.59,1.43,515.17,12.59
+jedis,redis,11990,14.78,3884,109,Mediana,2.0,1.0,1.0,4.0
+jedis,redis,11990,14.78,3884,109,Desvio Padrão,2.86,0.87,13068.24,71.5
 uCrop,Yalantis,11959,9.2,2192,18,,,,,
-metersphere,metersphere,11898,5.12,2645,175,,,,,
+metersphere,metersphere,11898,5.12,2645,175,Média,2.58,1.3,448.68,13.88
+metersphere,metersphere,11898,5.12,2645,175,Mediana,2.0,1.0,0.0,4.0
+metersphere,metersphere,11898,5.12,2645,175,Desvio Padrão,4.25,0.55,3766.74,68.92
 VasSonic,Tencent,11850,7.63,1616,10,,,,,
-matrix,Tencent,11761,6.27,1894,16,,,,,
-android-interview-questions,amitshekhariitbhu,11715,7.69,2299,0,,,,,
-grpc-java,grpc,11644,10.28,3882,176,,,,,
-fullstack-tutorial,frank-lam,11628,6.93,2441,0,,,,,
-webmagic,code4craft,11518,11.91,4175,33,,,,,
-realm-java,realm,11485,12.92,1754,0,,,,,
+matrix,Tencent,11761,6.27,1894,16,Média,2.38,1.29,12.89,19.68
+matrix,Tencent,11761,6.27,1894,16,Mediana,1.0,1.0,0.0,6.0
+matrix,Tencent,11761,6.27,1894,16,Desvio Padrão,3.43,0.86,65.67,52.13
+android-interview-questions,amitshekhariitbhu,11715,7.69,2299,0,Média,0.0,1.0,0.0,4.0
+android-interview-questions,amitshekhariitbhu,11715,7.69,2299,0,Mediana,0.0,1.0,0.0,4.0
+android-interview-questions,amitshekhariitbhu,11715,7.69,2299,0,Desvio Padrão,0.0,,,1.41
+grpc-java,grpc,11644,10.28,3882,176,Média,3.1,1.39,12.97,15.43
+grpc-java,grpc,11644,10.28,3882,176,Mediana,2.0,1.0,0.0,5.0
+grpc-java,grpc,11644,10.28,3882,176,Desvio Padrão,4.37,0.99,112.46,56.71
+fullstack-tutorial,frank-lam,11628,6.93,2441,0,Média,,,,
+fullstack-tutorial,frank-lam,11628,6.93,2441,0,Mediana,,,,
+fullstack-tutorial,frank-lam,11628,6.93,2441,0,Desvio Padrão,,,,
+webmagic,code4craft,11518,11.91,4175,33,Média,2.38,1.18,11.47,10.37
+webmagic,code4craft,11518,11.91,4175,33,Mediana,2.0,1.0,1.0,4.0
+webmagic,code4craft,11518,11.91,4175,33,Desvio Padrão,2.7,0.59,76.64,20.34
+realm-java,realm,11485,12.92,1754,0,Média,2.38,1.21,51.75,16.17
+realm-java,realm,11485,12.92,1754,0,Mediana,2.0,1.0,0.0,4.0
+realm-java,realm,11485,12.92,1754,0,Desvio Padrão,3.35,0.72,656.66,104.12
 CtCI-6th-Edition,careercup,11402,9.72,4418,0,,,,,
 ImmersionBar,gyf-dev,11375,7.92,1903,0,,,,,
 kkFileView,kekingcn,11269,7.27,2820,16,,,,,
-newbee-mall,newbee-ltd,11267,5.49,2728,0,,,,,
+newbee-mall,newbee-ltd,11267,5.49,2728,0,Média,1.7,1.07,34.91,9.13
+newbee-mall,newbee-ltd,11267,5.49,2728,0,Mediana,0.0,1.0,4.0,3.0
+newbee-mall,newbee-ltd,11267,5.49,2728,0,Desvio Padrão,3.24,0.45,68.18,19.43
 xManager,Team-xManager,11262,4.1,305,50,,,,,
 PermissionsDispatcher,permissions-dispatcher,11228,9.59,1439,40,,,,,
 OpenRefine,OpenRefine,11195,12.43,2030,68,,,,,
-debezium,debezium,11186,9.16,2619,0,,,,,
-interview,mission-peace,11138,10.67,5172,0,,,,,
-plantuml,plantuml,11115,14.38,1015,53,,,,,
+debezium,debezium,11186,9.16,2619,0,Média,2.9,1.6,56.05,15.11
+debezium,debezium,11186,9.16,2619,0,Mediana,2.0,1.0,1.0,4.0
+debezium,debezium,11186,9.16,2619,0,Desvio Padrão,3.93,1.01,487.14,62.64
+interview,mission-peace,11138,10.67,5172,0,Média,1.61,1.04,3.41,20.66
+interview,mission-peace,11138,10.67,5172,0,Mediana,1.0,1.0,1.0,13.0
+interview,mission-peace,11138,10.67,5172,0,Desvio Padrão,1.09,0.31,13.56,22.87
+plantuml,plantuml,11115,14.38,1015,53,Média,3.02,1.55,37.24,13.47
+plantuml,plantuml,11115,14.38,1015,53,Mediana,2.0,1.0,1.0,4.0
+plantuml,plantuml,11115,14.38,1015,53,Desvio Padrão,4.19,0.92,629.95,40.93
 FlycoTabLayout,H07000223,11087,9.36,2415,4,,,,,
-jsoup,jhy,11081,15.25,2219,17,,,,,
+jsoup,jhy,11081,15.25,2219,17,Média,3.28,1.79,228.2,16.3
+jsoup,jhy,11081,15.25,2219,17,Mediana,3.0,1.0,1.0,6.0
+jsoup,jhy,11081,15.25,2219,17,Desvio Padrão,3.21,3.24,1722.74,74.75
 FileDownloader,lingochamp,11077,9.24,2208,65,,,,,
 SlidingMenu,jfeinstein10,11061,12.72,5026,0,,,,,
-androidannotations,androidannotations,11044,13.2,2343,0,,,,,
-cas,apereo,11040,13.53,3946,289,,,,,
+androidannotations,androidannotations,11044,13.2,2343,0,Média,2.65,1.57,31.93,10.24
+androidannotations,androidannotations,11044,13.2,2343,0,Mediana,2.0,1.0,1.0,4.0
+androidannotations,androidannotations,11044,13.2,2343,0,Desvio Padrão,3.71,0.78,244.03,29.39
+cas,apereo,11040,13.53,3946,289,Média,5.16,1.48,7.73,12.35
+cas,apereo,11040,13.53,3946,289,Mediana,4.0,1.0,0.0,6.0
+cas,apereo,11040,13.53,3946,289,Desvio Padrão,5.16,1.01,145.85,22.77
 SmarterStreaming,daniulive,11017,8.98,2759,0,,,,,
-trino,trinodb,10996,6.16,3129,0,,,,,
-javapoet,square,10855,12.13,1387,0,,,,,
-vlayout,alibaba,10791,8.05,1792,34,,,,,
-platform_frameworks_base,aosp-mirror,10706,16.41,6319,0,,,,,
-jvm,doocs,10658,6.74,2288,0,,,,,
+trino,trinodb,10996,6.16,3129,0,Média,,,,
+trino,trinodb,10996,6.16,3129,0,Mediana,,,,
+trino,trinodb,10996,6.16,3129,0,Desvio Padrão,,,,
+javapoet,square,10855,12.13,1387,0,Média,3.04,1.15,129.29,14.09
+javapoet,square,10855,12.13,1387,0,Mediana,2.0,1.0,0.0,5.0
+javapoet,square,10855,12.13,1387,0,Desvio Padrão,2.79,0.61,749.24,46.35
+vlayout,alibaba,10791,8.05,1792,34,Média,2.27,1.86,72.54,19.35
+vlayout,alibaba,10791,8.05,1792,34,Mediana,1.0,1.0,0.0,4.0
+vlayout,alibaba,10791,8.05,1792,34,Desvio Padrão,3.43,1.49,368.43,77.12
+platform_frameworks_base,aosp-mirror,10706,16.41,6319,0,Média,,,,
+platform_frameworks_base,aosp-mirror,10706,16.41,6319,0,Mediana,,,,
+platform_frameworks_base,aosp-mirror,10706,16.41,6319,0,Desvio Padrão,,,,
+jvm,doocs,10658,6.74,2288,0,Média,0.0,1.0,0.0,4.0
+jvm,doocs,10658,6.74,2288,0,Mediana,0.0,1.0,0.0,4.0
+jvm,doocs,10658,6.74,2288,0,Desvio Padrão,0.0,,,1.41
 Paper,PaperMC,10633,9.16,2465,0,,,,,
-android-async-http,android-async-http,10632,14.08,4085,3,,,,,
+android-async-http,android-async-http,10632,14.08,4085,3,Média,2.24,1.79,45.88,13.44
+android-async-http,android-async-http,10632,14.08,4085,3,Mediana,1.0,1.0,3.0,3.0
+android-async-http,android-async-http,10632,14.08,4085,3,Desvio Padrão,3.29,1.08,293.7,34.21
 Java-WebSocket,TooTallNate,10619,15.16,2590,19,,,,,
 okhttp-OkGo,jeasonlzy,10610,9.18,2554,14,,,,,
-clojure,clojure,10575,14.73,1470,0,,,,,
-pkl,apple,10541,1.16,298,13,,,,,
-jjwt,jwtk,10538,10.52,1348,7,,,,,
-auto,google,10489,11.83,1204,66,,,,,
+clojure,clojure,10575,14.73,1470,0,Média,1.95,1.5,130.31,14.12
+clojure,clojure,10575,14.73,1470,0,Mediana,1.0,1.0,0.0,3.0
+clojure,clojure,10575,14.73,1470,0,Desvio Padrão,3.89,2.34,1974.92,106.38
+pkl,apple,10541,1.16,298,13,Média,2.93,4.35,27.52,11.54
+pkl,apple,10541,1.16,298,13,Mediana,2.0,3.0,0.0,3.0
+pkl,apple,10541,1.16,298,13,Desvio Padrão,4.17,15.21,216.01,43.07
+jjwt,jwtk,10538,10.52,1348,7,Média,2.77,2.02,26.3,9.95
+jjwt,jwtk,10538,10.52,1348,7,Mediana,2.0,1.0,1.0,3.0
+jjwt,jwtk,10538,10.52,1348,7,Desvio Padrão,3.92,2.41,143.53,29.08
+auto,google,10489,11.83,1204,66,Média,2.3,1.71,25.59,9.8
+auto,google,10489,11.83,1204,66,Mediana,2.0,1.0,1.0,3.0
+auto,google,10489,11.83,1204,66,Desvio Padrão,4.4,3.25,270.47,45.98
 JiaoZiVideoPlayer,lipangit,10486,9.12,2426,78,,,,,
 RxPermissions,tbruyelle,10482,9.47,1318,11,,,,,
-kafka-ui,provectus,10453,5.31,1251,25,,,,,
+kafka-ui,provectus,10453,5.31,1251,25,Média,3.53,1.51,17.13,10.96
+kafka-ui,provectus,10453,5.31,1251,25,Mediana,3.0,1.0,1.0,4.0
+kafka-ui,provectus,10453,5.31,1251,25,Desvio Padrão,3.98,1.07,86.13,21.41
 VirtualApp,asLody,10445,8.7,2935,0,,,,,
-datahub,datahub-project,10416,9.33,3066,96,,,,,
+datahub,datahub-project,10416,9.33,3066,96,Média,5.72,1.13,13.1,15.81
+datahub,datahub-project,10416,9.33,3066,96,Mediana,4.0,1.0,1.0,8.0
+datahub,datahub-project,10416,9.33,3066,96,Desvio Padrão,7.8,0.43,66.73,27.14
 OpenSearch,opensearch-project,10363,4.13,1991,52,,,,,
 MVPArms,JessYanCoding,10282,8.62,2384,25,,,,,
 Activiti,Activiti,10268,12.52,6969,1000,,,,,
 ViewPagerIndicator,JakeWharton,10121,13.63,4001,0,,,,,
-resilience4j,resilience4j,10038,9.79,1380,35,,,,,
-lawnchair,LawnchairLauncher,9970,8.04,1272,29,,,,,
+resilience4j,resilience4j,10038,9.79,1380,35,Média,3.32,1.47,18.45,11.19
+resilience4j,resilience4j,10038,9.79,1380,35,Mediana,2.0,1.0,1.0,4.0
+resilience4j,resilience4j,10038,9.79,1380,35,Desvio Padrão,3.6,1.01,94.22,26.6
+lawnchair,LawnchairLauncher,9970,8.04,1272,29,Média,2.95,1.43,96.94,15.63
+lawnchair,LawnchairLauncher,9970,8.04,1272,29,Mediana,2.0,1.0,1.0,5.0
+lawnchair,LawnchairLauncher,9970,8.04,1272,29,Desvio Padrão,5.09,0.81,1004.42,64.51
 Aegis,beemdevelopment,9950,8.59,415,69,,,,,
-zfile,zfile-dev,9928,5.58,1864,61,,,,,
-glide-transformations,wasabeef,9917,10.19,1407,0,,,,,
-easypermissions,googlesamples,9893,9.24,1458,12,,,,,
-aws-doc-sdk-examples,awsdocs,9883,8.58,5731,0,,,,,
-paascloud-master,paascloud,9870,7.01,4305,0,,,,,
-spider-flow,ssssssss-team,9853,4.98,1905,2,,,,,
+zfile,zfile-dev,9928,5.58,1864,61,Média,4.1,1.57,5.09,13.05
+zfile,zfile-dev,9928,5.58,1864,61,Mediana,3.0,1.0,0.0,6.0
+zfile,zfile-dev,9928,5.58,1864,61,Desvio Padrão,4.91,1.15,21.16,23.8
+glide-transformations,wasabeef,9917,10.19,1407,0,Média,2.05,2.15,2.78,10.6
+glide-transformations,wasabeef,9917,10.19,1407,0,Mediana,1.0,2.0,0.0,3.0
+glide-transformations,wasabeef,9917,10.19,1407,0,Desvio Padrão,2.68,0.77,4.53,23.17
+easypermissions,googlesamples,9893,9.24,1458,12,Média,3.21,1.48,12.21,10.9
+easypermissions,googlesamples,9893,9.24,1458,12,Mediana,2.0,1.0,6.0,4.0
+easypermissions,googlesamples,9893,9.24,1458,12,Desvio Padrão,3.27,0.62,21.77,26.36
+aws-doc-sdk-examples,awsdocs,9883,8.58,5731,0,Média,3.66,1.03,6.14,20.07
+aws-doc-sdk-examples,awsdocs,9883,8.58,5731,0,Mediana,3.0,1.0,1.0,12.0
+aws-doc-sdk-examples,awsdocs,9883,8.58,5731,0,Desvio Padrão,3.92,0.28,24.12,35.08
+paascloud-master,paascloud,9870,7.01,4305,0,Média,3.33,1.32,5.46,10.36
+paascloud-master,paascloud,9870,7.01,4305,0,Mediana,2.0,1.0,0.0,5.0
+paascloud-master,paascloud,9870,7.01,4305,0,Desvio Padrão,4.15,0.54,25.62,22.68
+spider-flow,ssssssss-team,9853,4.98,1905,2,Média,2.18,1.73,20.33,13.6
+spider-flow,ssssssss-team,9853,4.98,1905,2,Mediana,1.0,1.0,1.0,3.0
+spider-flow,ssssssss-team,9853,4.98,1905,2,Desvio Padrão,2.94,3.4,49.79,44.39
 JsBridge,uknownothingsnow,9824,10.06,2021,0,,,,,
 CoreNLP,stanfordnlp,9817,11.73,2713,17,,,,,
 MagicIndicator,hackware1993,9765,8.73,1552,12,,,,,
 AVLoadingIndicatorView,HarlonWang,9753,9.4,1891,1,,,,,
 Fragmentation,YoKeyword,9726,9.07,2112,30,,,,,
-starrocks,StarRocks,9692,3.53,1943,133,,,,,
-spark,perwendel,9653,13.88,1565,0,,,,,
+starrocks,StarRocks,9692,3.53,1943,133,Média,2.94,1.5,127.39,18.51
+starrocks,StarRocks,9692,3.53,1943,133,Mediana,2.0,1.0,0.0,5.0
+starrocks,StarRocks,9692,3.53,1943,133,Desvio Padrão,6.64,1.03,2692.34,73.22
+spark,perwendel,9653,13.88,1565,0,Média,2.29,1.3,47.12,11.43
+spark,perwendel,9653,13.88,1565,0,Mediana,2.0,1.0,0.0,4.0
+spark,perwendel,9653,13.88,1565,0,Desvio Padrão,2.56,0.78,408.47,27.13
 Android-ObservableScrollView,ksoichiro,9650,10.36,2059,0,,,,,
-react-native-camera,react-native-camera,9648,9.97,3541,144,,,,,
-spring-boot-api-project-seed,lihengming,9624,7.74,3785,4,,,,,
-feign,OpenFeign,9611,11.73,1940,38,,,,,
+react-native-camera,react-native-camera,9648,9.97,3541,144,Média,,,,
+react-native-camera,react-native-camera,9648,9.97,3541,144,Mediana,,,,
+react-native-camera,react-native-camera,9648,9.97,3541,144,Desvio Padrão,,,,
+spring-boot-api-project-seed,lihengming,9624,7.74,3785,4,Média,2.15,1.27,9.73,12.13
+spring-boot-api-project-seed,lihengming,9624,7.74,3785,4,Mediana,1.0,1.0,0.0,3.0
+spring-boot-api-project-seed,lihengming,9624,7.74,3785,4,Desvio Padrão,3.1,0.8,18.67,23.83
+feign,OpenFeign,9611,11.73,1940,38,Média,3.33,1.68,13.23,10.84
+feign,OpenFeign,9611,11.73,1940,38,Mediana,2.0,1.0,0.0,4.0
+feign,OpenFeign,9611,11.73,1940,38,Desvio Padrão,3.8,3.25,79.38,31.26
 android-Ultra-Pull-To-Refresh,liaohuqiu,9580,10.35,2650,8,,,,,
-android-gif-drawable,koral--,9577,12.13,1781,61,,,,,
+android-gif-drawable,koral--,9577,12.13,1781,61,Média,2.24,1.66,59.73,9.81
+android-gif-drawable,koral--,9577,12.13,1781,61,Mediana,2.0,1.0,0.0,4.0
+android-gif-drawable,koral--,9577,12.13,1781,61,Desvio Padrão,2.91,1.29,286.66,29.21
 DanmakuFlameMaster,bilibili,9569,11.61,2111,5,,,,,
 GmsCore,microg,9551,10.91,1840,38,,,,,
 Mycat-Server,MyCATApache,9541,10.29,3847,7,,,,,
 AndroidSlidingUpPanel,umano,9509,11.8,2263,8,,,,,
 Signal-Server,signalapp,9428,11.28,2215,0,,,,,
-sonarqube,SonarSource,9404,14.21,2054,59,,,,,
+sonarqube,SonarSource,9404,14.21,2054,59,Média,3.03,1.18,24.2,11.61
+sonarqube,SonarSource,9404,14.21,2054,59,Mediana,2.0,1.0,0.0,5.0
+sonarqube,SonarSource,9404,14.21,2054,59,Desvio Padrão,4.29,0.53,186.01,30.58
 PocketHub,pockethub,9386,13.53,3450,1,,,,,
-cim,crossoverJie,9377,6.83,2861,8,,,,,
+cim,crossoverJie,9377,6.83,2861,8,Média,2.37,1.27,6.4,11.33
+cim,crossoverJie,9377,6.83,2861,8,Mediana,2.0,1.0,0.0,5.0
+cim,crossoverJie,9377,6.83,2861,8,Desvio Padrão,3.12,0.74,17.76,21.91
 AgentWeb,Justson,9305,7.85,1646,21,,,,,
-spring-reading,xuchengsheng,9283,1.5,1153,0,,,,,
-testing-samples,android,9242,10.44,3634,0,,,,,
+spring-reading,xuchengsheng,9283,1.5,1153,0,Média,2.32,1.03,0.55,8.2
+spring-reading,xuchengsheng,9283,1.5,1153,0,Mediana,2.0,1.0,0.0,6.0
+spring-reading,xuchengsheng,9283,1.5,1153,0,Desvio Padrão,2.07,0.16,3.22,7.22
+testing-samples,android,9242,10.44,3634,0,Média,2.59,1.36,2.89,9.43
+testing-samples,android,9242,10.44,3634,0,Mediana,2.0,1.0,0.0,5.0
+testing-samples,android,9242,10.44,3634,0,Desvio Padrão,2.63,0.53,6.31,11.04
 AndroidNote,GcsSloop,9230,9.2,2141,0,,,,,
 CalendarView,huanghaibin-dev,9219,8.02,1813,1,,,,,
-xpipe,xpipe-io,9189,2.14,306,96,,,,,
-cassandra,apache,9084,15.83,3674,0,,,,,
-android-gpuimage,cats-oss,9068,12.46,2273,0,,,,,
+xpipe,xpipe-io,9189,2.14,306,96,Média,2.9,1.51,17.46,14.41
+xpipe,xpipe-io,9189,2.14,306,96,Mediana,2.0,1.0,1.0,4.0
+xpipe,xpipe-io,9189,2.14,306,96,Desvio Padrão,3.96,1.13,146.55,32.14
+cassandra,apache,9084,15.83,3674,0,Média,2.71,1.77,58.25,14.05
+cassandra,apache,9084,15.83,3674,0,Mediana,2.0,1.0,1.0,4.0
+cassandra,apache,9084,15.83,3674,0,Desvio Padrão,3.81,1.71,1395.56,46.76
+android-gpuimage,cats-oss,9068,12.46,2273,0,Média,1.51,2.16,11.3,12.98
+android-gpuimage,cats-oss,9068,12.46,2273,0,Mediana,1.0,2.0,0.0,5.0
+android-gpuimage,cats-oss,9068,12.46,2273,0,Desvio Padrão,2.01,1.19,54.18,47.07
 JsonPath,json-path,9063,14.15,1669,10,,,,,
-spring-security,spring-projects,9020,13.19,6002,213,,,,,
+spring-security,spring-projects,9020,13.19,6002,213,Média,3.47,1.24,10.8,11.62
+spring-security,spring-projects,9020,13.19,6002,213,Mediana,2.0,1.0,0.0,5.0
+spring-security,spring-projects,9020,13.19,6002,213,Desvio Padrão,4.39,0.74,64.46,34.09
 VirtualAPK,didi,9016,7.72,1529,4,,,,,
 MaterialDesignLibrary,navasmdc,8984,10.47,2218,3,,,,,
 EhViewer,seven332,8964,10.85,960,97,,,,,
 Jetpack-MVVM-Best-Practice,KunMinX,8908,5.38,1648,0,,,,,
-awesome-leetcode-resources,ashishps1,8873,1.39,2156,0,,,,,
-storm,nathanmarz,8821,13.51,1665,0,,,,,
+awesome-leetcode-resources,ashishps1,8873,1.39,2156,0,Média,0.97,1.0,4.73,17.51
+awesome-leetcode-resources,ashishps1,8873,1.39,2156,0,Mediana,1.0,1.0,0.0,13.0
+awesome-leetcode-resources,ashishps1,8873,1.39,2156,0,Desvio Padrão,0.43,0.0,8.26,19.02
+storm,nathanmarz,8821,13.51,1665,0,Média,2.21,1.23,47.07,18.24
+storm,nathanmarz,8821,13.51,1665,0,Mediana,1.0,1.0,1.0,5.0
+storm,nathanmarz,8821,13.51,1665,0,Desvio Padrão,3.41,0.75,423.53,262.82
+storm,nathanmarz,8821,13.51,1665,0,Média,1.72,1.29,33.07,14.62
+storm,nathanmarz,8821,13.51,1665,0,Mediana,1.0,1.0,1.0,4.0
+storm,nathanmarz,8821,13.51,1665,0,Desvio Padrão,2.54,0.93,133.14,132.05
 StatusBarUtil,laobie,8806,9.09,1721,0,,,,,
 Android_Data,Freelander,8771,9.96,2027,0,,,,,
-awesome-java-leetcode,Blankj,8706,7.92,1724,0,,,,,
+awesome-java-leetcode,Blankj,8706,7.92,1724,0,Média,1.36,1.0,1.17,14.74
+awesome-java-leetcode,Blankj,8706,7.92,1724,0,Mediana,1.0,1.0,1.0,11.5
+awesome-java-leetcode,Blankj,8706,7.92,1724,0,Desvio Padrão,0.71,0.0,0.69,11.39
 Android-PullToRefresh,chrisbanes,8700,13.31,4687,0,,,,,
 Android-SpinKit,ybq,8650,9.0,1310,0,,,,,
-jna,java-native-access,8648,13.89,1684,0,,,,,
-jmeter,apache,8633,14.82,2150,10,,,,,
-flyway,flyway,8604,12.26,1531,244,,,,,
+jna,java-native-access,8648,13.89,1684,0,Média,2.42,2.36,44.94,14.97
+jna,java-native-access,8648,13.89,1684,0,Mediana,2.0,2.0,0.0,3.0
+jna,java-native-access,8648,13.89,1684,0,Desvio Padrão,3.59,4.33,515.79,76.95
+jmeter,apache,8633,14.82,2150,10,Média,1.73,2.0,62.17,15.41
+jmeter,apache,8633,14.82,2150,10,Mediana,1.0,2.0,3.0,4.0
+jmeter,apache,8633,14.82,2150,10,Desvio Padrão,2.84,1.5,382.82,44.94
+flyway,flyway,8604,12.26,1531,244,Média,2.21,1.53,52.91,11.92
+flyway,flyway,8604,12.26,1531,244,Mediana,1.0,1.0,1.0,3.0
+flyway,flyway,8604,12.26,1531,244,Desvio Padrão,3.33,1.16,595.67,35.01
 Calligraphy,chrisjenx,8583,11.25,1091,4,,,,,
 AndResGuard,shwenzhang,8581,9.44,1544,4,,,,,
-buck,facebook,8559,11.92,1152,57,,,,,
-shenyu,apache,8551,6.69,2975,11,,,,,
-epoxy,airbnb,8538,8.61,727,76,,,,,
-junit4,junit-team,8529,16.18,3279,13,,,,,
-react-native-image-picker,react-native-image-picker,8527,9.78,2089,141,,,,,
-dropwizard,dropwizard,8524,14.17,3440,176,,,,,
-checkstyle,checkstyle,8517,11.55,3818,159,,,,,
-karate,karatelabs,8485,8.11,1977,54,,,,,
+buck,facebook,8559,11.92,1152,57,Média,3.09,1.38,28.99,12.47
+buck,facebook,8559,11.92,1152,57,Mediana,2.0,1.0,1.0,3.0
+buck,facebook,8559,11.92,1152,57,Desvio Padrão,4.91,0.97,225.62,40.32
+shenyu,apache,8551,6.69,2975,11,Média,1.89,1.25,24.16,9.89
+shenyu,apache,8551,6.69,2975,11,Mediana,1.0,1.0,1.0,3.0
+shenyu,apache,8551,6.69,2975,11,Desvio Padrão,3.23,0.65,81.12,23.37
+epoxy,airbnb,8538,8.61,727,76,Média,2.1,1.83,138.77,10.92
+epoxy,airbnb,8538,8.61,727,76,Mediana,2.0,2.0,1.0,4.0
+epoxy,airbnb,8538,8.61,727,76,Desvio Padrão,2.49,1.1,320.18,34.76
+junit4,junit-team,8529,16.18,3279,13,Média,2.43,1.46,12.96,9.3
+junit4,junit-team,8529,16.18,3279,13,Mediana,2.0,1.0,0.0,4.0
+junit4,junit-team,8529,16.18,3279,13,Desvio Padrão,2.7,1.05,130.54,24.58
+react-native-image-picker,react-native-image-picker,8527,9.78,2089,141,Média,2.8,1.55,66.18,19.06
+react-native-image-picker,react-native-image-picker,8527,9.78,2089,141,Mediana,2.0,2.0,1.0,9.0
+react-native-image-picker,react-native-image-picker,8527,9.78,2089,141,Desvio Padrão,3.28,0.52,211.24,52.23
+dropwizard,dropwizard,8524,14.17,3440,176,Média,2.9,1.51,19.18,9.83
+dropwizard,dropwizard,8524,14.17,3440,176,Mediana,2.0,1.0,0.0,4.0
+dropwizard,dropwizard,8524,14.17,3440,176,Desvio Padrão,3.46,1.01,216.83,24.74
+checkstyle,checkstyle,8517,11.55,3818,159,Média,,,,
+checkstyle,checkstyle,8517,11.55,3818,159,Mediana,,,,
+checkstyle,checkstyle,8517,11.55,3818,159,Desvio Padrão,,,,
+karate,karatelabs,8485,8.11,1977,54,Média,2.35,1.21,115.28,13.06
+karate,karatelabs,8485,8.11,1977,54,Mediana,2.0,1.0,1.0,4.0
+karate,karatelabs,8485,8.11,1977,54,Desvio Padrão,3.16,0.6,629.1,48.77
 Android-Debug-Database,amitshekhariitbhu,8461,8.34,873,14,,,,,
 BottomBar,roughike,8407,9.01,1500,4,,,,,
-hsweb-framework,hs-web,8364,9.17,3050,28,,,,,
-tsunami-security-scanner,google,8355,4.79,899,25,,,,,
-seatunnel,apache,8347,7.62,1924,49,,,,,
-flowable-engine,flowable,8293,8.43,2687,27,,,,,
+hsweb-framework,hs-web,8364,9.17,3050,28,Média,3.05,1.35,11.56,10.99
+hsweb-framework,hs-web,8364,9.17,3050,28,Mediana,2.0,1.0,0.0,3.0
+hsweb-framework,hs-web,8364,9.17,3050,28,Desvio Padrão,3.65,1.14,40.31,30.32
+tsunami-security-scanner,google,8355,4.79,899,25,Média,3.4,1.54,14.53,9.53
+tsunami-security-scanner,google,8355,4.79,899,25,Mediana,2.0,1.0,0.0,4.0
+tsunami-security-scanner,google,8355,4.79,899,25,Desvio Padrão,3.78,0.95,53.96,21.26
+seatunnel,apache,8347,7.62,1924,49,Média,2.63,1.27,26.18,13.52
+seatunnel,apache,8347,7.62,1924,49,Mediana,2.0,1.0,0.0,4.0
+seatunnel,apache,8347,7.62,1924,49,Desvio Padrão,3.61,0.72,351.08,38.58
+flowable-engine,flowable,8293,8.43,2687,27,Média,2.55,1.63,152.08,13.49
+flowable-engine,flowable,8293,8.43,2687,27,Mediana,1.0,1.0,1.0,3.0
+flowable-engine,flowable,8293,8.43,2687,27,Desvio Padrão,4.44,0.98,3257.79,54.24
 AndroidPdfViewer,DImuthuUpe,8260,8.79,1936,0,,,,,
-shardingsphere-elasticjob,apache,8175,9.52,3286,30,,,,,
-testcontainers-java,testcontainers,8161,9.94,1685,81,,,,,
-atlas,alibaba,8140,8.05,1475,7,,,,,
+shardingsphere-elasticjob,apache,8175,9.52,3286,30,Média,2.03,1.05,5.11,8.0
+shardingsphere-elasticjob,apache,8175,9.52,3286,30,Mediana,1.0,1.0,0.0,4.0
+shardingsphere-elasticjob,apache,8175,9.52,3286,30,Desvio Padrão,2.11,0.33,27.89,18.59
+testcontainers-java,testcontainers,8161,9.94,1685,81,Média,2.59,1.48,22.09,11.44
+testcontainers-java,testcontainers,8161,9.94,1685,81,Mediana,2.0,1.0,1.0,5.0
+testcontainers-java,testcontainers,8161,9.94,1685,81,Desvio Padrão,2.97,0.88,186.95,24.62
+atlas,alibaba,8140,8.05,1475,7,Média,2.24,1.44,29.88,17.6
+atlas,alibaba,8140,8.05,1475,7,Mediana,1.0,1.0,1.0,4.0
+atlas,alibaba,8140,8.05,1475,7,Desvio Padrão,3.54,0.92,157.49,118.63
 MaterialViewPager,florent37,8119,9.9,1478,11,,,,,
 LitePal,guolindev,8109,12.08,1586,0,,,,,
-im-server,wildfirechat,8099,6.15,1826,103,,,,,
-otter,alibaba,8091,11.61,2494,10,,,,,
-beam,apache,8041,9.13,4317,48,,,,,
-ysoserial,frohoff,8034,10.14,1781,1,,,,,
+im-server,wildfirechat,8099,6.15,1826,103,Média,1.85,1.54,108.42,20.1
+im-server,wildfirechat,8099,6.15,1826,103,Mediana,1.0,1.0,1.0,3.0
+im-server,wildfirechat,8099,6.15,1826,103,Desvio Padrão,3.26,2.5,394.24,447.5
+otter,alibaba,8091,11.61,2494,10,Média,1.92,1.45,32.45,14.72
+otter,alibaba,8091,11.61,2494,10,Mediana,1.0,1.0,1.0,3.0
+otter,alibaba,8091,11.61,2494,10,Desvio Padrão,3.13,0.92,252.54,74.44
+beam,apache,8041,9.13,4317,48,Média,2.96,1.62,7.78,11.41
+beam,apache,8041,9.13,4317,48,Mediana,2.0,1.0,0.0,4.0
+beam,apache,8041,9.13,4317,48,Desvio Padrão,3.73,1.05,36.47,28.61
+ysoserial,frohoff,8034,10.14,1781,1,Média,2.73,1.34,8.89,14.17
+ysoserial,frohoff,8034,10.14,1781,1,Mediana,1.0,1.0,1.0,5.0
+ysoserial,frohoff,8034,10.14,1781,1,Desvio Padrão,3.76,0.67,57.46,23.66
 SimianArmy,Netflix,7982,12.7,1133,4,,,,,
-subsampling-scale-image-view,davemorrissey,7938,11.56,1209,21,,,,,
-hugo,JakeWharton,7923,11.32,798,0,,,,,
-pentaho-kettle,pentaho,7919,11.45,3508,1,,,,,
-transmittable-thread-local,alibaba,7875,11.43,1704,58,,,,,
+subsampling-scale-image-view,davemorrissey,7938,11.56,1209,21,Média,2.55,1.58,79.72,18.65
+subsampling-scale-image-view,davemorrissey,7938,11.56,1209,21,Mediana,2.0,1.0,0.0,5.0
+subsampling-scale-image-view,davemorrissey,7938,11.56,1209,21,Desvio Padrão,3.57,0.88,641.02,103.91
+hugo,JakeWharton,7923,11.32,798,0,Média,2.39,1.14,27.71,14.35
+hugo,JakeWharton,7923,11.32,798,0,Mediana,2.0,1.0,6.0,6.0
+hugo,JakeWharton,7923,11.32,798,0,Desvio Padrão,2.55,0.38,43.52,25.14
+pentaho-kettle,pentaho,7919,11.45,3508,1,Média,2.49,1.28,80.22,19.82
+pentaho-kettle,pentaho,7919,11.45,3508,1,Mediana,1.0,1.0,0.0,4.0
+pentaho-kettle,pentaho,7919,11.45,3508,1,Desvio Padrão,4.55,0.61,1098.62,85.49
+transmittable-thread-local,alibaba,7875,11.43,1704,58,Média,2.84,1.43,12.75,12.24
+transmittable-thread-local,alibaba,7875,11.43,1704,58,Mediana,2.0,1.0,1.0,4.0
+transmittable-thread-local,alibaba,7875,11.43,1704,58,Desvio Padrão,2.54,1.11,38.83,30.32
 UltimateAndroidReference,aritraroy,7867,7.94,1290,0,,,,,
 XPopup,junixapp,7857,6.28,1188,221,,,,,
 HomeMirror,HannahMitt,7852,9.57,668,0,,,,,
-metrics,dropwizard,7841,15.06,1813,125,,,,,
-material-theme-jetbrains,ChrisRM,7805,9.49,448,17,,,,,
+metrics,dropwizard,7841,15.06,1813,125,Média,2.75,1.34,9.56,12.36
+metrics,dropwizard,7841,15.06,1813,125,Mediana,2.0,1.0,0.0,5.0
+metrics,dropwizard,7841,15.06,1813,125,Desvio Padrão,2.8,0.77,39.53,29.31
+material-theme-jetbrains,ChrisRM,7805,9.49,448,17,Média,1.57,2.25,84.42,10.67
+material-theme-jetbrains,ChrisRM,7805,9.49,448,17,Mediana,1.0,2.0,1.0,3.0
+material-theme-jetbrains,ChrisRM,7805,9.49,448,17,Desvio Padrão,2.54,1.45,634.42,36.73
 LSPatch,LSPosed,7790,4.05,863,9,,,,,
-tomcat,apache,7747,13.47,5123,0,,,,,
-javacv,bytedeco,7718,10.91,1603,12,,,,,
+tomcat,apache,7747,13.47,5123,0,Média,1.76,1.81,136.45,16.67
+tomcat,apache,7747,13.47,5123,0,Mediana,1.0,1.0,0.0,4.0
+tomcat,apache,7747,13.47,5123,0,Desvio Padrão,2.85,1.67,1822.48,71.58
+javacv,bytedeco,7718,10.91,1603,12,Média,1.82,2.13,133.99,20.53
+javacv,bytedeco,7718,10.91,1603,12,Mediana,1.0,1.0,1.0,3.0
+javacv,bytedeco,7718,10.91,1603,12,Desvio Padrão,3.05,1.92,704.23,68.59
 RxLifecycle,trello-archive,7703,9.67,638,22,,,,,
-react-native-svg,software-mansion,7661,9.17,1149,121,,,,,
-vjtools,vipshop,7650,6.81,1523,9,,,,,
+react-native-svg,software-mansion,7661,9.17,1149,121,Média,2.56,2.26,77.26,11.85
+react-native-svg,software-mansion,7661,9.17,1149,121,Mediana,2.0,1.0,1.0,3.0
+react-native-svg,software-mansion,7661,9.17,1149,121,Desvio Padrão,3.26,6.26,230.41,42.67
+vjtools,vipshop,7650,6.81,1523,9,Média,1.58,1.28,26.3,14.15
+vjtools,vipshop,7650,6.81,1523,9,Mediana,1.0,1.0,1.0,5.0
+vjtools,vipshop,7650,6.81,1523,9,Desvio Padrão,1.99,0.76,106.81,32.29
 MVVMHabit,goldze,7644,7.66,1697,3,,,,,
-aeron,aeron-io,7629,11.11,912,116,,,,,
-graylog2-server,Graylog2,7595,14.84,1083,0,,,,,
+aeron,aeron-io,7629,11.11,912,116,Média,2.75,1.3,112.51,17.96
+aeron,aeron-io,7629,11.11,912,116,Mediana,2.0,1.0,0.0,5.0
+aeron,aeron-io,7629,11.11,912,116,Desvio Padrão,4.25,0.92,1221.37,68.38
+graylog2-server,Graylog2,7595,14.84,1083,0,Média,3.39,1.34,18.65,9.97
+graylog2-server,Graylog2,7595,14.84,1083,0,Mediana,2.0,1.0,1.0,3.0
+graylog2-server,Graylog2,7595,14.84,1083,0,Desvio Padrão,4.89,0.71,101.22,30.0
 MyBookshelf,gedoor,7590,6.77,1814,165,,,,,
-baritone,cabaletta,7585,6.63,1524,78,,,,,
-android-classyshark,google,7562,9.44,870,17,,,,,
+baritone,cabaletta,7585,6.63,1524,78,Média,2.94,1.39,21.81,13.71
+baritone,cabaletta,7585,6.63,1524,78,Mediana,2.0,1.0,1.0,3.0
+baritone,cabaletta,7585,6.63,1524,78,Desvio Padrão,4.54,0.81,123.28,40.64
+android-classyshark,google,7562,9.44,870,17,Média,1.53,1.28,10.25,14.43
+android-classyshark,google,7562,9.44,870,17,Mediana,1.0,1.0,1.0,5.0
+android-classyshark,google,7562,9.44,870,17,Desvio Padrão,2.15,0.93,27.57,30.8
 Shadow,Tencent,7550,5.76,1315,5,,,,,
 RxJava-Android-Samples,kaushikgopal,7538,10.66,1373,0,,,,,
 AndroidAsync,koush,7536,12.57,1561,0,,,,,
 PojavLauncher,PojavLauncherTeam,7485,5.02,1388,126,,,,,
-closure-compiler,google,7484,10.93,1158,0,,,,,
-algs4,kevin-wayne,7468,9.55,2678,0,,,,,
-hellocharts-android,lecho,7443,10.44,1614,14,,,,,
+closure-compiler,google,7484,10.93,1158,0,Média,2.69,1.51,1252.32,14.64
+closure-compiler,google,7484,10.93,1158,0,Mediana,2.0,1.0,1.0,4.0
+closure-compiler,google,7484,10.93,1158,0,Desvio Padrão,2.87,1.27,29917.47,91.17
+algs4,kevin-wayne,7468,9.55,2678,0,Média,1.61,1.02,47.47,15.39
+algs4,kevin-wayne,7468,9.55,2678,0,Mediana,1.0,1.0,0.0,6.0
+algs4,kevin-wayne,7468,9.55,2678,0,Desvio Padrão,1.64,0.17,263.52,38.21
+hellocharts-android,lecho,7443,10.44,1614,14,Média,2.19,1.67,40.29,14.28
+hellocharts-android,lecho,7443,10.44,1614,14,Mediana,1.0,1.0,1.0,4.0
+hellocharts-android,lecho,7443,10.44,1614,14,Desvio Padrão,3.23,0.9,150.07,38.81
 SDE-Interview-Questions,twowaits,7441,7.4,2206,1,,,,,
-swagger-core,swagger-api,7417,13.71,2197,112,,,,,
+swagger-core,swagger-api,7417,13.71,2197,112,Média,2.79,1.23,49.45,10.96
+swagger-core,swagger-api,7417,13.71,2197,112,Mediana,1.0,1.0,0.0,3.0
+swagger-core,swagger-api,7417,13.71,2197,112,Desvio Padrão,4.23,0.6,726.06,57.1
 LeetCode,yuanguangxin,7417,5.18,1881,0,,,,,
 PowerJob,PowerJob,7383,5.01,1297,50,,,,,
 SpringCloud-Learning,dyc87112,7373,8.58,2881,0,,,,,
@@ -350,154 +799,357 @@ Mapper,abel533,7365,10.33,1628,8,,,,,
 HMCL,HMCL-dev,7358,9.74,702,234,,,,,
 ShortcutBadger,leolin310148,7351,11.34,1342,0,,,,,
 RePlugin,Qihoo360,7307,7.78,1537,19,,,,,
-dagger,square,7305,12.63,3071,0,,,,,
+dagger,square,7305,12.63,3071,0,Média,2.39,1.23,5.99,11.56
+dagger,square,7305,12.63,3071,0,Mediana,2.0,1.0,0.0,4.0
+dagger,square,7305,12.63,3071,0,Desvio Padrão,2.3,0.72,45.36,32.51
 Android-Bootstrap,Bearded-Hen,7277,11.38,1421,5,,,,,
-mapstruct,mapstruct,7273,12.81,974,35,,,,,
-sweet-alert-dialog,pedant,7257,10.42,1934,2,,,,,
+mapstruct,mapstruct,7273,12.81,974,35,Média,2.07,1.17,10.61,8.3
+mapstruct,mapstruct,7273,12.81,974,35,Mediana,1.0,1.0,0.0,3.0
+mapstruct,mapstruct,7273,12.81,974,35,Desvio Padrão,3.08,0.58,69.64,23.95
+sweet-alert-dialog,pedant,7257,10.42,1934,2,Média,1.82,1.25,31.06,17.7
+sweet-alert-dialog,pedant,7257,10.42,1934,2,Mediana,1.0,1.0,0.0,5.0
+sweet-alert-dialog,pedant,7257,10.42,1934,2,Desvio Padrão,2.92,0.45,88.95,38.15
 TakePhoto,crazycodeboy,7242,9.62,1506,15,,,,,
 UltimateRecyclerView,cymcsg,7211,10.14,1420,9,,,,,
 WeChatLuckyMoney,geeeeeeeeek,7208,9.47,2211,20,,,,,
-xmall,Exrick,7199,7.64,2556,0,,,,,
-gocd,gocd,7197,11.27,975,84,,,,,
-agera,google,7181,9.25,634,16,,,,,
+xmall,Exrick,7199,7.64,2556,0,Média,1.59,1.16,632.83,11.76
+xmall,Exrick,7199,7.64,2556,0,Mediana,2.0,1.0,13.0,4.0
+xmall,Exrick,7199,7.64,2556,0,Desvio Padrão,2.01,0.42,2870.93,63.68
+gocd,gocd,7197,11.27,975,84,Média,3.27,1.25,37.92,12.56
+gocd,gocd,7197,11.27,975,84,Mediana,2.0,1.0,0.0,5.0
+gocd,gocd,7197,11.27,975,84,Desvio Padrão,4.47,0.66,371.2,37.43
+agera,google,7181,9.25,634,16,Média,3.78,1.24,14.84,10.18
+agera,google,7181,9.25,634,16,Mediana,3.0,1.0,0.0,4.0
+agera,google,7181,9.25,634,16,Desvio Padrão,3.68,0.54,106.49,30.06
 SmartTabLayout,ogaclejapan,7092,10.09,1338,0,,,,,
 MinecraftForge,MinecraftForge,7087,13.14,2729,0,,,,,
 ActionBarSherlock,JakeWharton,7085,14.04,3516,32,,,,,
 LeetCode-Book,krahets,7060,3.25,813,0,,,,,
 KnowStreaming,didi,7052,5.0,1287,23,,,,,
-nanohttpd,NanoHttpd,7045,12.61,1705,3,,,,,
-iceberg,apache,7035,6.33,2431,26,,,,,
+nanohttpd,NanoHttpd,7045,12.61,1705,3,Média,2.26,1.79,22.16,14.97
+nanohttpd,NanoHttpd,7045,12.61,1705,3,Mediana,2.0,1.0,1.0,5.0
+nanohttpd,NanoHttpd,7045,12.61,1705,3,Desvio Padrão,2.57,1.56,88.27,38.63
+iceberg,apache,7035,6.33,2431,26,Média,3.27,1.66,35.48,14.56
+iceberg,apache,7035,6.33,2431,26,Mediana,2.0,1.0,2.0,5.0
+iceberg,apache,7035,6.33,2431,26,Desvio Padrão,4.09,1.58,165.57,42.14
 Timber,naman14,7031,9.77,2158,5,,,,,
-elasticsearch-sql,NLPchina,7008,10.57,1541,261,,,,,
-alluxio,Alluxio,6954,12.24,2944,61,,,,,
-error-prone,google,6946,10.58,750,52,,,,,
-rest-assured,rest-assured,6928,14.41,1883,0,,,,,
+elasticsearch-sql,NLPchina,7008,10.57,1541,261,Média,3.0,2.12,197.35,22.32
+elasticsearch-sql,NLPchina,7008,10.57,1541,261,Mediana,2.0,2.0,2.0,5.0
+elasticsearch-sql,NLPchina,7008,10.57,1541,261,Desvio Padrão,7.35,1.51,1295.68,156.15
+alluxio,Alluxio,6954,12.24,2944,61,Média,2.64,1.48,30.66,15.31
+alluxio,Alluxio,6954,12.24,2944,61,Mediana,2.0,1.0,1.0,5.0
+alluxio,Alluxio,6954,12.24,2944,61,Desvio Padrão,4.04,1.49,238.17,48.65
+error-prone,google,6946,10.58,750,52,Média,3.39,1.53,25.75,10.63
+error-prone,google,6946,10.58,750,52,Mediana,2.0,1.0,0.0,3.0
+error-prone,google,6946,10.58,750,52,Desvio Padrão,6.32,1.09,340.31,29.16
+rest-assured,rest-assured,6928,14.41,1883,0,Média,2.44,1.2,105.88,8.61
+rest-assured,rest-assured,6928,14.41,1883,0,Mediana,2.0,1.0,0.0,3.0
+rest-assured,rest-assured,6928,14.41,1883,0,Desvio Padrão,2.91,0.46,586.38,28.47
 DroidPlugin,DroidPluginTeam,6918,9.56,2523,2,,,,,
-netty-socketio,mrniko,6912,13.19,1669,18,,,,,
-okhttputils,hongyangAndroid,6869,9.59,2385,0,,,,,
-jvm-sandbox,alibaba,6857,7.62,1576,13,,,,,
+netty-socketio,mrniko,6912,13.19,1669,18,Média,2.2,1.27,33.02,11.18
+netty-socketio,mrniko,6912,13.19,1669,18,Mediana,1.0,1.0,0.0,3.0
+netty-socketio,mrniko,6912,13.19,1669,18,Desvio Padrão,3.48,0.56,255.15,27.42
+okhttputils,hongyangAndroid,6869,9.59,2385,0,Média,2.16,1.46,6.2,11.65
+okhttputils,hongyangAndroid,6869,9.59,2385,0,Mediana,1.0,1.0,0.0,5.0
+okhttputils,hongyangAndroid,6869,9.59,2385,0,Desvio Padrão,2.54,0.65,16.78,20.79
+jvm-sandbox,alibaba,6857,7.62,1576,13,Média,2.03,1.33,12.36,11.93
+jvm-sandbox,alibaba,6857,7.62,1576,13,Mediana,1.0,1.0,0.0,4.0
+jvm-sandbox,alibaba,6857,7.62,1576,13,Desvio Padrão,2.83,0.83,57.6,29.68
 JavaTutorial,h2pl,6852,6.88,1587,1,,,,,
-jimureport,jeecgboot,6850,5.28,1720,25,,,,,
-walle,Meituan-Dianping,6812,8.19,1086,1,,,,,
-1brc,gunnarmorling,6802,1.22,1988,0,,,,,
+jimureport,jeecgboot,6850,5.28,1720,25,Média,3.36,1.08,2.25,13.14
+jimureport,jeecgboot,6850,5.28,1720,25,Mediana,3.0,1.0,0.0,7.0
+jimureport,jeecgboot,6850,5.28,1720,25,Desvio Padrão,3.03,0.29,6.02,13.44
+walle,Meituan-Dianping,6812,8.19,1086,1,Média,1.58,1.19,8.69,16.26
+walle,Meituan-Dianping,6812,8.19,1086,1,Mediana,1.0,1.0,0.5,4.0
+walle,Meituan-Dianping,6812,8.19,1086,1,Desvio Padrão,2.52,0.72,23.49,44.5
+1brc,gunnarmorling,6802,1.22,1988,0,Média,1.57,1.09,7.58,25.23
+1brc,gunnarmorling,6802,1.22,1988,0,Mediana,1.0,1.0,1.0,8.0
+1brc,gunnarmorling,6802,1.22,1988,0,Desvio Padrão,1.73,0.38,23.53,55.44
 DependencyCheck,dependency-check,6796,12.54,1338,82,,,,,
 AntennaPod,AntennaPod,6783,12.64,1446,60,,,,,
-react-native-push-notification,zo0r,6779,9.26,2053,35,,,,,
-angel,Angel-ML,6750,7.9,1594,19,,,,,
-rabbitmq-tutorials,rabbitmq,6727,14.5,3571,0,,,,,
-mybatis-generator-gui,zouzg,6699,8.86,2536,16,,,,,
+react-native-push-notification,zo0r,6779,9.26,2053,35,Média,3.15,1.24,15.48,21.97
+react-native-push-notification,zo0r,6779,9.26,2053,35,Mediana,3.0,1.0,0.0,7.0
+react-native-push-notification,zo0r,6779,9.26,2053,35,Desvio Padrão,3.77,0.44,50.25,62.43
+angel,Angel-ML,6750,7.9,1594,19,Média,2.78,1.73,64.1,22.41
+angel,Angel-ML,6750,7.9,1594,19,Mediana,1.0,2.0,0.0,4.0
+angel,Angel-ML,6750,7.9,1594,19,Desvio Padrão,4.67,0.88,595.24,171.8
+rabbitmq-tutorials,rabbitmq,6727,14.5,3571,0,Média,3.01,1.0,2.29,15.41
+rabbitmq-tutorials,rabbitmq,6727,14.5,3571,0,Mediana,3.0,1.0,1.0,8.5
+rabbitmq-tutorials,rabbitmq,6727,14.5,3571,0,Desvio Padrão,2.15,0.0,4.13,28.19
+mybatis-generator-gui,zouzg,6699,8.86,2536,16,Média,2.14,1.49,69.95,16.62
+mybatis-generator-gui,zouzg,6699,8.86,2536,16,Mediana,1.0,1.0,3.0,3.0
+mybatis-generator-gui,zouzg,6699,8.86,2536,16,Desvio Padrão,3.83,0.68,255.11,40.4
 AndroidPerformanceMonitor,markzhai,6690,9.17,1024,0,,,,,
 AndroidAutoLayout,hongyangAndroid,6676,9.33,1894,0,,,,,
-haven,guardianproject,6672,8.05,730,37,,,,,
-gnirehtet,Genymobile,6656,8.1,616,12,,,,,
+haven,guardianproject,6672,8.05,730,37,Média,2.57,1.39,11.77,17.17
+haven,guardianproject,6672,8.05,730,37,Mediana,2.0,1.0,1.0,5.0
+haven,guardianproject,6672,8.05,730,37,Desvio Padrão,3.9,0.59,39.76,42.44
+gnirehtet,Genymobile,6656,8.1,616,12,Média,1.7,1.19,14.3,13.44
+gnirehtet,Genymobile,6656,8.1,616,12,Mediana,1.0,1.0,1.0,5.0
+gnirehtet,Genymobile,6656,8.1,616,12,Desvio Padrão,2.06,0.53,35.25,28.95
 BookReader,smuyyh,6645,8.62,1882,0,,,,,
-springcloud-learning,macrozheng,6643,5.53,2804,0,,,,,
+springcloud-learning,macrozheng,6643,5.53,2804,0,Média,1.97,1.04,28.73,11.59
+springcloud-learning,macrozheng,6643,5.53,2804,0,Mediana,1.0,1.0,1.0,3.0
+springcloud-learning,macrozheng,6643,5.53,2804,0,Desvio Padrão,3.15,0.26,87.78,27.11
+springcloud-learning,macrozheng,6643,5.53,2804,0,Média,2.35,1.02,85.88,8.19
+springcloud-learning,macrozheng,6643,5.53,2804,0,Mediana,2.0,1.0,0.0,4.0
+springcloud-learning,macrozheng,6643,5.53,2804,0,Desvio Padrão,2.93,0.15,846.65,36.83
 AndPermission,yanzhenjie,6632,8.52,1102,0,,,,,
-wiremock,wiremock,6630,13.45,1458,49,,,,,
+wiremock,wiremock,6630,13.45,1458,49,Média,2.44,1.36,72.73,9.91
+wiremock,wiremock,6630,13.45,1458,49,Mediana,2.0,1.0,1.0,4.0
+wiremock,wiremock,6630,13.45,1458,49,Desvio Padrão,3.26,0.78,729.21,28.24
 springBoot,527515025,6624,8.36,3152,0,,,,,
-storm,apache,6614,11.37,4077,3,,,,,
+storm,apache,6614,11.37,4077,3,Média,2.21,1.23,47.07,18.24
+storm,apache,6614,11.37,4077,3,Mediana,1.0,1.0,1.0,5.0
+storm,apache,6614,11.37,4077,3,Desvio Padrão,3.41,0.75,423.53,262.82
+storm,apache,6614,11.37,4077,3,Média,1.72,1.29,33.07,14.62
+storm,apache,6614,11.37,4077,3,Mediana,1.0,1.0,1.0,4.0
+storm,apache,6614,11.37,4077,3,Desvio Padrão,2.54,0.93,133.14,132.05
 AndroidPicker,gzu-liyujiang,6596,9.41,1479,57,,,,,
 AndroidProject,getActivity,6588,6.4,1377,17,,,,,
 Toasty,GrenderG,6587,8.16,809,19,,,,,
-itstack-demo-design,fuzhengwei,6566,4.83,1951,0,,,,,
-junit5,junit-team,6549,10.19,1526,82,,,,,
+itstack-demo-design,fuzhengwei,6566,4.83,1951,0,Média,1.1,1.11,5.33,7.79
+itstack-demo-design,fuzhengwei,6566,4.83,1951,0,Mediana,0.0,1.0,0.0,3.0
+itstack-demo-design,fuzhengwei,6566,4.83,1951,0,Desvio Padrão,1.65,0.32,12.48,12.04
+junit5,junit-team,6549,10.19,1526,82,Média,2.6,1.31,35.43,9.8
+junit5,junit-team,6549,10.19,1526,82,Mediana,2.0,1.0,0.0,4.0
+junit5,junit-team,6549,10.19,1526,82,Desvio Padrão,3.0,1.06,755.76,33.26
 Leaf,Meituan-Dianping,6546,6.27,1853,0,,,,,
-ansj_seg,NLPchina,6518,12.54,2317,3,,,,,
-processing,processing,6503,12.15,1499,48,,,,,
+ansj_seg,NLPchina,6518,12.54,2317,3,Média,2.98,1.19,9.58,19.82
+ansj_seg,NLPchina,6518,12.54,2317,3,Mediana,2.0,1.0,0.0,8.0
+ansj_seg,NLPchina,6518,12.54,2317,3,Desvio Padrão,3.74,0.44,42.67,36.92
+processing,processing,6503,12.15,1499,48,Média,1.5,1.62,507.76,20.49
+processing,processing,6503,12.15,1499,48,Mediana,1.0,1.0,0.0,5.0
+processing,processing,6503,12.15,1499,48,Desvio Padrão,2.39,1.97,7175.11,143.8
 GoGoGo,ZCShou,6494,3.29,756,7,,,,,
-zeppelin,apache,6469,9.99,2817,0,,,,,
+zeppelin,apache,6469,9.99,2817,0,Média,2.36,1.26,43.49,19.69
+zeppelin,apache,6469,9.99,2817,0,Mediana,2.0,1.0,1.0,5.0
+zeppelin,apache,6469,9.99,2817,0,Desvio Padrão,3.52,0.66,345.83,216.52
 Android-skin-support,ximsfei,6461,8.18,1090,0,,,,,
-quartz,quartz-scheduler,6436,9.03,1959,5,,,,,
+quartz,quartz-scheduler,6436,9.03,1959,5,Média,2.12,1.44,119.67,14.39
+quartz,quartz-scheduler,6436,9.03,1959,5,Mediana,1.0,1.0,1.0,4.0
+quartz,quartz-scheduler,6436,9.03,1959,5,Desvio Padrão,3.28,0.83,765.35,61.65
 RoundedImageView,vinc3m1,6433,12.07,1250,19,,,,,
-byte-buddy,raphw,6430,11.32,811,299,,,,,
-langchain4j,langchain4j,6426,1.74,1217,43,,,,,
+byte-buddy,raphw,6430,11.32,811,299,Média,3.35,1.61,14.89,14.15
+byte-buddy,raphw,6430,11.32,811,299,Mediana,2.0,1.0,0.0,3.0
+byte-buddy,raphw,6430,11.32,811,299,Desvio Padrão,4.92,1.97,289.43,88.06
+langchain4j,langchain4j,6426,1.74,1217,43,Média,2.6,1.18,15.62,11.67
+langchain4j,langchain4j,6426,1.74,1217,43,Mediana,1.0,1.0,1.0,4.0
+langchain4j,langchain4j,6426,1.74,1217,43,Desvio Padrão,3.82,0.54,60.19,27.15
 Android-Image-Cropper,ArthurHub,6423,10.18,1383,32,,,,,
-smali,JesusFreke,6411,12.49,1083,0,,,,,
+smali,JesusFreke,6411,12.49,1083,0,Média,3.02,1.67,15.02,13.55
+smali,JesusFreke,6411,12.49,1083,0,Mediana,2.0,1.0,1.0,4.0
+smali,JesusFreke,6411,12.49,1083,0,Desvio Padrão,4.7,1.25,85.7,42.41
 Spring-Cloud-Platform,wxiaoqi,6401,7.82,2392,3,,,,,
-android-floating-action-button,zendesk,6379,10.5,1452,0,,,,,
-java-eight-part,CoderLeixiaoshuai,6374,4.42,1013,0,,,,,
+android-floating-action-button,zendesk,6379,10.5,1452,0,Média,2.34,1.67,48.14,14.4
+android-floating-action-button,zendesk,6379,10.5,1452,0,Mediana,2.0,1.0,0.0,4.0
+android-floating-action-button,zendesk,6379,10.5,1452,0,Desvio Padrão,3.41,1.02,164.28,45.95
+java-eight-part,CoderLeixiaoshuai,6374,4.42,1013,0,Média,,,,
+java-eight-part,CoderLeixiaoshuai,6374,4.42,1013,0,Mediana,,,,
+java-eight-part,CoderLeixiaoshuai,6374,4.42,1013,0,Desvio Padrão,,,,
 jOOQ,jOOQ,6329,13.93,1214,90,,,,,
-async-http-client,AsyncHttpClient,6322,14.04,1595,5,,,,,
+async-http-client,AsyncHttpClient,6322,14.04,1595,5,Média,2.69,1.57,41.84,13.38
+async-http-client,AsyncHttpClient,6322,14.04,1595,5,Mediana,2.0,1.0,1.0,4.0
+async-http-client,AsyncHttpClient,6322,14.04,1595,5,Desvio Padrão,3.67,0.96,245.15,38.35
 JFoenix,sshahine,6313,9.53,1053,0,,,,,
-remusic,aa112901,6294,8.99,1924,0,,,,,
-richeditor-android,wasabeef,6287,9.97,1199,0,,,,,
-ion,koush,6282,11.83,1035,0,,,,,
+remusic,aa112901,6294,8.99,1924,0,Média,2.17,1.45,41.65,17.26
+remusic,aa112901,6294,8.99,1924,0,Mediana,1.0,1.0,0.0,5.0
+remusic,aa112901,6294,8.99,1924,0,Desvio Padrão,3.54,0.81,345.67,65.0
+richeditor-android,wasabeef,6287,9.97,1199,0,Média,1.73,1.14,46.95,9.53
+richeditor-android,wasabeef,6287,9.97,1199,0,Mediana,2.0,1.0,0.0,3.0
+richeditor-android,wasabeef,6287,9.97,1199,0,Desvio Padrão,1.65,0.41,305.87,35.46
+ion,koush,6282,11.83,1035,0,Média,2.65,1.46,23.6,13.68
+ion,koush,6282,11.83,1035,0,Mediana,2.0,1.0,0.0,5.0
+ion,koush,6282,11.83,1035,0,Desvio Padrão,3.52,1.46,205.83,37.47
 Recaf,Col-E,6282,7.64,476,169,,,,,
-jsonschema2pojo,joelittlejohn,6279,11.74,1660,63,,,,,
-hazelcast,hazelcast,6267,13.0,1857,200,,,,,
-from-java-to-kotlin,amitshekhariitbhu,6254,7.83,790,0,,,,,
-config,lightbend,6220,13.29,962,1,,,,,
-spring-cloud-examples,ityouknow,6218,7.89,3082,0,,,,,
-micronaut-core,micronaut-projects,6187,7.03,1091,278,,,,,
-pig,pig-mesh,6182,5.56,981,19,,,,,
-graphql-java,graphql-java,6161,9.7,1126,82,,,,,
+jsonschema2pojo,joelittlejohn,6279,11.74,1660,63,Média,2.79,1.14,76.92,12.14
+jsonschema2pojo,joelittlejohn,6279,11.74,1660,63,Mediana,2.0,1.0,0.0,5.0
+jsonschema2pojo,joelittlejohn,6279,11.74,1660,63,Desvio Padrão,3.35,0.44,579.47,28.6
+hazelcast,hazelcast,6267,13.0,1857,200,Média,2.87,1.75,44.84,12.24
+hazelcast,hazelcast,6267,13.0,1857,200,Mediana,2.0,1.0,1.0,5.0
+hazelcast,hazelcast,6267,13.0,1857,200,Desvio Padrão,5.44,4.75,428.66,99.38
+from-java-to-kotlin,amitshekhariitbhu,6254,7.83,790,0,Média,0.2,1.0,0.0,6.8
+from-java-to-kotlin,amitshekhariitbhu,6254,7.83,790,0,Mediana,0.0,1.0,0.0,3.0
+from-java-to-kotlin,amitshekhariitbhu,6254,7.83,790,0,Desvio Padrão,0.42,0.0,0.0,10.01
+config,lightbend,6220,13.29,962,1,Média,2.4,2.06,76.18,13.33
+config,lightbend,6220,13.29,962,1,Mediana,2.0,1.0,0.0,3.0
+config,lightbend,6220,13.29,962,1,Desvio Padrão,3.33,4.37,399.35,47.56
+spring-cloud-examples,ityouknow,6218,7.89,3082,0,Média,2.37,1.02,0.47,4.84
+spring-cloud-examples,ityouknow,6218,7.89,3082,0,Mediana,2.0,1.0,0.0,3.0
+spring-cloud-examples,ityouknow,6218,7.89,3082,0,Desvio Padrão,1.6,0.13,2.1,4.85
+micronaut-core,micronaut-projects,6187,7.03,1091,278,Média,2.79,1.32,36.74,11.08
+micronaut-core,micronaut-projects,6187,7.03,1091,278,Mediana,2.0,1.0,0.0,3.0
+micronaut-core,micronaut-projects,6187,7.03,1091,278,Desvio Padrão,3.93,0.94,425.15,43.19
+pig,pig-mesh,6182,5.56,981,19,Média,4.16,1.31,5.3,10.23
+pig,pig-mesh,6182,5.56,981,19,Mediana,3.0,1.0,0.0,4.0
+pig,pig-mesh,6182,5.56,981,19,Desvio Padrão,4.4,0.59,50.25,17.45
+graphql-java,graphql-java,6161,9.7,1126,82,Média,,,,
+graphql-java,graphql-java,6161,9.7,1126,82,Mediana,,,,
+graphql-java,graphql-java,6161,9.7,1126,82,Desvio Padrão,,,,
 CompreFace,exadel-inc,6152,4.7,834,11,,,,,
-smile,haifengl,6140,10.33,1138,32,,,,,
+smile,haifengl,6140,10.33,1138,32,Média,2.09,1.36,103.92,15.26
+smile,haifengl,6140,10.33,1138,32,Mediana,1.0,1.0,1.0,4.0
+smile,haifengl,6140,10.33,1138,32,Desvio Padrão,2.53,1.04,1392.72,50.33
 SwipeBackLayout,ikew0ng,6122,11.57,1400,0,,,,,
-grafika,google,6115,11.25,1463,1,,,,,
-hibernate-orm,hibernate,6109,14.46,3617,66,,,,,
+grafika,google,6115,11.25,1463,1,Média,2.4,1.75,6.89,24.27
+grafika,google,6115,11.25,1463,1,Mediana,1.0,2.0,0.0,8.0
+grafika,google,6115,11.25,1463,1,Desvio Padrão,3.35,0.86,16.89,54.88
+hibernate-orm,hibernate,6109,14.46,3617,66,Média,2.55,1.4,73.1,11.52
+hibernate-orm,hibernate,6109,14.46,3617,66,Mediana,1.0,1.0,1.0,3.0
+hibernate-orm,hibernate,6109,14.46,3617,66,Desvio Padrão,4.61,0.98,2064.61,44.64
 MaterialEditText,rengwuxian,6103,10.39,1041,19,,,,,
 NumberProgressBar,daimajia,6090,10.88,1400,3,,,,,
-hertzbeat,apache,6063,3.12,1070,22,,,,,
-vespa,vespa-engine,6052,8.79,625,205,,,,,
-gephi,gephi,6052,13.41,1576,19,,,,,
+hertzbeat,apache,6063,3.12,1070,22,Média,3.34,1.19,8.19,15.43
+hertzbeat,apache,6063,3.12,1070,22,Mediana,2.0,1.0,0.0,5.0
+hertzbeat,apache,6063,3.12,1070,22,Desvio Padrão,4.25,0.6,46.54,37.4
+vespa,vespa-engine,6052,8.79,625,205,Média,2.75,1.6,37.0,13.06
+vespa,vespa-engine,6052,8.79,625,205,Mediana,2.0,1.0,1.0,4.0
+vespa,vespa-engine,6052,8.79,625,205,Desvio Padrão,3.76,1.49,286.56,38.08
+gephi,gephi,6052,13.41,1576,19,Média,1.95,1.67,24.68,15.17
+gephi,gephi,6052,13.41,1576,19,Mediana,1.0,1.0,0.0,4.0
+gephi,gephi,6052,13.41,1576,19,Desvio Padrão,2.81,1.67,124.3,44.85
 EffectiveAndroidUI,pedrovgs,6024,10.71,1191,0,,,,,
-dynamic-load-apk,singwhatiwanna,6020,10.97,1995,0,,,,,
+dynamic-load-apk,singwhatiwanna,6020,10.97,1995,0,Média,2.15,1.44,9.42,11.39
+dynamic-load-apk,singwhatiwanna,6020,10.97,1995,0,Mediana,1.0,1.0,0.0,5.0
+dynamic-load-apk,singwhatiwanna,6020,10.97,1995,0,Desvio Padrão,3.15,0.74,30.01,28.62
 XXPermissions,getActivity,6014,6.76,809,63,,,,,
-j2objc,google,6008,11.13,981,0,,,,,
-material,rey5137,5999,10.28,1317,10,,,,,
-flink-cdc,apache,5995,4.64,2022,21,,,,,
-java-jwt,auth0,5988,11.04,933,45,,,,,
-physical-web,google,5987,10.47,663,17,,,,,
+j2objc,google,6008,11.13,981,0,Média,,,,
+j2objc,google,6008,11.13,981,0,Mediana,,,,
+j2objc,google,6008,11.13,981,0,Desvio Padrão,,,,
+material,rey5137,5999,10.28,1317,10,Média,2.01,1.65,54.5,16.0
+material,rey5137,5999,10.28,1317,10,Mediana,1.0,1.0,1.0,4.0
+material,rey5137,5999,10.28,1317,10,Desvio Padrão,3.37,1.19,190.82,65.13
+flink-cdc,apache,5995,4.64,2022,21,Média,2.62,1.4,39.75,12.33
+flink-cdc,apache,5995,4.64,2022,21,Mediana,2.0,1.0,1.0,3.0
+flink-cdc,apache,5995,4.64,2022,21,Desvio Padrão,3.84,1.11,205.93,36.16
+java-jwt,auth0,5988,11.04,933,45,Média,3.53,1.63,142.74,13.87
+java-jwt,auth0,5988,11.04,933,45,Mediana,3.0,1.0,1.0,6.0
+java-jwt,auth0,5988,11.04,933,45,Desvio Padrão,2.63,1.32,531.45,52.94
+physical-web,google,5987,10.47,663,17,Média,2.26,1.29,26.71,14.3
+physical-web,google,5987,10.47,663,17,Mediana,2.0,1.0,0.0,5.0
+physical-web,google,5987,10.47,663,17,Desvio Padrão,2.99,0.56,209.18,36.46
 xUtils3,wyouflf,5982,9.39,1979,9,,,,,
-incubator-kie-drools,apache,5974,14.08,2533,5,,,,,
-useful-java-links,Vedenin,5961,9.1,1186,0,,,,,
-ssm,liyifeng1994,5948,8.75,2749,0,,,,,
-robolectric,robolectric,5942,14.56,1373,105,,,,,
-springfox,springfox,5936,12.87,1537,12,,,,,
-androidmvp,antoniolg,5926,10.96,1571,0,,,,,
-material-calendarview,prolificinteractive,5921,10.1,1312,22,,,,,
+incubator-kie-drools,apache,5974,14.08,2533,5,Média,2.17,1.47,92.87,15.31
+incubator-kie-drools,apache,5974,14.08,2533,5,Mediana,1.0,1.0,1.0,3.0
+incubator-kie-drools,apache,5974,14.08,2533,5,Desvio Padrão,3.81,1.24,938.01,154.56
+useful-java-links,Vedenin,5961,9.1,1186,0,Média,1.62,1.02,1.83,12.05
+useful-java-links,Vedenin,5961,9.1,1186,0,Mediana,1.0,1.0,0.0,7.0
+useful-java-links,Vedenin,5961,9.1,1186,0,Desvio Padrão,1.82,0.15,6.86,16.47
+ssm,liyifeng1994,5948,8.75,2749,0,Média,1.46,1.15,110.8,9.91
+ssm,liyifeng1994,5948,8.75,2749,0,Mediana,1.0,1.0,2.0,4.0
+ssm,liyifeng1994,5948,8.75,2749,0,Desvio Padrão,1.84,0.36,431.32,35.15
+ssm,liyifeng1994,5948,8.75,2749,0,Média,1.4,1.68,2.05,6.92
+ssm,liyifeng1994,5948,8.75,2749,0,Mediana,1.0,1.0,1.0,3.0
+ssm,liyifeng1994,5948,8.75,2749,0,Desvio Padrão,2.38,1.11,3.26,9.74
+robolectric,robolectric,5942,14.56,1373,105,Média,2.47,1.37,71.32,12.08
+robolectric,robolectric,5942,14.56,1373,105,Mediana,2.0,1.0,0.0,4.0
+robolectric,robolectric,5942,14.56,1373,105,Desvio Padrão,3.09,1.2,603.53,48.92
+springfox,springfox,5936,12.87,1537,12,Média,2.38,1.12,23.25,8.32
+springfox,springfox,5936,12.87,1537,12,Mediana,1.0,1.0,0.0,3.0
+springfox,springfox,5936,12.87,1537,12,Desvio Padrão,4.03,0.4,151.29,19.2
+androidmvp,antoniolg,5926,10.96,1571,0,Média,1.41,1.29,3.0,6.83
+androidmvp,antoniolg,5926,10.96,1571,0,Mediana,1.0,1.0,0.0,4.0
+androidmvp,antoniolg,5926,10.96,1571,0,Desvio Padrão,2.09,0.47,4.64,9.35
+material-calendarview,prolificinteractive,5921,10.1,1312,22,Média,2.65,1.53,69.01,11.25
+material-calendarview,prolificinteractive,5921,10.1,1312,22,Mediana,2.0,1.0,0.0,4.0
+material-calendarview,prolificinteractive,5921,10.1,1312,22,Desvio Padrão,3.66,0.73,531.32,45.58
 SoloPi,alipay,5902,6.01,1227,8,,,,,
-mini-spring,DerekYRC,5891,4.33,1376,0,,,,,
-motan,weibocom,5887,8.91,1772,26,,,,,
+mini-spring,DerekYRC,5891,4.33,1376,0,Média,2.0,1.22,5.08,7.95
+mini-spring,DerekYRC,5891,4.33,1376,0,Mediana,1.0,1.0,0.0,3.0
+mini-spring,DerekYRC,5891,4.33,1376,0,Desvio Padrão,2.58,0.67,20.56,13.84
+motan,weibocom,5887,8.91,1772,26,Média,2.41,1.44,32.8,14.64
+motan,weibocom,5887,8.91,1772,26,Mediana,1.0,1.0,1.0,4.0
+motan,weibocom,5887,8.91,1772,26,Desvio Padrão,3.3,0.82,146.72,41.21
 SpringBootVulExploit,LandGrey,5884,4.83,1312,0,,,,,
-vavr,vavr-io,5870,11.13,640,18,,,,,
-btrace,btraceio,5869,10.56,961,33,,,,,
-blade,lets-blade,5861,9.78,1173,9,,,,,
-zxing-android-embedded,journeyapps,5821,12.31,1279,9,,,,,
-jetlinks-community,jetlinks,5819,5.21,1732,19,,,,,
+vavr,vavr-io,5870,11.13,640,18,Média,3.61,1.26,1157.4,9.97
+vavr,vavr-io,5870,11.13,640,18,Mediana,3.0,1.0,1.0,3.0
+vavr,vavr-io,5870,11.13,640,18,Desvio Padrão,3.36,0.9,9431.17,57.87
+btrace,btraceio,5869,10.56,961,33,Média,2.21,1.3,92.54,15.45
+btrace,btraceio,5869,10.56,961,33,Mediana,1.0,1.0,0.0,4.0
+btrace,btraceio,5869,10.56,961,33,Desvio Padrão,2.92,0.87,1538.7,69.6
+blade,lets-blade,5861,9.78,1173,9,Média,2.11,1.23,42.16,13.63
+blade,lets-blade,5861,9.78,1173,9,Mediana,2.0,1.0,0.0,4.0
+blade,lets-blade,5861,9.78,1173,9,Desvio Padrão,2.98,0.77,185.47,40.19
+zxing-android-embedded,journeyapps,5821,12.31,1279,9,Média,2.08,1.36,21.92,13.41
+zxing-android-embedded,journeyapps,5821,12.31,1279,9,Mediana,1.0,1.0,1.0,4.0
+zxing-android-embedded,journeyapps,5821,12.31,1279,9,Desvio Padrão,2.84,0.68,88.32,33.45
+jetlinks-community,jetlinks,5819,5.21,1732,19,Média,3.47,1.24,12.62,10.97
+jetlinks-community,jetlinks,5819,5.21,1732,19,Mediana,2.0,1.0,0.0,3.0
+jetlinks-community,jetlinks,5819,5.21,1732,19,Desvio Padrão,4.56,0.48,63.45,26.76
 BoomMenu,Nightonke,5802,9.0,1153,0,,,,,
 DiscreteScrollView,yarolegovich,5787,8.04,785,2,,,,,
 DiskLruCache,JakeWharton,5786,13.21,1177,0,,,,,
-tcc-transaction,changmingxie,5785,9.29,2789,8,,,,,
-circular-progress-button,dmytrodanylyk,5768,10.78,1181,3,,,,,
-camel,apache,5766,15.83,5003,0,,,,,
+tcc-transaction,changmingxie,5785,9.29,2789,8,Média,2.03,1.36,24.34,9.87
+tcc-transaction,changmingxie,5785,9.29,2789,8,Mediana,1.0,1.0,1.0,3.0
+tcc-transaction,changmingxie,5785,9.29,2789,8,Desvio Padrão,3.21,0.87,88.97,23.43
+circular-progress-button,dmytrodanylyk,5768,10.78,1181,3,Média,2.03,1.28,25.33,13.94
+circular-progress-button,dmytrodanylyk,5768,10.78,1181,3,Mediana,2.0,1.0,0.0,7.0
+circular-progress-button,dmytrodanylyk,5768,10.78,1181,3,Desvio Padrão,2.53,0.51,131.91,41.1
+camel,apache,5766,15.83,5003,0,Média,2.09,1.63,76.76,13.7
+camel,apache,5766,15.83,5003,0,Mediana,1.0,1.0,1.0,4.0
+camel,apache,5766,15.83,5003,0,Desvio Padrão,3.94,2.64,2153.76,58.48
 Fast-Android-Networking,amitshekhariitbhu,5761,8.99,967,10,,,,,
-kafdrop,obsidiandynamics,5756,5.81,871,49,,,,,
+kafdrop,obsidiandynamics,5756,5.81,871,49,Média,2.22,1.32,29.49,11.85
+kafdrop,obsidiandynamics,5756,5.81,871,49,Mediana,1.0,1.0,0.0,3.0
+kafdrop,obsidiandynamics,5756,5.81,871,49,Desvio Padrão,3.9,0.86,132.13,38.96
 InfiniteCycleViewPager,Devlight,5737,8.57,829,2,,,,,
-google-java-format,google,5729,9.86,872,32,,,,,
-datax-web,WeiYe-Jing,5722,5.33,2189,5,,,,,
-lanproxy,ffay,5721,8.33,1550,1,,,,,
+google-java-format,google,5729,9.86,872,32,Média,2.52,1.42,67.93,17.12
+google-java-format,google,5729,9.86,872,32,Mediana,2.0,1.0,1.0,5.0
+google-java-format,google,5729,9.86,872,32,Desvio Padrão,4.09,0.86,373.27,89.91
+datax-web,WeiYe-Jing,5722,5.33,2189,5,Média,2.16,1.39,13.24,15.91
+datax-web,WeiYe-Jing,5722,5.33,2189,5,Mediana,1.0,1.0,0.0,4.0
+datax-web,WeiYe-Jing,5722,5.33,2189,5,Desvio Padrão,3.36,0.68,64.06,43.87
+lanproxy,ffay,5721,8.33,1550,1,Média,2.07,1.19,8.21,16.33
+lanproxy,ffay,5721,8.33,1550,1,Mediana,1.0,1.0,0.0,5.0
+lanproxy,ffay,5721,8.33,1550,1,Desvio Padrão,2.68,0.5,27.17,29.97
 FastHub,k0shk0sh,5717,8.08,925,63,,,,,
 wvp-GB28181-pro,648540858,5715,4.34,1618,0,,,,,
-javaparser,javaparser,5712,13.39,1189,53,,,,,
-aurora-imui,jpush,5712,8.26,998,42,,,,,
-iotdb,apache,5711,6.32,1042,39,,,,,
-springside4,springside,5699,13.07,2899,3,,,,,
+javaparser,javaparser,5712,13.39,1189,53,Média,3.68,1.95,117.76,12.23
+javaparser,javaparser,5712,13.39,1189,53,Mediana,3.0,1.0,0.0,4.0
+javaparser,javaparser,5712,13.39,1189,53,Desvio Padrão,6.69,2.07,719.42,49.76
+aurora-imui,jpush,5712,8.26,998,42,Média,2.0,1.53,50.27,14.7
+aurora-imui,jpush,5712,8.26,998,42,Mediana,1.0,1.0,0.0,4.0
+aurora-imui,jpush,5712,8.26,998,42,Desvio Padrão,3.46,1.44,407.5,51.34
+iotdb,apache,5711,6.32,1042,39,Média,2.82,1.61,100.78,18.01
+iotdb,apache,5711,6.32,1042,39,Mediana,2.0,1.0,1.0,4.0
+iotdb,apache,5711,6.32,1042,39,Desvio Padrão,5.53,1.01,2413.6,76.57
+springside4,springside,5699,13.07,2899,3,Média,1.65,1.28,24.78,12.42
+springside4,springside,5699,13.07,2899,3,Mediana,1.0,1.0,1.0,4.0
+springside4,springside,5699,13.07,2899,3,Desvio Padrão,2.05,0.8,109.01,26.23
 Discovery,Nepxion,5698,6.74,1432,130,,,,,
-traccar,traccar,5696,12.93,2707,55,,,,,
-hippo4j,opengoofy,5695,3.75,1204,18,,,,,
-hudi,apache,5693,8.26,2466,30,,,,,
+traccar,traccar,5696,12.93,2707,55,Média,3.42,1.92,5.88,19.81
+traccar,traccar,5696,12.93,2707,55,Mediana,3.0,2.0,0.0,8.0
+traccar,traccar,5696,12.93,2707,55,Desvio Padrão,3.46,0.82,47.26,47.09
+hippo4j,opengoofy,5695,3.75,1204,18,Média,2.46,1.2,2.91,14.56
+hippo4j,opengoofy,5695,3.75,1204,18,Mediana,1.0,1.0,0.0,6.0
+hippo4j,opengoofy,5695,3.75,1204,18,Desvio Padrão,3.31,0.67,8.94,20.76
+hudi,apache,5693,8.26,2466,30,Média,3.65,1.59,60.57,15.9
+hudi,apache,5693,8.26,2466,30,Mediana,2.0,1.0,1.0,5.0
+hudi,apache,5693,8.26,2466,30,Desvio Padrão,5.12,1.02,1075.02,50.5
 SwipeRecyclerView,yanzhenjie,5680,8.62,1098,0,,,,,
 QR-Code-generator,nayuki,5678,8.93,1154,5,,,,,
-pinot,apache,5673,10.83,1342,20,,,,,
-u2020,JakeWharton,5672,11.35,926,0,,,,,
-graphhopper,graphhopper,5669,13.08,1677,45,,,,,
-hive,apache,5655,15.83,4720,0,,,,,
-austin,ZhongFuCheng3y,5648,3.36,1394,0,,,,,
-api-samples,youtube,5643,11.28,2998,0,,,,,
+pinot,apache,5673,10.83,1342,20,Média,2.52,1.23,96.59,16.48
+pinot,apache,5673,10.83,1342,20,Mediana,1.0,1.0,1.0,4.0
+pinot,apache,5673,10.83,1342,20,Desvio Padrão,4.45,0.6,840.19,61.94
+u2020,JakeWharton,5672,11.35,926,0,Média,2.88,1.43,23.62,12.42
+u2020,JakeWharton,5672,11.35,926,0,Mediana,2.0,1.0,0.5,4.0
+u2020,JakeWharton,5672,11.35,926,0,Desvio Padrão,4.29,0.82,184.59,49.77
+graphhopper,graphhopper,5669,13.08,1677,45,Média,2.84,1.26,32.82,16.79
+graphhopper,graphhopper,5669,13.08,1677,45,Mediana,2.0,1.0,1.0,5.0
+graphhopper,graphhopper,5669,13.08,1677,45,Desvio Padrão,4.36,0.68,166.01,67.05
+hive,apache,5655,15.83,4720,0,Média,2.59,1.41,99.67,20.5
+hive,apache,5655,15.83,4720,0,Mediana,2.0,1.0,1.0,5.0
+hive,apache,5655,15.83,4720,0,Desvio Padrão,5.45,1.2,2819.24,629.54
+austin,ZhongFuCheng3y,5648,3.36,1394,0,Média,4.05,1.12,1.45,12.38
+austin,ZhongFuCheng3y,5648,3.36,1394,0,Mediana,3.0,1.0,0.0,7.0
+austin,ZhongFuCheng3y,5648,3.36,1394,0,Desvio Padrão,4.14,0.38,5.12,17.86
+api-samples,youtube,5643,11.28,2998,0,Média,3.49,1.0,4.38,30.16
+api-samples,youtube,5643,11.28,2998,0,Mediana,2.0,1.0,0.0,17.0
+api-samples,youtube,5643,11.28,2998,0,Desvio Padrão,3.77,0.0,9.85,35.28
 IJPay,Javen205,5641,7.88,1378,24,,,,,
-react-native-splash-screen,crazycodeboy,5640,8.51,1104,12,,,,,
+react-native-splash-screen,crazycodeboy,5640,8.51,1104,12,Média,2.21,1.25,2.0,11.92
+react-native-splash-screen,crazycodeboy,5640,8.51,1104,12,Mediana,2.0,1.0,0.5,5.0
+react-native-splash-screen,crazycodeboy,5640,8.51,1104,12,Desvio Padrão,2.51,0.45,2.7,13.77
 HTextView,hanks-zyh,5636,9.25,812,0,,,,,
 Blurry,wasabeef,5630,9.66,606,0,,,,,
 TV,FongMi,5626,2.74,1869,0,,,,,
@@ -505,369 +1157,828 @@ AndroidImageSlider,daimajia,5624,10.8,1654,5,,,,,
 JSqlParser,JSQLParser,5605,13.74,1371,35,,,,,
 FlowLayout,hongyangAndroid,5596,9.56,1166,0,,,,,
 ShowcaseView,amlcurran,5590,12.6,1285,13,,,,,
-lamp-cloud,dromara,5581,7.17,1749,0,,,,,
+lamp-cloud,dromara,5581,7.17,1749,0,Média,3.65,1.28,7.14,11.13
+lamp-cloud,dromara,5581,7.17,1749,0,Mediana,2.0,1.0,0.0,4.0
+lamp-cloud,dromara,5581,7.17,1749,0,Desvio Padrão,4.6,0.46,34.17,24.03
 Android-ZBLibrary,TommyLemon,5560,9.58,1378,25,,,,,
-disconf,knightliao,5553,10.81,2283,12,,,,,
+disconf,knightliao,5553,10.81,2283,12,Média,1.98,1.36,12.62,11.59
+disconf,knightliao,5553,10.81,2283,12,Mediana,1.0,1.0,0.0,3.0
+disconf,knightliao,5553,10.81,2283,12,Desvio Padrão,3.13,0.83,68.22,25.28
 MusicBot,jagrosh,5553,8.59,2652,38,,,,,
 ListViewAnimations,nhaarman,5550,12.0,1646,14,,,,,
 AppManager,MuntashirAkon,5548,4.8,313,72,,,,,
-lettuce,redis,5532,10.86,1009,127,,,,,
+lettuce,redis,5532,10.86,1009,127,Média,2.85,1.42,170.94,9.18
+lettuce,redis,5532,10.86,1009,127,Mediana,2.0,1.0,0.0,3.0
+lettuce,redis,5532,10.86,1009,127,Desvio Padrão,3.39,0.99,3398.7,41.86
 EdXposed,ElderDrivers,5523,6.16,635,27,,,,,
-spring-boot-projects,ZHENFENG13,5519,7.96,1614,0,,,,,
-uid-generator,baidu,5506,7.98,1562,0,,,,,
+spring-boot-projects,ZHENFENG13,5519,7.96,1614,0,Média,1.73,1.08,11.73,8.06
+spring-boot-projects,ZHENFENG13,5519,7.96,1614,0,Mediana,1.0,1.0,1.0,3.0
+spring-boot-projects,ZHENFENG13,5519,7.96,1614,0,Desvio Padrão,2.69,0.47,22.23,12.69
+uid-generator,baidu,5506,7.98,1562,0,Média,0.98,1.28,11.72,10.14
+uid-generator,baidu,5506,7.98,1562,0,Mediana,0.0,1.0,1.0,3.0
+uid-generator,baidu,5506,7.98,1562,0,Desvio Padrão,1.79,0.74,21.2,17.23
 StickyListHeaders,emilsjolander,5501,13.02,1513,16,,,,,
 AmazeFileManager,TeamAmaze,5497,10.68,1597,66,,,,,
-logisim-evolution,logisim-evolution,5491,10.5,697,30,,,,,
-mosby,sockeqwe,5481,9.99,842,15,,,,,
-freeline,alibaba,5472,8.62,621,22,,,,,
+logisim-evolution,logisim-evolution,5491,10.5,697,30,Média,2.17,2.44,28.33,19.15
+logisim-evolution,logisim-evolution,5491,10.5,697,30,Mediana,1.0,2.0,1.0,5.0
+logisim-evolution,logisim-evolution,5491,10.5,697,30,Desvio Padrão,3.2,2.57,125.1,55.21
+mosby,sockeqwe,5481,9.99,842,15,Média,2.53,1.61,9.64,9.76
+mosby,sockeqwe,5481,9.99,842,15,Mediana,2.0,1.0,0.0,4.0
+mosby,sockeqwe,5481,9.99,842,15,Desvio Padrão,3.4,1.23,27.98,19.35
+freeline,alibaba,5472,8.62,621,22,Média,2.01,1.61,13.87,15.92
+freeline,alibaba,5472,8.62,621,22,Mediana,1.0,1.0,1.0,5.0
+freeline,alibaba,5472,8.62,621,22,Desvio Padrão,2.83,1.51,63.54,33.43
 MagicCamera,wuhaoyu1990,5470,9.19,1624,0,,,,,
 AndroidVideoCache,danikula,5455,9.97,1168,20,,,,,
-barcodescanner,dm77,5453,11.07,1432,6,,,,,
-scribejava,scribejava,5452,14.54,1672,9,,,,,
-janusgraph,JanusGraph,5444,8.23,1186,28,,,,,
+barcodescanner,dm77,5453,11.07,1432,6,Média,2.51,1.64,11.82,14.02
+barcodescanner,dm77,5453,11.07,1432,6,Mediana,2.0,1.0,0.0,5.0
+barcodescanner,dm77,5453,11.07,1432,6,Desvio Padrão,3.36,0.86,32.83,30.15
+scribejava,scribejava,5452,14.54,1672,9,Média,2.33,1.4,10.94,10.82
+scribejava,scribejava,5452,14.54,1672,9,Mediana,1.0,1.0,1.0,3.0
+scribejava,scribejava,5452,14.54,1672,9,Desvio Padrão,3.02,0.78,89.92,19.03
+janusgraph,JanusGraph,5444,8.23,1186,28,Média,2.96,1.44,43.92,14.2
+janusgraph,JanusGraph,5444,8.23,1186,28,Mediana,2.0,1.0,1.0,4.0
+janusgraph,JanusGraph,5444,8.23,1186,28,Desvio Padrão,4.88,0.84,663.66,73.98
 TapTargetView,KeepSafe,5422,8.52,594,24,,,,,
-rebound,facebookarchive,5422,11.44,814,10,,,,,
-wechat,motianhuo,5411,9.82,2414,0,,,,,
-dubbo-spring-boot-project,apache,5410,7.16,1876,13,,,,,
-linuxdeploy,meefik,5410,12.58,691,37,,,,,
-jeepay,jeequan,5397,7.6,1828,0,,,,,
+rebound,facebookarchive,5422,11.44,814,10,Média,2.09,1.32,34.93,14.77
+rebound,facebookarchive,5422,11.44,814,10,Mediana,1.0,1.0,0.0,5.0
+rebound,facebookarchive,5422,11.44,814,10,Desvio Padrão,2.98,0.58,238.1,48.95
+wechat,motianhuo,5411,9.82,2414,0,Média,2.3,1.23,15.45,19.29
+wechat,motianhuo,5411,9.82,2414,0,Mediana,1.0,1.0,0.0,6.0
+wechat,motianhuo,5411,9.82,2414,0,Desvio Padrão,3.85,0.63,96.53,57.81
+dubbo-spring-boot-project,apache,5410,7.16,1876,13,Média,3.08,1.2,16.14,10.41
+dubbo-spring-boot-project,apache,5410,7.16,1876,13,Mediana,2.0,1.0,0.0,4.0
+dubbo-spring-boot-project,apache,5410,7.16,1876,13,Desvio Padrão,3.84,0.41,83.68,16.68
+linuxdeploy,meefik,5410,12.58,691,37,Média,2.66,1.65,35.89,17.89
+linuxdeploy,meefik,5410,12.58,691,37,Mediana,2.0,2.0,3.0,6.0
+linuxdeploy,meefik,5410,12.58,691,37,Desvio Padrão,3.52,0.48,119.33,40.27
+jeepay,jeequan,5397,7.6,1828,0,Média,5.16,1.78,4.29,16.75
+jeepay,jeequan,5397,7.6,1828,0,Mediana,3.0,2.0,0.0,7.0
+jeepay,jeequan,5397,7.6,1828,0,Desvio Padrão,5.8,0.86,28.89,25.67
 FastBle,Jasonchenlijian,5380,8.57,1238,9,,,,,
-android-job,Evernote,5370,9.58,558,31,,,,,
-socket.io-client-java,socketio,5368,11.89,979,7,,,,,
+android-job,Evernote,5370,9.58,558,31,Média,3.36,1.77,32.01,15.38
+android-job,Evernote,5370,9.58,558,31,Mediana,2.0,1.0,1.0,6.0
+android-job,Evernote,5370,9.58,558,31,Desvio Padrão,3.57,2.35,135.39,42.31
+socket.io-client-java,socketio,5368,11.89,979,7,Média,1.91,1.1,4.25,14.83
+socket.io-client-java,socketio,5368,11.89,979,7,Mediana,2.0,1.0,0.0,6.0
+socket.io-client-java,socketio,5368,11.89,979,7,Desvio Padrão,2.17,0.42,34.1,43.19
 SystemBarTint,jgilfelt,5360,11.34,1431,3,,,,,
-cw-omnibus,commonsguy,5352,13.02,3770,36,,,,,
-shimmer-android,facebookarchive,5340,10.05,697,5,,,,,
+cw-omnibus,commonsguy,5352,13.02,3770,36,Média,2.38,1.78,20.08,12.38
+cw-omnibus,commonsguy,5352,13.02,3770,36,Mediana,2.0,2.0,0.0,5.0
+cw-omnibus,commonsguy,5352,13.02,3770,36,Desvio Padrão,2.94,0.87,131.7,34.94
+shimmer-android,facebookarchive,5340,10.05,697,5,Média,2.25,1.86,18.0,17.11
+shimmer-android,facebookarchive,5340,10.05,697,5,Mediana,2.0,2.0,10.0,4.0
+shimmer-android,facebookarchive,5340,10.05,697,5,Desvio Padrão,2.96,0.69,24.48,47.86
 XRecyclerView,XRecyclerView,5335,9.33,1258,0,,,,,
-android-advancedrecyclerview,h6ah4i,5326,10.15,857,1,,,,,
-hbase,apache,5307,10.82,3342,45,,,,,
-generator,mybatis,5298,12.1,2504,11,,,,,
-jetcache,alibaba,5293,7.93,1065,66,,,,,
-gradle-retrolambda,evant,5291,11.62,446,37,,,,,
-spring-data-examples,spring-projects,5278,11.13,3416,0,,,,,
-android-lifecycle,xxv,5274,10.92,677,0,,,,,
+android-advancedrecyclerview,h6ah4i,5326,10.15,857,1,Média,2.66,2.41,32.02,13.08
+android-advancedrecyclerview,h6ah4i,5326,10.15,857,1,Mediana,2.0,2.0,0.0,4.0
+android-advancedrecyclerview,h6ah4i,5326,10.15,857,1,Desvio Padrão,3.72,2.21,194.66,45.7
+hbase,apache,5307,10.82,3342,45,Média,2.93,1.5,69.44,18.44
+hbase,apache,5307,10.82,3342,45,Mediana,2.0,1.0,1.0,5.0
+hbase,apache,5307,10.82,3342,45,Desvio Padrão,4.93,1.6,867.94,230.44
+generator,mybatis,5298,12.1,2504,11,Média,3.29,1.93,89.57,24.06
+generator,mybatis,5298,12.1,2504,11,Mediana,3.0,2.0,3.0,6.0
+generator,mybatis,5298,12.1,2504,11,Desvio Padrão,3.86,1.04,454.43,116.69
+jetcache,alibaba,5293,7.93,1065,66,Média,2.97,1.64,15.91,13.68
+jetcache,alibaba,5293,7.93,1065,66,Mediana,2.0,1.0,0.0,4.0
+jetcache,alibaba,5293,7.93,1065,66,Desvio Padrão,3.92,1.1,111.45,32.57
+gradle-retrolambda,evant,5291,11.62,446,37,Média,2.46,1.04,2.16,11.25
+gradle-retrolambda,evant,5291,11.62,446,37,Mediana,2.0,1.0,0.0,5.0
+gradle-retrolambda,evant,5291,11.62,446,37,Desvio Padrão,2.41,0.2,9.01,16.67
+spring-data-examples,spring-projects,5278,11.13,3416,0,Média,1.31,1.01,0.44,4.52
+spring-data-examples,spring-projects,5278,11.13,3416,0,Mediana,1.0,1.0,0.0,3.0
+spring-data-examples,spring-projects,5278,11.13,3416,0,Desvio Padrão,1.53,0.12,2.04,5.06
+android-lifecycle,xxv,5274,10.92,677,0,Média,1.99,1.67,151.67,10.0
+android-lifecycle,xxv,5274,10.92,677,0,Mediana,2.0,2.0,190.0,5.0
+android-lifecycle,xxv,5274,10.92,677,0,Desvio Padrão,1.97,0.52,121.96,22.18
 VitamioBundle,yixia,5272,12.42,2066,0,,,,,
-groovy,apache,5264,9.93,1899,0,,,,,
-google-authenticator,google,5258,10.45,973,0,,,,,
+groovy,apache,5264,9.93,1899,0,Média,2.15,2.16,394.54,14.13
+groovy,apache,5264,9.93,1899,0,Mediana,1.0,1.0,1.0,4.0
+groovy,apache,5264,9.93,1899,0,Desvio Padrão,3.97,4.17,10763.07,83.53
+google-authenticator,google,5258,10.45,973,0,Média,1.59,1.69,29.66,15.67
+google-authenticator,google,5258,10.45,973,0,Mediana,1.0,1.0,1.0,4.0
+google-authenticator,google,5258,10.45,973,0,Desvio Padrão,2.41,1.31,90.16,56.54
 Android-Touch-Helper,zfdang,5248,4.42,509,112,,,,,
 Side-Menu.Android,Yalantis,5244,10.18,1503,2,,,,,
-titan,thinkaurelius,5243,13.06,1009,0,,,,,
-thumbnailator,coobird,5234,9.65,797,0,,,,,
-twoway-view,lucasr,5230,12.17,1020,0,,,,,
+titan,thinkaurelius,5243,13.06,1009,0,Média,2.61,1.37,20.51,13.29
+titan,thinkaurelius,5243,13.06,1009,0,Mediana,2.0,1.0,1.0,4.0
+titan,thinkaurelius,5243,13.06,1009,0,Desvio Padrão,4.43,0.81,117.23,54.39
+thumbnailator,coobird,5234,9.65,797,0,Média,3.01,1.24,93.55,18.57
+thumbnailator,coobird,5234,9.65,797,0,Mediana,3.0,1.0,0.0,8.0
+thumbnailator,coobird,5234,9.65,797,0,Desvio Padrão,2.57,0.71,853.3,87.19
+twoway-view,lucasr,5230,12.17,1020,0,Média,2.46,1.82,86.59,15.21
+twoway-view,lucasr,5230,12.17,1020,0,Mediana,2.0,1.0,1.0,5.0
+twoway-view,lucasr,5230,12.17,1020,0,Desvio Padrão,2.83,1.21,429.29,48.59
 Dexter,Karumi,5222,9.34,670,33,,,,,
 FloatingActionButton,Clans,5216,10.0,1129,14,,,,,
-okdownload,lingochamp,5215,7.25,779,8,,,,,
+okdownload,lingochamp,5215,7.25,779,8,Média,2.79,1.27,35.26,12.23
+okdownload,lingochamp,5215,7.25,779,8,Mediana,2.0,1.0,0.0,4.0
+okdownload,lingochamp,5215,7.25,779,8,Desvio Padrão,3.4,0.78,204.23,33.38
 BasePopup,razerdp,5213,9.18,761,15,,,,,
 Pixiv-Shaft,CeuiLiSA,5212,5.96,195,110,,,,,
-springboot-guide,CodingDocs,5208,6.3,1405,0,,,,,
-novel,201206030,5205,5.35,1387,12,,,,,
-web3j,LFDT-web3j,5192,8.54,1712,118,,,,,
+springboot-guide,CodingDocs,5208,6.3,1405,0,Média,2.44,1.18,1.37,6.52
+springboot-guide,CodingDocs,5208,6.3,1405,0,Mediana,2.0,1.0,0.0,4.0
+springboot-guide,CodingDocs,5208,6.3,1405,0,Desvio Padrão,2.55,0.57,5.54,7.6
+novel,201206030,5205,5.35,1387,12,Média,1.64,1.07,20.62,7.47
+novel,201206030,5205,5.35,1387,12,Mediana,0.0,1.0,0.0,3.0
+novel,201206030,5205,5.35,1387,12,Desvio Padrão,3.35,0.34,67.5,15.95
+web3j,LFDT-web3j,5192,8.54,1712,118,Média,2.45,1.74,34.42,10.52
+web3j,LFDT-web3j,5192,8.54,1712,118,Mediana,2.0,1.0,0.0,3.0
+web3j,LFDT-web3j,5192,8.54,1712,118,Desvio Padrão,4.48,1.7,199.78,34.96
 smartTable,huangyanbin,5185,7.36,866,44,,,,,
-library,ddd-by-examples,5171,6.18,748,0,,,,,
+library,ddd-by-examples,5171,6.18,748,0,Média,4.08,1.04,5.43,6.44
+library,ddd-by-examples,5171,6.18,748,0,Mediana,3.0,1.0,0.0,3.0
+library,ddd-by-examples,5171,6.18,748,0,Desvio Padrão,3.83,0.3,23.41,10.66
 JS-Sorting-Algorithm,hustcc,5170,8.16,1149,0,,,,,
-nifi,apache,5164,10.27,2772,0,,,,,
-otto,square,5153,12.73,845,0,,,,,
-ctci,careercup,5147,11.99,2312,0,,,,,
-strimzi-kafka-operator,strimzi,5145,8.87,1345,146,,,,,
+nifi,apache,5164,10.27,2772,0,Média,2.45,1.43,37.74,14.03
+nifi,apache,5164,10.27,2772,0,Mediana,1.0,1.0,1.0,4.0
+nifi,apache,5164,10.27,2772,0,Desvio Padrão,3.76,0.86,436.13,44.61
+otto,square,5153,12.73,845,0,Média,1.85,1.39,3.55,11.54
+otto,square,5153,12.73,845,0,Mediana,1.0,1.0,0.0,5.0
+otto,square,5153,12.73,845,0,Desvio Padrão,2.04,0.87,14.62,26.65
+ctci,careercup,5147,11.99,2312,0,Média,1.32,1.12,5.1,14.8
+ctci,careercup,5147,11.99,2312,0,Mediana,1.0,1.0,1.0,8.0
+ctci,careercup,5147,11.99,2312,0,Desvio Padrão,1.18,0.43,17.87,20.13
+strimzi-kafka-operator,strimzi,5145,8.87,1345,146,Média,4.21,1.5,46.14,16.43
+strimzi-kafka-operator,strimzi,5145,8.87,1345,146,Mediana,2.0,1.0,1.0,4.0
+strimzi-kafka-operator,strimzi,5145,8.87,1345,146,Desvio Padrão,6.55,0.97,277.37,56.75
 DKVideoPlayer,Doikki,5131,7.94,1051,32,,,,,
-views-widgets-samples,android,5108,5.53,3004,0,,,,,
-dddsample-core,citerus,5101,10.13,1497,0,,,,,
-shattered-pixel-dungeon,00-Evan,5075,10.64,1192,50,,,,,
-usb-serial-for-android,mik3y,5072,11.72,1620,33,,,,,
-keepass2android,PhilippC,5066,7.49,401,29,,,,,
-bitcoinj,bitcoinj,5059,11.33,2505,14,,,,,
-reactor-core,reactor,5058,9.36,1222,197,,,,,
+views-widgets-samples,android,5108,5.53,3004,0,Média,1.9,1.73,7.01,16.53
+views-widgets-samples,android,5108,5.53,3004,0,Mediana,1.0,1.0,0.0,5.0
+views-widgets-samples,android,5108,5.53,3004,0,Desvio Padrão,2.57,1.18,21.03,40.93
+dddsample-core,citerus,5101,10.13,1497,0,Média,3.22,1.14,6.69,9.89
+dddsample-core,citerus,5101,10.13,1497,0,Mediana,2.0,1.0,0.0,4.0
+dddsample-core,citerus,5101,10.13,1497,0,Desvio Padrão,4.05,0.49,22.75,16.8
+shattered-pixel-dungeon,00-Evan,5075,10.64,1192,50,Média,2.74,3.0,13.81,18.99
+shattered-pixel-dungeon,00-Evan,5075,10.64,1192,50,Mediana,1.0,2.0,1.0,6.0
+shattered-pixel-dungeon,00-Evan,5075,10.64,1192,50,Desvio Padrão,5.37,3.26,101.35,52.11
+usb-serial-for-android,mik3y,5072,11.72,1620,33,Média,2.63,1.32,38.97,27.54
+usb-serial-for-android,mik3y,5072,11.72,1620,33,Mediana,1.0,1.0,1.0,6.0
+usb-serial-for-android,mik3y,5072,11.72,1620,33,Desvio Padrão,3.8,0.64,106.81,107.41
+keepass2android,PhilippC,5066,7.49,401,29,Média,1.96,1.68,42.48,18.58
+keepass2android,PhilippC,5066,7.49,401,29,Mediana,1.0,1.0,1.0,5.0
+keepass2android,PhilippC,5066,7.49,401,29,Desvio Padrão,3.0,1.27,299.19,71.08
+bitcoinj,bitcoinj,5059,11.33,2505,14,Média,3.3,1.77,87.39,16.34
+bitcoinj,bitcoinj,5059,11.33,2505,14,Mediana,2.0,1.0,0.0,5.0
+bitcoinj,bitcoinj,5059,11.33,2505,14,Desvio Padrão,4.75,2.74,667.78,78.56
+reactor-core,reactor,5058,9.36,1222,197,Média,2.78,1.68,121.73,16.66
+reactor-core,reactor,5058,9.36,1222,197,Mediana,2.0,1.0,1.0,5.0
+reactor-core,reactor,5058,9.36,1222,197,Desvio Padrão,3.53,1.63,2144.64,57.88
 Small,wequick,5053,9.31,1107,25,,,,,
-picocli,remkop,5045,8.13,434,85,,,,,
+picocli,remkop,5045,8.13,434,85,Média,2.62,1.11,59.4,15.96
+picocli,remkop,5045,8.13,434,85,Mediana,2.0,1.0,0.0,5.0
+picocli,remkop,5045,8.13,434,85,Desvio Padrão,3.2,1.48,974.71,169.35
 Luyten,deathmarine,5036,11.69,1005,17,,,,,
-opentsdb,OpenTSDB,5029,14.56,1244,27,,,,,
-sodium,CaffeineMC,5018,5.13,833,40,,,,,
-android-common,Trinea,5015,12.75,2638,1,,,,,
+opentsdb,OpenTSDB,5029,14.56,1244,27,Média,3.49,1.28,64.88,20.95
+opentsdb,OpenTSDB,5029,14.56,1244,27,Mediana,3.0,1.0,0.0,6.0
+opentsdb,OpenTSDB,5029,14.56,1244,27,Desvio Padrão,3.71,0.8,365.98,76.88
+sodium,CaffeineMC,5018,5.13,833,40,Média,2.76,1.42,13.11,12.76
+sodium,CaffeineMC,5018,5.13,833,40,Mediana,2.0,1.0,1.0,4.0
+sodium,CaffeineMC,5018,5.13,833,40,Desvio Padrão,3.99,2.42,56.7,29.42
+android-common,Trinea,5015,12.75,2638,1,Média,1.64,1.25,124.35,16.03
+android-common,Trinea,5015,12.75,2638,1,Mediana,1.0,1.0,1.0,5.0
+android-common,Trinea,5015,12.75,2638,1,Desvio Padrão,1.81,0.6,700.44,52.02
+android-common,Trinea,5015,12.75,2638,1,Média,1.9,1.25,43.06,14.15
+android-common,Trinea,5015,12.75,2638,1,Mediana,1.0,1.0,1.0,4.0
+android-common,Trinea,5015,12.75,2638,1,Desvio Padrão,2.22,0.62,150.88,37.82
 CameraView,natario1,5014,7.67,951,42,,,,,
 YCSB,brianfrankcooper,5013,14.92,2269,55,,,,,
-sofa-boot,sofastack,5013,6.96,1267,80,,,,,
+sofa-boot,sofastack,5013,6.96,1267,80,Média,2.59,1.19,18.12,10.66
+sofa-boot,sofastack,5013,6.96,1267,80,Mediana,2.0,1.0,0.0,4.0
+sofa-boot,sofastack,5013,6.96,1267,80,Desvio Padrão,3.49,0.53,249.95,24.18
 android-zxingLibrary,yipianfengye,5012,8.65,1042,0,,,,,
 MifareClassicTool,ikarus23,5010,12.1,932,8,,,,,
-easy-rules,j-easy,5009,12.03,1080,10,,,,,
-pmd,pmd,5007,12.69,1508,101,,,,,
+easy-rules,j-easy,5009,12.03,1080,10,Média,2.53,1.31,7.63,9.76
+easy-rules,j-easy,5009,12.03,1080,10,Mediana,2.0,1.0,1.0,4.0
+easy-rules,j-easy,5009,12.03,1080,10,Desvio Padrão,2.52,0.65,23.51,18.83
+pmd,pmd,5007,12.69,1508,101,Média,2.67,2.07,44.02,10.79
+pmd,pmd,5007,12.69,1508,101,Mediana,2.0,2.0,1.0,3.0
+pmd,pmd,5007,12.69,1508,101,Desvio Padrão,4.37,2.61,599.34,64.78
 GravitySnapHelper,rubensousa,5006,8.55,617,14,,,,,
 UltraViewPager,alibaba,4997,7.97,681,10,,,,,
-shopping-management-system,zhanglei-workspace,4994,9.34,2249,0,,,,,
-dialogplus,orhanobut,4994,10.27,791,9,,,,,
+shopping-management-system,zhanglei-workspace,4994,9.34,2249,0,Média,1.49,1.36,76.33,13.2
+shopping-management-system,zhanglei-workspace,4994,9.34,2249,0,Mediana,1.0,1.0,3.0,4.0
+shopping-management-system,zhanglei-workspace,4994,9.34,2249,0,Desvio Padrão,2.07,0.66,592.77,35.67
+dialogplus,orhanobut,4994,10.27,791,9,Média,2.43,1.03,57.86,10.11
+dialogplus,orhanobut,4994,10.27,791,9,Mediana,2.0,1.0,0.0,4.0
+dialogplus,orhanobut,4994,10.27,791,9,Desvio Padrão,2.98,0.19,255.17,27.34
 LayoutManagerGroup,DingMouRen,4985,6.89,679,0,,,,,
 QLExpress,alibaba,4984,8.01,1167,10,,,,,
-joda-time,JodaOrg,4984,13.85,984,49,,,,,
+joda-time,JodaOrg,4984,13.85,984,49,Média,2.51,2.28,294.75,16.27
+joda-time,JodaOrg,4984,13.85,984,49,Mediana,2.0,2.0,10.0,6.0
+joda-time,JodaOrg,4984,13.85,984,49,Desvio Padrão,2.9,1.87,783.95,67.24
 TelegramBots,rubenlagus,4983,9.18,1264,105,,,,,
-spring-mvc-showcase,spring-attic,4982,13.8,3690,0,,,,,
+spring-mvc-showcase,spring-attic,4982,13.8,3690,0,Média,1.93,1.21,9.45,6.71
+spring-mvc-showcase,spring-attic,4982,13.8,3690,0,Mediana,1.0,1.0,0.0,3.0
+spring-mvc-showcase,spring-attic,4982,13.8,3690,0,Desvio Padrão,2.31,0.45,23.87,10.55
 InstaMaterial,frogermcs,4980,10.36,1439,1,,,,,
 JustTrustMe,Fuzion24,4978,10.65,809,1,,,,,
 XUI,xuexiangjys,4977,6.19,851,23,,,,,
-midjourney-proxy,novicezk,4973,1.9,2410,0,,,,,
-lwjgl3,LWJGL,4967,12.24,648,21,,,,,
+midjourney-proxy,novicezk,4973,1.9,2410,0,Média,3.22,1.24,5.81,13.61
+midjourney-proxy,novicezk,4973,1.9,2410,0,Mediana,2.0,1.0,0.0,5.0
+midjourney-proxy,novicezk,4973,1.9,2410,0,Desvio Padrão,3.87,0.55,14.41,23.44
+lwjgl3,LWJGL,4967,12.24,648,21,Média,1.75,2.37,1007.13,8.33
+lwjgl3,LWJGL,4967,12.24,648,21,Mediana,2.0,2.0,78.0,3.0
+lwjgl3,LWJGL,4967,12.24,648,21,Desvio Padrão,2.18,1.27,20038.65,51.21
 CloudReader,youlookwhat,4963,8.33,1331,25,,,,,
-spring-authorization-server,spring-projects,4955,5.0,1324,68,,,,,
-mapdb,jankotek,4949,12.59,880,0,,,,,
+spring-authorization-server,spring-projects,4955,5.0,1324,68,Média,2.96,1.2,26.1,12.0
+spring-authorization-server,spring-projects,4955,5.0,1324,68,Mediana,2.0,1.0,0.0,4.0
+spring-authorization-server,spring-projects,4955,5.0,1324,68,Desvio Padrão,3.93,0.59,176.15,29.25
+mapdb,jankotek,4949,12.59,880,0,Média,1.56,2.02,81.85,16.9
+mapdb,jankotek,4949,12.59,880,0,Mediana,1.0,1.0,0.0,6.0
+mapdb,jankotek,4949,12.59,880,0,Desvio Padrão,2.03,3.55,452.76,72.34
 RxJava2-Android-Samples,amitshekhariitbhu,4949,8.56,1065,0,,,,,
-liquibase,liquibase,4948,13.7,1888,101,,,,,
-gpmall,2227324689,4948,5.67,1882,0,,,,,
+liquibase,liquibase,4948,13.7,1888,101,Média,2.52,1.77,61.96,14.15
+liquibase,liquibase,4948,13.7,1888,101,Mediana,1.0,2.0,3.0,3.0
+liquibase,liquibase,4948,13.7,1888,101,Desvio Padrão,4.05,0.92,543.69,44.7
+gpmall,2227324689,4948,5.67,1882,0,Média,2.64,1.36,8.17,10.33
+gpmall,2227324689,4948,5.67,1882,0,Mediana,1.0,1.0,0.0,3.5
+gpmall,2227324689,4948,5.67,1882,0,Desvio Padrão,4.17,0.64,43.34,18.78
 NavigationTabBar,Devlight,4947,8.97,872,13,,,,,
-runelite,runelite,4943,8.88,5302,0,,,,,
-xpay,Exrick,4935,7.27,1110,0,,,,,
+runelite,runelite,4943,8.88,5302,0,Média,2.54,1.38,43.44,26.11
+runelite,runelite,4943,8.88,5302,0,Mediana,1.0,1.0,0.0,5.0
+runelite,runelite,4943,8.88,5302,0,Desvio Padrão,4.23,0.93,1094.44,418.76
+xpay,Exrick,4935,7.27,1110,0,Média,1.74,1.0,93.43,13.21
+xpay,Exrick,4935,7.27,1110,0,Mediana,0.0,1.0,1.0,3.0
+xpay,Exrick,4935,7.27,1110,0,Desvio Padrão,3.59,0.0,288.5,36.44
 OsmAnd,osmandapp,4932,14.18,1045,1,,,,,
-megabasterd,tonikelope,4931,8.47,609,208,,,,,
+megabasterd,tonikelope,4931,8.47,609,208,Média,1.48,1.49,85.72,28.52
+megabasterd,tonikelope,4931,8.47,609,208,Mediana,1.0,1.0,0.0,5.0
+megabasterd,tonikelope,4931,8.47,609,208,Desvio Padrão,2.48,1.33,378.93,121.53
 Geyser,GeyserMC,4931,5.7,710,0,,,,,
 RippleEffect,traex,4921,10.43,1078,0,,,,,
-react-native-linear-gradient,react-native-linear-gradient,4914,9.97,699,18,,,,,
-folding-cell-android,Ramotion,4902,8.96,841,0,,,,,
-spring-cloud-netflix,spring-cloud,4899,10.69,2452,18,,,,,
-ignite,apache,4897,10.08,1911,0,,,,,
+react-native-linear-gradient,react-native-linear-gradient,4914,9.97,699,18,Média,2.7,1.53,11.59,10.16
+react-native-linear-gradient,react-native-linear-gradient,4914,9.97,699,18,Mediana,2.0,1.0,1.0,4.0
+react-native-linear-gradient,react-native-linear-gradient,4914,9.97,699,18,Desvio Padrão,2.63,0.72,24.53,18.63
+folding-cell-android,Ramotion,4902,8.96,841,0,Média,2.07,1.33,13.38,14.31
+folding-cell-android,Ramotion,4902,8.96,841,0,Mediana,1.0,1.0,0.0,5.0
+folding-cell-android,Ramotion,4902,8.96,841,0,Desvio Padrão,2.7,0.48,37.52,32.67
+spring-cloud-netflix,spring-cloud,4899,10.69,2452,18,Média,2.74,1.24,93.51,9.46
+spring-cloud-netflix,spring-cloud,4899,10.69,2452,18,Mediana,2.0,1.0,0.0,3.0
+spring-cloud-netflix,spring-cloud,4899,10.69,2452,18,Desvio Padrão,4.03,0.55,937.64,27.61
+ignite,apache,4897,10.08,1911,0,Média,2.5,1.66,489.56,15.35
+ignite,apache,4897,10.08,1911,0,Mediana,1.0,1.0,0.0,4.0
+ignite,apache,4897,10.08,1911,0,Desvio Padrão,4.36,1.37,63140.58,172.65
 Android-IMSI-Catcher-Detector,CellularPrivacy,4895,11.32,977,48,,,,,
-armeria,line,4880,9.34,938,255,,,,,
-oshi,oshi,4880,13.11,894,161,,,,,
+armeria,line,4880,9.34,938,255,Média,2.93,1.33,34.16,13.23
+armeria,line,4880,9.34,938,255,Mediana,2.0,1.0,0.0,4.0
+armeria,line,4880,9.34,938,255,Desvio Padrão,3.63,0.88,257.79,35.83
+oshi,oshi,4880,13.11,894,161,Média,2.06,1.56,30.83,15.25
+oshi,oshi,4880,13.11,894,161,Mediana,1.0,1.0,1.0,3.0
+oshi,oshi,4880,13.11,894,161,Desvio Padrão,3.35,1.2,124.05,35.53
 DesignPattern,youlookwhat,4879,8.41,1435,0,,,,,
-roncoo-pay,roncoo,4877,8.66,2577,0,,,,,
-react-native-config,lugg,4875,9.07,661,26,,,,,
-wgcloud,tianshiyeben,4863,6.17,863,27,,,,,
-dynamic-datasource,baomidou,4852,6.89,1206,18,,,,,
-sensitive-word,houbb,4843,5.19,660,2,,,,,
-cglib,cglib,4837,10.98,891,15,,,,,
-bisq,bisq-network,4833,11.02,1277,140,,,,,
-reactive-streams-jvm,reactive-streams,4832,11.05,535,0,,,,,
-querydsl,querydsl,4831,13.62,880,35,,,,,
-java-faker,DiUS,4830,13.79,862,0,,,,,
+roncoo-pay,roncoo,4877,8.66,2577,0,Média,1.63,1.28,62.94,11.64
+roncoo-pay,roncoo,4877,8.66,2577,0,Mediana,0.0,1.0,3.0,3.0
+roncoo-pay,roncoo,4877,8.66,2577,0,Desvio Padrão,3.34,0.66,312.8,33.65
+react-native-config,lugg,4875,9.07,661,26,Média,2.85,1.39,1.96,10.64
+react-native-config,lugg,4875,9.07,661,26,Mediana,2.0,1.0,1.0,5.0
+react-native-config,lugg,4875,9.07,661,26,Desvio Padrão,2.84,0.66,3.3,12.12
+wgcloud,tianshiyeben,4863,6.17,863,27,Média,1.71,1.19,34.54,10.57
+wgcloud,tianshiyeben,4863,6.17,863,27,Mediana,1.0,1.0,9.5,3.0
+wgcloud,tianshiyeben,4863,6.17,863,27,Desvio Padrão,3.66,0.4,49.62,25.17
+dynamic-datasource,baomidou,4852,6.89,1206,18,Média,2.38,1.15,2.51,14.24
+dynamic-datasource,baomidou,4852,6.89,1206,18,Mediana,1.0,1.0,0.0,6.0
+dynamic-datasource,baomidou,4852,6.89,1206,18,Desvio Padrão,3.3,0.51,8.48,22.93
+sensitive-word,houbb,4843,5.19,660,2,Média,2.0,1.2,20.85,8.23
+sensitive-word,houbb,4843,5.19,660,2,Mediana,2.0,1.0,0.0,4.0
+sensitive-word,houbb,4843,5.19,660,2,Desvio Padrão,2.28,0.51,141.07,16.04
+cglib,cglib,4837,10.98,891,15,Média,1.45,1.53,261.8,10.57
+cglib,cglib,4837,10.98,891,15,Mediana,1.0,1.0,0.0,3.0
+cglib,cglib,4837,10.98,891,15,Desvio Padrão,2.83,1.16,5178.17,42.48
+bisq,bisq-network,4833,11.02,1277,140,Média,3.07,1.77,30.29,15.15
+bisq,bisq-network,4833,11.02,1277,140,Mediana,2.0,1.0,0.0,5.0
+bisq,bisq-network,4833,11.02,1277,140,Desvio Padrão,4.99,1.19,364.31,44.81
+reactive-streams-jvm,reactive-streams,4832,11.05,535,0,Média,2.06,1.28,20.34,13.86
+reactive-streams-jvm,reactive-streams,4832,11.05,535,0,Mediana,2.0,1.0,0.0,5.0
+reactive-streams-jvm,reactive-streams,4832,11.05,535,0,Desvio Padrão,1.92,0.8,127.96,42.96
+querydsl,querydsl,4831,13.62,880,35,Média,2.73,1.99,42.9,10.02
+querydsl,querydsl,4831,13.62,880,35,Mediana,2.0,1.0,0.0,3.0
+querydsl,querydsl,4831,13.62,880,35,Desvio Padrão,3.44,2.14,572.85,31.36
+java-faker,DiUS,4830,13.79,862,0,Média,2.67,1.45,40.75,7.83
+java-faker,DiUS,4830,13.79,862,0,Mediana,2.0,1.0,0.0,3.0
+java-faker,DiUS,4830,13.79,862,0,Desvio Padrão,3.55,0.5,391.21,20.97
 QAuxiliary,cinit,4829,3.13,348,46,,,,,
 WukongCRM-11.0-JAVA,WuKongOpenSource,4829,3.95,734,0,,,,,
-typespec,microsoft,4828,3.71,252,109,,,,,
-packer-ng-plugin,mcxiaoke,4822,9.32,864,1,,,,,
+typespec,microsoft,4828,3.71,252,109,Média,,,,
+typespec,microsoft,4828,3.71,252,109,Mediana,,,,
+typespec,microsoft,4828,3.71,252,109,Desvio Padrão,,,,
+packer-ng-plugin,mcxiaoke,4822,9.32,864,1,Média,1.49,1.39,18.65,17.08
+packer-ng-plugin,mcxiaoke,4822,9.32,864,1,Mediana,1.0,1.0,1.0,7.0
+packer-ng-plugin,mcxiaoke,4822,9.32,864,1,Desvio Padrão,1.59,0.88,41.44,32.02
 Transitions-Everywhere,andkulikov,4815,10.43,488,23,,,,,
-lucida,claritylab,4806,10.85,879,0,,,,,
-openai-java,TheoKanning,4797,4.5,1222,22,,,,,
-orientdb,orientechnologies,4784,12.28,874,219,,,,,
-jpexs-decompiler,jindrapetrik,4782,10.86,674,168,,,,,
-killbill,killbill,4778,12.41,806,149,,,,,
+lucida,claritylab,4806,10.85,879,0,Média,2.18,1.54,23.52,21.55
+lucida,claritylab,4806,10.85,879,0,Mediana,1.0,1.0,1.0,6.0
+lucida,claritylab,4806,10.85,879,0,Desvio Padrão,3.67,0.78,74.22,68.07
+openai-java,TheoKanning,4797,4.5,1222,22,Média,4.46,1.08,15.55,9.35
+openai-java,TheoKanning,4797,4.5,1222,22,Mediana,4.0,1.0,0.0,4.0
+openai-java,TheoKanning,4797,4.5,1222,22,Desvio Padrão,5.35,0.37,182.88,22.23
+orientdb,orientechnologies,4784,12.28,874,219,Média,2.46,1.63,325.49,18.56
+orientdb,orientechnologies,4784,12.28,874,219,Mediana,2.0,1.0,1.0,5.0
+orientdb,orientechnologies,4784,12.28,874,219,Desvio Padrão,3.91,0.96,16846.13,195.93
+jpexs-decompiler,jindrapetrik,4782,10.86,674,168,Média,2.31,1.89,58.64,21.3
+jpexs-decompiler,jindrapetrik,4782,10.86,674,168,Mediana,1.0,1.0,1.0,5.0
+jpexs-decompiler,jindrapetrik,4782,10.86,674,168,Desvio Padrão,5.6,1.83,601.07,106.91
+killbill,killbill,4778,12.41,806,149,Média,3.97,1.8,28.26,16.34
+killbill,killbill,4778,12.41,806,149,Mediana,2.0,1.0,1.0,5.0
+killbill,killbill,4778,12.41,806,149,Desvio Padrão,5.51,1.1,124.04,49.93
 Android-ConvenientBanner,saiwu-bigkoo,4770,10.24,1051,0,,,,,
-aviatorscript,killme2008,4767,13.98,869,52,,,,,
-rstudio,rstudio,4764,14.28,1112,0,,,,,
-calcite,apache,4760,10.73,2414,0,,,,,
-react-native-webrtc,react-native-webrtc,4756,9.48,1255,80,,,,,
-spotless,diffplug,4755,9.9,464,20,,,,,
+aviatorscript,killme2008,4767,13.98,869,52,Média,2.27,1.5,60.98,16.8
+aviatorscript,killme2008,4767,13.98,869,52,Mediana,2.0,1.0,1.0,4.0
+aviatorscript,killme2008,4767,13.98,869,52,Desvio Padrão,3.01,0.78,379.86,70.51
+rstudio,rstudio,4764,14.28,1112,0,Média,2.14,1.28,353.56,9.35
+rstudio,rstudio,4764,14.28,1112,0,Mediana,1.0,1.0,0.0,3.0
+rstudio,rstudio,4764,14.28,1112,0,Desvio Padrão,4.82,0.64,12433.86,47.94
+calcite,apache,4760,10.73,2414,0,Média,3.22,1.71,358.65,14.68
+calcite,apache,4760,10.73,2414,0,Mediana,2.0,1.0,1.0,4.0
+calcite,apache,4760,10.73,2414,0,Desvio Padrão,4.57,2.11,7051.25,91.94
+react-native-webrtc,react-native-webrtc,4756,9.48,1255,80,Média,3.35,1.15,8.39,21.07
+react-native-webrtc,react-native-webrtc,4756,9.48,1255,80,Mediana,2.0,1.0,0.0,9.0
+react-native-webrtc,react-native-webrtc,4756,9.48,1255,80,Desvio Padrão,4.79,0.36,29.3,69.69
+spotless,diffplug,4755,9.9,464,20,Média,2.53,1.76,13.77,12.46
+spotless,diffplug,4755,9.9,464,20,Mediana,2.0,1.0,1.0,5.0
+spotless,diffplug,4755,9.9,464,20,Desvio Padrão,2.66,1.3,94.74,26.32
 AndroidStaggeredGrid,etsy,4749,11.28,1122,7,,,,,
-cameraview,google,4742,8.62,1026,0,,,,,
-small-spring,fuzhengwei,4739,3.84,1404,0,,,,,
-android-tips-tricks,nisrulz,4734,8.56,577,0,,,,,
-reflections,ronmamo,4734,11.93,706,3,,,,,
+cameraview,google,4742,8.62,1026,0,Média,2.24,1.26,12.12,13.31
+cameraview,google,4742,8.62,1026,0,Mediana,2.0,1.0,0.0,5.0
+cameraview,google,4742,8.62,1026,0,Desvio Padrão,2.92,0.58,34.17,38.34
+cameraview,google,4742,8.62,1026,0,Média,3.17,1.37,34.76,13.52
+cameraview,google,4742,8.62,1026,0,Mediana,2.0,1.0,0.0,5.0
+cameraview,google,4742,8.62,1026,0,Desvio Padrão,4.19,0.74,335.64,46.42
+small-spring,fuzhengwei,4739,3.84,1404,0,Média,1.81,1.25,12.7,10.31
+small-spring,fuzhengwei,4739,3.84,1404,0,Mediana,1.0,1.0,0.0,3.0
+small-spring,fuzhengwei,4739,3.84,1404,0,Desvio Padrão,2.52,0.83,64.74,32.63
+android-tips-tricks,nisrulz,4734,8.56,577,0,Média,0.6,1.0,0.0,8.0
+android-tips-tricks,nisrulz,4734,8.56,577,0,Mediana,1.0,1.0,0.0,5.0
+android-tips-tricks,nisrulz,4734,8.56,577,0,Desvio Padrão,0.55,,,7.91
+reflections,ronmamo,4734,11.93,706,3,Média,2.28,1.15,13.66,10.62
+reflections,ronmamo,4734,11.93,706,3,Mediana,1.0,1.0,0.0,3.0
+reflections,ronmamo,4734,11.93,706,3,Desvio Padrão,3.58,0.5,71.36,23.38
 Suwayomi-Server,Suwayomi,4732,4.23,227,56,,,,,
 SwitchButton,kyleduo,4731,10.53,868,0,,,,,
 Digital,hneemann,4723,8.72,479,35,,,,,
-mybatis,tuguangquan,4722,10.38,2373,0,,,,,
+mybatis,tuguangquan,4722,10.38,2373,0,Média,1.93,1.3,21.47,11.4
+mybatis,tuguangquan,4722,10.38,2373,0,Mediana,1.0,1.0,0.0,3.0
+mybatis,tuguangquan,4722,10.38,2373,0,Desvio Padrão,2.91,0.82,204.21,32.92
 baseAdapter,hongyangAndroid,4722,9.63,1195,0,,,,,
-spring-boot-best-practice,javastacks,4710,6.36,1293,0,,,,,
+spring-boot-best-practice,javastacks,4710,6.36,1293,0,Média,3.04,1.09,3.14,7.29
+spring-boot-best-practice,javastacks,4710,6.36,1293,0,Mediana,2.0,1.0,0.0,5.0
+spring-boot-best-practice,javastacks,4710,6.36,1293,0,Desvio Padrão,2.82,0.35,27.28,9.13
 Spring-Boot-In-Action,hansonwang99,4705,6.14,1495,0,,,,,
-chuck,jgilfelt,4700,8.11,455,5,,,,,
-spring-security-oauth,spring-attic,4694,13.65,4029,0,,,,,
-mockserver,mock-server,4691,12.06,1085,0,,,,,
+chuck,jgilfelt,4700,8.11,455,5,Média,2.39,1.38,55.74,11.45
+chuck,jgilfelt,4700,8.11,455,5,Mediana,2.0,1.0,0.5,4.0
+chuck,jgilfelt,4700,8.11,455,5,Desvio Padrão,3.42,0.66,281.55,26.09
+spring-security-oauth,spring-attic,4694,13.65,4029,0,Média,2.98,1.61,11.52,12.19
+spring-security-oauth,spring-attic,4694,13.65,4029,0,Mediana,2.0,1.0,0.0,5.0
+spring-security-oauth,spring-attic,4694,13.65,4029,0,Desvio Padrão,3.79,1.59,47.2,27.27
+mockserver,mock-server,4691,12.06,1085,0,Média,3.28,1.68,95.18,13.19
+mockserver,mock-server,4691,12.06,1085,0,Mediana,2.0,1.0,1.0,5.0
+mockserver,mock-server,4691,12.06,1085,0,Desvio Padrão,3.8,1.11,1165.77,42.1
 ActiveAndroid,pardom-zz,4690,12.34,1033,0,,,,,
 MaterialDateTimePicker,wdullaer,4666,10.21,944,54,,,,,
 FirebaseUI-Android,firebase,4666,9.7,1844,66,,,,,
-cardslib,gabrielemariotti,4650,11.5,1189,27,,,,,
+cardslib,gabrielemariotti,4650,11.5,1189,27,Média,2.67,2.18,18.62,13.23
+cardslib,gabrielemariotti,4650,11.5,1189,27,Mediana,2.0,1.0,0.0,4.0
+cardslib,gabrielemariotti,4650,11.5,1189,27,Desvio Padrão,3.58,2.04,104.38,34.08
 PageIndicatorView,romandanylyk,4640,8.58,565,14,,,,,
-blog_demos,zq2599,4633,7.94,1873,0,,,,,
-microservices-platform,zlt2000,4633,6.03,1690,30,,,,,
+blog_demos,zq2599,4633,7.94,1873,0,Média,2.03,1.2,15.17,11.52
+blog_demos,zq2599,4633,7.94,1873,0,Mediana,1.0,1.0,0.0,4.0
+blog_demos,zq2599,4633,7.94,1873,0,Desvio Padrão,2.77,0.68,120.76,32.66
+microservices-platform,zlt2000,4633,6.03,1690,30,Média,3.33,1.25,6.67,10.41
+microservices-platform,zlt2000,4633,6.03,1690,30,Mediana,2.0,1.0,0.0,5.0
+microservices-platform,zlt2000,4633,6.03,1690,30,Desvio Padrão,3.86,0.58,31.2,17.98
 esProc,SPLWare,4627,3.35,343,0,,,,,
-spring-cloud-gateway,spring-cloud,4612,8.34,3369,23,,,,,
-libsvm,cjlin1,4611,11.52,1635,0,,,,,
+spring-cloud-gateway,spring-cloud,4612,8.34,3369,23,Média,3.23,1.37,17.8,10.94
+spring-cloud-gateway,spring-cloud,4612,8.34,3369,23,Mediana,2.0,1.0,0.0,4.0
+spring-cloud-gateway,spring-cloud,4612,8.34,3369,23,Desvio Padrão,4.24,0.81,139.66,24.96
+libsvm,cjlin1,4611,11.52,1635,0,Média,2.31,1.35,19.62,36.94
+libsvm,cjlin1,4611,11.52,1635,0,Mediana,1.0,1.0,0.0,8.0
+libsvm,cjlin1,4611,11.52,1635,0,Desvio Padrão,2.82,0.88,100.04,101.79
 JAViewer,SplashCodes,4611,8.83,696,10,,,,,
 SpringBoot-Shiro-Vue,Heeexy,4603,7.33,1787,0,,,,,
-ribbon,Netflix,4595,12.18,1248,41,,,,,
-rocketmq-externals,apache,4590,8.01,3069,0,,,,,
+ribbon,Netflix,4595,12.18,1248,41,Média,2.95,1.27,13.38,12.52
+ribbon,Netflix,4595,12.18,1248,41,Mediana,2.0,1.0,0.0,4.0
+ribbon,Netflix,4595,12.18,1248,41,Desvio Padrão,3.94,0.66,99.93,30.87
+rocketmq-externals,apache,4590,8.01,3069,0,Média,2.31,1.25,16.45,13.54
+rocketmq-externals,apache,4590,8.01,3069,0,Mediana,1.0,1.0,0.0,5.0
+rocketmq-externals,apache,4590,8.01,3069,0,Desvio Padrão,3.44,0.56,88.28,26.19
 JSON-java,stleary,4586,14.25,2568,23,,,,,
-crawler4j,yasserg,4580,13.22,1925,3,,,,,
-poi-tl,Sayi,4577,10.0,1057,14,,,,,
+crawler4j,yasserg,4580,13.22,1925,3,Média,1.78,1.31,55.89,15.16
+crawler4j,yasserg,4580,13.22,1925,3,Mediana,1.0,1.0,1.0,3.0
+crawler4j,yasserg,4580,13.22,1925,3,Desvio Padrão,3.27,0.56,331.07,34.34
+poi-tl,Sayi,4577,10.0,1057,14,Média,2.5,1.21,89.66,11.79
+poi-tl,Sayi,4577,10.0,1057,14,Mediana,1.0,1.0,0.0,3.0
+poi-tl,Sayi,4577,10.0,1057,14,Desvio Padrão,4.16,0.53,1507.2,31.02
 SimplifyReader,chentao0707,4576,9.59,1605,0,,,,,
-quasar,puniverse,4567,11.98,574,18,,,,,
-automq,AutoMQ,4566,1.58,286,57,,,,,
+quasar,puniverse,4567,11.98,574,18,Média,1.92,1.5,36.0,12.36
+quasar,puniverse,4567,11.98,574,18,Mediana,1.0,1.0,0.0,4.0
+quasar,puniverse,4567,11.98,574,18,Desvio Padrão,2.73,1.17,433.68,41.17
+automq,AutoMQ,4566,1.58,286,57,Média,3.2,1.41,46.28,15.86
+automq,AutoMQ,4566,1.58,286,57,Mediana,2.0,1.0,0.0,5.0
+automq,AutoMQ,4566,1.58,286,57,Desvio Padrão,5.29,1.05,605.11,66.3
 ForestBlog,saysky,4566,7.44,1645,0,,,,,
 JGrowing,javagrowing,4565,6.06,936,0,,,,,
-micrometer,micrometer-metrics,4563,7.94,1013,255,,,,,
-db-tutorial,dunwu,4560,7.61,587,0,,,,,
-javacpp,bytedeco,4560,10.91,591,12,,,,,
+micrometer,micrometer-metrics,4563,7.94,1013,255,Média,2.81,1.28,19.71,11.61
+micrometer,micrometer-metrics,4563,7.94,1013,255,Mediana,2.0,1.0,0.0,4.0
+micrometer,micrometer-metrics,4563,7.94,1013,255,Desvio Padrão,3.54,0.65,135.91,31.17
+db-tutorial,dunwu,4560,7.61,587,0,Média,2.62,1.18,32.61,16.48
+db-tutorial,dunwu,4560,7.61,587,0,Mediana,2.0,1.0,0.0,7.0
+db-tutorial,dunwu,4560,7.61,587,0,Desvio Padrão,2.9,0.55,181.5,51.22
+javacpp,bytedeco,4560,10.91,591,12,Média,2.48,2.02,153.19,16.1
+javacpp,bytedeco,4560,10.91,591,12,Mediana,2.0,2.0,1.0,3.0
+javacpp,bytedeco,4560,10.91,591,12,Desvio Padrão,2.68,1.24,384.77,127.01
 Depth-LIB-Android-,danielzeller,4557,8.89,591,0,,,,,
 Douya,zhanghai,4557,9.13,1143,11,,,,,
-sqlbrite,square,4556,10.08,417,9,,,,,
-go-lang-idea-plugin,go-lang-plugin-org,4555,14.56,570,21,,,,,
-android-crop,jdamcd,4538,11.02,1075,6,,,,,
-maven,apache,4537,15.83,2718,23,,,,,
---,981011512,4526,4.75,2245,0,,,,,
-concurrent,RedSpider1,4525,6.37,612,0,,,,,
-dexposed,alibaba,4524,9.72,1070,0,,,,,
-bottomsheet,Flipboard,4522,9.91,595,10,,,,,
-simplify,CalebFenton,4516,11.17,445,9,,,,,
+sqlbrite,square,4556,10.08,417,9,Média,3.11,1.36,4.3,11.8
+sqlbrite,square,4556,10.08,417,9,Mediana,2.0,1.0,0.0,5.0
+sqlbrite,square,4556,10.08,417,9,Desvio Padrão,3.45,0.77,27.94,37.23
+go-lang-idea-plugin,go-lang-plugin-org,4555,14.56,570,21,Média,3.36,2.07,110.03,11.16
+go-lang-idea-plugin,go-lang-plugin-org,4555,14.56,570,21,Mediana,2.0,2.0,3.0,3.0
+go-lang-idea-plugin,go-lang-plugin-org,4555,14.56,570,21,Desvio Padrão,4.7,1.33,2012.34,54.07
+android-crop,jdamcd,4538,11.02,1075,6,Média,2.22,1.39,26.48,15.17
+android-crop,jdamcd,4538,11.02,1075,6,Mediana,1.0,1.0,0.0,6.0
+android-crop,jdamcd,4538,11.02,1075,6,Desvio Padrão,2.68,0.67,80.43,38.56
+maven,apache,4537,15.83,2718,23,Média,2.51,1.56,48.28,13.35
+maven,apache,4537,15.83,2718,23,Mediana,2.0,1.0,1.0,4.0
+maven,apache,4537,15.83,2718,23,Desvio Padrão,7.91,0.89,609.59,41.2
+--,981011512,4526,4.75,2245,0,Média,1.6,2.91,440.69,11.81
+--,981011512,4526,4.75,2245,0,Mediana,2.0,2.0,0.0,4.0
+--,981011512,4526,4.75,2245,0,Desvio Padrão,2.88,53.0,5566.32,169.7
+concurrent,RedSpider1,4525,6.37,612,0,Média,,,,
+concurrent,RedSpider1,4525,6.37,612,0,Mediana,,,,
+concurrent,RedSpider1,4525,6.37,612,0,Desvio Padrão,,,,
+dexposed,alibaba,4524,9.72,1070,0,Média,1.49,1.69,82.83,17.87
+dexposed,alibaba,4524,9.72,1070,0,Mediana,1.0,1.0,0.0,9.0
+dexposed,alibaba,4524,9.72,1070,0,Desvio Padrão,1.81,1.35,424.41,62.87
+bottomsheet,Flipboard,4522,9.91,595,10,Média,2.5,1.37,27.66,13.6
+bottomsheet,Flipboard,4522,9.91,595,10,Mediana,2.0,1.0,0.0,4.0
+bottomsheet,Flipboard,4522,9.91,595,10,Desvio Padrão,3.29,0.67,176.52,43.17
+simplify,CalebFenton,4516,11.17,445,9,Média,3.49,1.4,20.74,15.5
+simplify,CalebFenton,4516,11.17,445,9,Mediana,3.0,1.0,0.0,5.0
+simplify,CalebFenton,4516,11.17,445,9,Desvio Padrão,3.68,0.84,75.98,38.84
 Infinity-For-Reddit,Docile-Alligator,4514,6.65,422,173,,,,,
 SmoothProgressBar,castorflex,4513,11.31,1005,9,,,,,
 GCViewer,chewiebug,4512,13.41,984,5,,,,,
-android,nextcloud,4498,8.78,1813,244,,,,,
+android,nextcloud,4498,8.78,1813,244,Média,2.31,1.52,15.65,18.26
+android,nextcloud,4498,8.78,1813,244,Mediana,1.0,1.0,0.0,6.0
+android,nextcloud,4498,8.78,1813,244,Desvio Padrão,3.58,1.04,173.81,49.45
+android,nextcloud,4498,8.78,1813,244,Média,2.18,1.64,2.14,10.84
+android,nextcloud,4498,8.78,1813,244,Mediana,1.0,2.0,1.0,5.0
+android,nextcloud,4498,8.78,1813,244,Desvio Padrão,2.58,0.52,3.94,13.23
+android,nextcloud,4498,8.78,1813,244,Média,3.14,1.71,114.9,18.62
+android,nextcloud,4498,8.78,1813,244,Mediana,2.0,1.0,1.0,5.0
+android,nextcloud,4498,8.78,1813,244,Desvio Padrão,6.15,1.22,680.15,73.47
 AndroidHttpCapture,JZ-Darkal,4491,8.42,860,1,,,,,
-bilibili-android-client,HotBitmapGG,4491,8.8,1481,1,,,,,
-azkaban,azkaban,4490,12.42,1586,48,,,,,
-java-algorithms-implementation,phishman3579,4487,11.33,1858,0,,,,,
-objectbox-java,objectbox,4481,8.15,309,46,,,,,
+bilibili-android-client,HotBitmapGG,4491,8.8,1481,1,Média,1.39,1.82,42.79,13.23
+bilibili-android-client,HotBitmapGG,4491,8.8,1481,1,Mediana,0.0,1.0,3.0,3.0
+bilibili-android-client,HotBitmapGG,4491,8.8,1481,1,Desvio Padrão,2.98,1.17,173.1,45.87
+azkaban,azkaban,4490,12.42,1586,48,Média,2.5,1.35,35.84,16.33
+azkaban,azkaban,4490,12.42,1586,48,Mediana,1.0,1.0,1.0,5.0
+azkaban,azkaban,4490,12.42,1586,48,Desvio Padrão,3.83,0.8,172.52,48.46
+java-algorithms-implementation,phishman3579,4487,11.33,1858,0,Média,2.13,1.58,7.05,21.2
+java-algorithms-implementation,phishman3579,4487,11.33,1858,0,Mediana,2.0,1.0,0.0,6.0
+java-algorithms-implementation,phishman3579,4487,11.33,1858,0,Desvio Padrão,2.27,2.17,24.61,61.66
+objectbox-java,objectbox,4481,8.15,309,46,Média,2.41,1.76,102.96,12.13
+objectbox-java,objectbox,4481,8.15,309,46,Mediana,2.0,1.0,0.0,4.0
+objectbox-java,objectbox,4481,8.15,309,46,Desvio Padrão,2.72,1.84,484.26,43.08
 NineOldAndroids,JakeWharton,4480,13.28,1535,0,,,,,
-allure2,allure-framework,4478,8.81,730,76,,,,,
-opengrok,oracle,4473,12.2,765,285,,,,,
+allure2,allure-framework,4478,8.81,730,76,Média,3.13,1.31,11.49,10.64
+allure2,allure-framework,4478,8.81,730,76,Mediana,2.0,1.0,1.0,5.0
+allure2,allure-framework,4478,8.81,730,76,Desvio Padrão,3.69,0.79,38.42,20.51
+opengrok,oracle,4473,12.2,765,285,Média,2.16,1.63,78.86,15.96
+opengrok,oracle,4473,12.2,765,285,Mediana,1.0,1.0,1.0,5.0
+opengrok,oracle,4473,12.2,765,285,Desvio Padrão,3.39,1.29,1089.96,48.72
 AndroidTutorialForBeginners,hussien89aa,4469,8.48,6093,0,,,,,
-epic,tiann,4463,7.82,813,5,,,,,
-android-mvp-architecture,janishar,4444,8.14,1244,0,,,,,
-android-times-square,square,4438,12.13,1185,0,,,,,
+epic,tiann,4463,7.82,813,5,Média,1.56,1.62,30.4,11.99
+epic,tiann,4463,7.82,813,5,Mediana,1.0,1.0,1.0,4.0
+epic,tiann,4463,7.82,813,5,Desvio Padrão,3.42,0.83,219.9,31.84
+android-mvp-architecture,janishar,4444,8.14,1244,0,Média,2.18,1.38,14.11,8.38
+android-mvp-architecture,janishar,4444,8.14,1244,0,Mediana,1.0,1.0,0.0,3.0
+android-mvp-architecture,janishar,4444,8.14,1244,0,Desvio Padrão,3.49,0.81,36.02,16.5
+android-times-square,square,4438,12.13,1185,0,Média,2.37,1.23,25.87,15.21
+android-times-square,square,4438,12.13,1185,0,Mediana,2.0,1.0,0.0,6.0
+android-times-square,square,4438,12.13,1185,0,Desvio Padrão,3.01,0.6,134.51,53.55
 Robust,Meituan-Dianping,4436,8.01,808,13,,,,,
 JDA,discord-jda,4436,9.27,742,99,,,,,
 GT,Tencent,4407,9.18,1033,3,,,,,
 DeepLinkDispatch,airbnb,4397,9.77,407,24,,,,,
-moco,dreamhead,4391,12.42,1089,1,,,,,
+moco,dreamhead,4391,12.42,1089,1,Média,3.52,1.54,34.66,9.76
+moco,dreamhead,4391,12.42,1089,1,Mediana,3.0,1.0,1.0,4.0
+moco,dreamhead,4391,12.42,1089,1,Desvio Padrão,3.54,0.85,360.83,24.87
 Ant-Media-Server,ant-media,4390,8.05,653,62,,,,,
-ticker,robinhood,4386,8.68,464,9,,,,,
+ticker,robinhood,4386,8.68,464,9,Média,2.21,1.32,27.61,14.03
+ticker,robinhood,4386,8.68,464,9,Mediana,2.0,1.0,0.0,6.0
+ticker,robinhood,4386,8.68,464,9,Desvio Padrão,2.42,0.7,110.13,33.83
 WePush,rememberber,4377,7.74,998,58,,,,,
-djl,deepjavalibrary,4375,5.38,688,33,,,,,
+djl,deepjavalibrary,4375,5.38,688,33,Média,2.87,1.55,146.41,13.43
+djl,deepjavalibrary,4375,5.38,688,33,Mediana,2.0,1.0,2.0,4.0
+djl,deepjavalibrary,4375,5.38,688,33,Desvio Padrão,3.35,1.04,1766.95,38.34
 BottomNavigation,Ashok-Varma,4367,9.0,686,16,,,,,
-ipscan,angryip,4359,13.73,743,30,,,,,
-shiro,apache,4359,15.56,2313,11,,,,,
-leet-code,awangdev,4357,9.9,25,0,,,,,
+ipscan,angryip,4359,13.73,743,30,Média,2.67,1.67,4.13,13.07
+ipscan,angryip,4359,13.73,743,30,Mediana,2.0,1.0,0.0,6.0
+ipscan,angryip,4359,13.73,743,30,Desvio Padrão,3.33,1.63,12.45,23.13
+shiro,apache,4359,15.56,2313,11,Média,2.3,1.79,19.71,11.21
+shiro,apache,4359,15.56,2313,11,Mediana,1.0,1.0,1.0,4.0
+shiro,apache,4359,15.56,2313,11,Desvio Padrão,2.98,1.61,80.27,26.8
+leet-code,awangdev,4357,9.9,25,0,Média,1.08,1.0,1.09,12.23
+leet-code,awangdev,4357,9.9,25,0,Mediana,1.0,1.0,0.0,7.0
+leet-code,awangdev,4357,9.9,25,0,Desvio Padrão,1.41,0.0,2.95,16.04
 flink-recommandSystem-demo,water8394,4353,5.84,1474,0,,,,,
 GDA-android-reversing-Tool,charles2gan,4349,7.38,535,40,,,,,
 Gadgetbridge,Freeyourgadget,4313,10.2,654,0,,,,,
 BGARefreshLayout-Android,bingoogolapple,4310,9.81,1000,4,,,,,
-h2database,h2database,4307,9.94,1236,23,,,,,
-serve,pytorch,4301,5.46,878,24,,,,,
+h2database,h2database,4307,9.94,1236,23,Média,2.01,2.06,176.13,22.75
+h2database,h2database,4307,9.94,1236,23,Mediana,1.0,2.0,3.0,6.0
+h2database,h2database,4307,9.94,1236,23,Desvio Padrão,3.92,1.54,1596.02,99.55
+serve,pytorch,4301,5.46,878,24,Média,2.11,1.47,63.92,15.3
+serve,pytorch,4301,5.46,878,24,Mediana,1.0,1.0,3.0,3.0
+serve,pytorch,4301,5.46,878,24,Desvio Padrão,3.47,0.9,327.67,49.1
 ImagePicker,jeasonlzy,4301,9.14,1032,5,,,,,
-jacoco,jacoco,4297,12.7,1162,48,,,,,
-android-volley,mcxiaoke,4290,11.83,1558,0,,,,,
-frontend-maven-plugin,eirslett,4285,11.55,879,0,,,,,
-coursera-android,aporter,4277,11.2,5283,0,,,,,
-android-autofittextview,grantland,4269,14.1,690,1,,,,,
+jacoco,jacoco,4297,12.7,1162,48,Média,2.51,1.43,12.59,12.92
+jacoco,jacoco,4297,12.7,1162,48,Mediana,2.0,1.0,0.0,5.0
+jacoco,jacoco,4297,12.7,1162,48,Desvio Padrão,2.67,0.7,79.63,27.46
+android-volley,mcxiaoke,4290,11.83,1558,0,Média,2.64,1.89,15.82,12.71
+android-volley,mcxiaoke,4290,11.83,1558,0,Mediana,2.0,1.0,0.0,5.0
+android-volley,mcxiaoke,4290,11.83,1558,0,Desvio Padrão,3.29,2.76,94.17,26.38
+frontend-maven-plugin,eirslett,4285,11.55,879,0,Média,2.41,1.73,7.05,13.12
+frontend-maven-plugin,eirslett,4285,11.55,879,0,Mediana,1.0,1.0,1.0,4.0
+frontend-maven-plugin,eirslett,4285,11.55,879,0,Desvio Padrão,3.46,0.95,28.25,26.11
+coursera-android,aporter,4277,11.2,5283,0,Média,2.3,1.59,3.99,14.97
+coursera-android,aporter,4277,11.2,5283,0,Mediana,2.0,2.0,0.0,6.0
+coursera-android,aporter,4277,11.2,5283,0,Desvio Padrão,2.68,0.65,42.31,52.96
+android-autofittextview,grantland,4269,14.1,690,1,Média,2.03,1.38,40.75,11.96
+android-autofittextview,grantland,4269,14.1,690,1,Mediana,1.0,1.0,1.5,4.0
+android-autofittextview,grantland,4269,14.1,690,1,Desvio Padrão,2.39,0.52,107.67,35.64
 CircleIndicator,ongakuer,4268,10.64,708,7,,,,,
-java-learning,brianway,4265,9.11,1206,0,,,,,
+java-learning,brianway,4265,9.11,1206,0,Média,0.91,1.29,0.6,10.04
+java-learning,brianway,4265,9.11,1206,0,Mediana,1.0,1.0,0.0,8.0
+java-learning,brianway,4265,9.11,1206,0,Desvio Padrão,1.01,0.51,2.92,9.07
 IoT-Technical-Guide,IoT-Technology,4262,5.96,1075,0,,,,,
-dynamic-tp,dromara,4257,3.19,838,17,,,,,
+dynamic-tp,dromara,4257,3.19,838,17,Média,1.83,1.37,19.74,10.91
+dynamic-tp,dromara,4257,3.19,838,17,Mediana,1.0,1.0,1.0,3.5
+dynamic-tp,dromara,4257,3.19,838,17,Desvio Padrão,2.75,0.75,95.47,28.16
 InternetArchitect,bjmashibing,4255,5.41,2861,0,,,,,
-dragonwell8,dragonwell-project,4251,6.03,495,38,,,,,
+dragonwell8,dragonwell-project,4251,6.03,495,38,Média,,,,
+dragonwell8,dragonwell-project,4251,6.03,495,38,Mediana,,,,
+dragonwell8,dragonwell-project,4251,6.03,495,38,Desvio Padrão,,,,
 OpenHub,ThirtyDegreesRay,4251,7.69,416,31,,,,,
-aurora,linhaojun857,4242,2.58,683,0,,,,,
-flutter-webrtc,flutter-webrtc,4237,7.03,1177,122,,,,,
-failsafe,failsafe-lib,4232,9.72,299,0,,,,,
-spring-ai,spring-projects,4228,1.72,1134,0,,,,,
+aurora,linhaojun857,4242,2.58,683,0,Média,4.11,1.12,7.26,8.26
+aurora,linhaojun857,4242,2.58,683,0,Mediana,3.0,1.0,0.0,4.0
+aurora,linhaojun857,4242,2.58,683,0,Desvio Padrão,4.69,0.36,80.09,16.4
+flutter-webrtc,flutter-webrtc,4237,7.03,1177,122,Média,2.87,1.24,37.45,22.98
+flutter-webrtc,flutter-webrtc,4237,7.03,1177,122,Mediana,2.0,1.0,0.0,7.0
+flutter-webrtc,flutter-webrtc,4237,7.03,1177,122,Desvio Padrão,5.31,0.7,209.31,100.96
+failsafe,failsafe-lib,4232,9.72,299,0,Média,3.44,2.06,19.18,12.56
+failsafe,failsafe-lib,4232,9.72,299,0,Mediana,3.0,1.0,1.0,4.0
+failsafe,failsafe-lib,4232,9.72,299,0,Desvio Padrão,3.47,1.74,56.38,25.3
+spring-ai,spring-projects,4228,1.72,1134,0,Média,3.46,1.06,12.06,9.79
+spring-ai,spring-projects,4228,1.72,1134,0,Mediana,2.0,1.0,0.0,4.0
+spring-ai,spring-projects,4228,1.72,1134,0,Desvio Padrão,4.89,0.25,34.35,20.31
 MallChat,zongzibinbin,4228,2.01,984,0,,,,,
 ShineButton,ChadCSong,4220,8.7,547,2,,,,,
-tx-lcn,codingapi,4208,7.35,1459,14,,,,,
-crate,crate,4195,11.94,576,127,,,,,
+tx-lcn,codingapi,4208,7.35,1459,14,Média,1.87,1.21,6.34,10.6
+tx-lcn,codingapi,4208,7.35,1459,14,Mediana,1.0,1.0,0.0,3.0
+tx-lcn,codingapi,4208,7.35,1459,14,Desvio Padrão,2.58,0.63,43.44,47.37
+crate,crate,4195,11.94,576,127,Média,2.99,1.66,48.1,14.53
+crate,crate,4195,11.94,576,127,Mediana,2.0,1.0,1.0,5.0
+crate,crate,4195,11.94,576,127,Desvio Padrão,5.08,1.01,661.93,51.64
 CoordinatorTabLayout,hugeterry,4192,8.14,584,0,,,,,
-jitsi,jitsi,4189,11.9,981,7,,,,,
+jitsi,jitsi,4189,11.9,981,7,Média,2.18,1.9,39.37,15.81
+jitsi,jitsi,4189,11.9,981,7,Mediana,1.0,1.0,0.0,5.0
+jitsi,jitsi,4189,11.9,981,7,Desvio Padrão,3.94,2.53,211.33,50.21
 FloatWindow,yhaolpz,4188,7.34,653,9,,,,,
-camunda-bpm-platform,camunda,4187,12.21,1605,0,,,,,
+camunda-bpm-platform,camunda,4187,12.21,1605,0,Média,2.65,1.5,134.98,13.2
+camunda-bpm-platform,camunda,4187,12.21,1605,0,Mediana,2.0,1.0,1.0,5.0
+camunda-bpm-platform,camunda,4187,12.21,1605,0,Desvio Padrão,3.69,0.89,2710.7,59.12
 JKeyboardPanelSwitch,Jacksgong,4186,9.72,687,14,,,,,
-spring-boot-starter,mybatis,4184,9.48,1794,31,,,,,
-powermock,powermock,4181,10.81,588,16,,,,,
-unidbg,zhkl0228,4178,6.06,995,15,,,,,
-campus-imaotai,oddfar,4178,1.7,1364,11,,,,,
+spring-boot-starter,mybatis,4184,9.48,1794,31,Média,2.45,1.22,16.27,9.31
+spring-boot-starter,mybatis,4184,9.48,1794,31,Mediana,2.0,1.0,0.0,3.0
+spring-boot-starter,mybatis,4184,9.48,1794,31,Desvio Padrão,3.85,0.52,153.49,32.15
+powermock,powermock,4181,10.81,588,16,Média,2.02,1.24,22.75,10.94
+powermock,powermock,4181,10.81,588,16,Mediana,1.0,1.0,0.0,5.0
+powermock,powermock,4181,10.81,588,16,Desvio Padrão,2.47,0.64,281.67,32.57
+unidbg,zhkl0228,4178,6.06,995,15,Média,2.68,1.61,26.62,17.76
+unidbg,zhkl0228,4178,6.06,995,15,Mediana,2.0,1.0,0.0,4.0
+unidbg,zhkl0228,4178,6.06,995,15,Desvio Padrão,3.88,1.31,238.4,117.51
+campus-imaotai,oddfar,4178,1.7,1364,11,Média,2.72,1.41,20.38,11.08
+campus-imaotai,oddfar,4178,1.7,1364,11,Mediana,2.0,1.0,1.0,4.0
+campus-imaotai,oddfar,4178,1.7,1364,11,Desvio Padrão,3.43,1.17,78.43,25.85
 BGABanner-Android,bingoogolapple,4172,10.4,782,0,,,,,
-javassist,jboss-javassist,4169,11.82,710,24,,,,,
-open-location-code,google,4168,10.47,491,5,,,,,
-aws-sdk-java,aws,4147,14.99,2821,0,,,,,
+javassist,jboss-javassist,4169,11.82,710,24,Média,2.08,1.55,43.91,22.69
+javassist,jboss-javassist,4169,11.82,710,24,Mediana,1.0,1.0,0.0,4.0
+javassist,jboss-javassist,4169,11.82,710,24,Desvio Padrão,3.12,1.35,313.85,520.39
+open-location-code,google,4168,10.47,491,5,Média,2.4,1.18,4.0,12.98
+open-location-code,google,4168,10.47,491,5,Mediana,1.0,1.0,0.0,5.0
+open-location-code,google,4168,10.47,491,5,Desvio Padrão,3.68,0.46,10.58,27.47
+aws-sdk-java,aws,4147,14.99,2821,0,Média,2.12,1.2,124.08,12.3
+aws-sdk-java,aws,4147,14.99,2821,0,Mediana,1.0,1.0,1.0,4.0
+aws-sdk-java,aws,4147,14.99,2821,0,Desvio Padrão,7.24,0.52,4043.95,52.31
 AndroidWiFiADB,pedrovgs,4146,9.42,479,8,,,,,
-zotfile,jlegewie,4142,13.22,289,33,,,,,
-malmo,microsoft,4136,8.84,602,21,,,,,
-markor,gsantner,4133,7.56,384,76,,,,,
-hmily,dromara,4122,7.47,1402,0,,,,,
-guide-rpc-framework,Snailclimb,4116,4.85,2115,0,,,,,
+zotfile,jlegewie,4142,13.22,289,33,Média,,,,
+zotfile,jlegewie,4142,13.22,289,33,Mediana,,,,
+zotfile,jlegewie,4142,13.22,289,33,Desvio Padrão,,,,
+malmo,microsoft,4136,8.84,602,21,Média,2.79,2.14,12.85,19.32
+malmo,microsoft,4136,8.84,602,21,Mediana,1.0,2.0,1.0,6.0
+malmo,microsoft,4136,8.84,602,21,Desvio Padrão,4.15,2.72,30.4,58.72
+markor,gsantner,4133,7.56,384,76,Média,2.59,1.51,131.11,18.44
+markor,gsantner,4133,7.56,384,76,Mediana,2.0,1.0,1.0,5.0
+markor,gsantner,4133,7.56,384,76,Desvio Padrão,4.29,0.99,1000.85,66.54
+hmily,dromara,4122,7.47,1402,0,Média,2.69,1.24,5.02,11.88
+hmily,dromara,4122,7.47,1402,0,Mediana,2.0,1.0,0.0,5.0
+hmily,dromara,4122,7.47,1402,0,Desvio Padrão,3.58,0.62,11.66,21.15
+guide-rpc-framework,Snailclimb,4116,4.85,2115,0,Média,3.14,1.24,1.21,12.42
+guide-rpc-framework,Snailclimb,4116,4.85,2115,0,Mediana,2.0,1.0,0.0,9.0
+guide-rpc-framework,Snailclimb,4116,4.85,2115,0,Desvio Padrão,3.32,0.7,3.81,15.37
 Tangram-Android,alibaba,4114,7.97,525,38,,,,,
 LoadingDrawable,dinuscxj,4111,8.92,635,0,,,,,
-maxwell,zendesk,4095,10.11,1018,213,,,,,
-fastexcel,fast-excel,4089,0.45,313,3,,,,,
+maxwell,zendesk,4095,10.11,1018,213,Média,2.72,1.62,32.05,15.26
+maxwell,zendesk,4095,10.11,1018,213,Mediana,2.0,1.0,0.0,6.0
+maxwell,zendesk,4095,10.11,1018,213,Desvio Padrão,3.72,0.81,156.35,37.98
+fastexcel,fast-excel,4089,0.45,313,3,Média,2.94,1.37,31.8,13.17
+fastexcel,fast-excel,4089,0.45,313,3,Mediana,2.0,1.0,1.0,4.0
+fastexcel,fast-excel,4089,0.45,313,3,Desvio Padrão,3.91,0.83,353.53,32.2
 ExpandableTextView,Manabu-GT,4089,10.84,791,4,,,,,
-dolby_beta,nining377,4067,4.83,237,37,,,,,
+dolby_beta,nining377,4067,4.83,237,37,Média,2.41,1.45,7.95,16.49
+dolby_beta,nining377,4067,4.83,237,37,Mediana,2.0,1.0,1.0,6.0
+dolby_beta,nining377,4067,4.83,237,37,Desvio Padrão,3.61,0.82,49.92,30.41
 ViewPagerCards,rubensousa,4067,8.58,608,0,,,,,
-tiny-spring,code4craft,4066,11.19,1820,0,,,,,
-oblivion,bepass-org,4065,1.1,554,12,,,,,
-java-developer-roadmap,s4kibs4mi,4064,5.9,547,0,,,,,
-jodd,oblac,4061,12.53,724,37,,,,,
+tiny-spring,code4craft,4066,11.19,1820,0,Média,1.9,1.15,2.37,7.14
+tiny-spring,code4craft,4066,11.19,1820,0,Mediana,1.0,1.0,0.0,3.0
+tiny-spring,code4craft,4066,11.19,1820,0,Desvio Padrão,2.54,0.41,6.31,9.24
+oblivion,bepass-org,4065,1.1,554,12,Média,2.58,1.48,11.62,17.08
+oblivion,bepass-org,4065,1.1,554,12,Mediana,1.0,1.0,0.5,8.0
+oblivion,bepass-org,4065,1.1,554,12,Desvio Padrão,3.6,0.71,46.82,42.6
+java-developer-roadmap,s4kibs4mi,4064,5.9,547,0,Média,0.0,1.0,0.0,4.0
+java-developer-roadmap,s4kibs4mi,4064,5.9,547,0,Mediana,0.0,1.0,0.0,4.0
+java-developer-roadmap,s4kibs4mi,4064,5.9,547,0,Desvio Padrão,0.0,,,1.41
+jodd,oblac,4061,12.53,724,37,Média,1.95,1.44,12.95,12.26
+jodd,oblac,4061,12.53,724,37,Mediana,1.0,1.0,0.0,4.0
+jodd,oblac,4061,12.53,724,37,Desvio Padrão,2.6,1.33,59.23,26.71
 LSPosed_mod,mywalkb,4058,2.97,201,10,,,,,
-bistoury,qunarcorp,4056,5.63,831,8,,,,,
+bistoury,qunarcorp,4056,5.63,831,8,Média,2.06,1.28,21.42,15.88
+bistoury,qunarcorp,4056,5.63,831,8,Mediana,1.0,1.0,1.0,4.0
+bistoury,qunarcorp,4056,5.63,831,8,Desvio Padrão,3.31,0.72,119.19,42.7
 CC,luckybilly,4051,7.32,637,0,,,,,
 SmartCropper,pqpo,4046,7.62,746,13,,,,,
-chunjun,DTStack,4033,6.96,1700,30,,,,,
-greys-anatomy,oldmanpushcart,4028,12.33,1212,0,,,,,
-streampark,apache,4017,5.81,1028,28,,,,,
+chunjun,DTStack,4033,6.96,1700,30,Média,2.78,1.57,20.84,16.11
+chunjun,DTStack,4033,6.96,1700,30,Mediana,2.0,1.0,1.0,5.0
+chunjun,DTStack,4033,6.96,1700,30,Desvio Padrão,4.2,0.81,119.8,41.04
+greys-anatomy,oldmanpushcart,4028,12.33,1212,0,Média,2.12,1.15,6.77,18.81
+greys-anatomy,oldmanpushcart,4028,12.33,1212,0,Mediana,1.0,1.0,0.0,5.0
+greys-anatomy,oldmanpushcart,4028,12.33,1212,0,Desvio Padrão,2.88,0.55,21.89,41.57
+streampark,apache,4017,5.81,1028,28,Média,3.33,1.28,18.4,13.56
+streampark,apache,4017,5.81,1028,28,Mediana,2.0,1.0,0.0,5.0
+streampark,apache,4017,5.81,1028,28,Desvio Padrão,4.34,0.64,68.48,32.51
 XCL-Charts,xcltapestry,4017,10.78,1128,0,,,,,
 Bolts-Android,BoltsFramework,4012,11.13,518,11,,,,,
-dubbo-admin,apache,4012,7.18,2158,6,,,,,
+dubbo-admin,apache,4012,7.18,2158,6,Média,1.89,1.38,24.18,11.53
+dubbo-admin,apache,4012,7.18,2158,6,Mediana,1.0,1.0,1.0,3.0
+dubbo-admin,apache,4012,7.18,2158,6,Desvio Padrão,3.04,0.78,74.86,27.74
 Telegram-X,TGX-Android,4011,3.58,640,4,,,,,
 FloatingActionButton,makovkastar,4004,10.66,815,0,,,,,
 Phoenix,Yalantis,4004,10.18,916,1,,,,,
 TwinklingRefreshLayout,lcodecorex,4002,9.05,670,0,,,,,
 BigImageViewer,Piasy,3986,8.36,404,0,,,,,
-hawk,orhanobut,3985,10.08,392,22,,,,,
-geoserver,geoserver,3982,13.36,2202,55,,,,,
-fastjson2,alibaba,3980,2.92,520,56,,,,,
+hawk,orhanobut,3985,10.08,392,22,Média,1.73,1.04,12.96,9.61
+hawk,orhanobut,3985,10.08,392,22,Mediana,1.0,1.0,1.0,4.0
+hawk,orhanobut,3985,10.08,392,22,Desvio Padrão,2.18,0.2,25.52,18.53
+geoserver,geoserver,3982,13.36,2202,55,Média,2.97,1.84,44.12,16.73
+geoserver,geoserver,3982,13.36,2202,55,Mediana,2.0,1.0,1.0,5.0
+geoserver,geoserver,3982,13.36,2202,55,Desvio Padrão,4.43,1.46,399.95,56.25
+fastjson2,alibaba,3980,2.92,520,56,Média,1.79,1.19,290.8,17.13
+fastjson2,alibaba,3980,2.92,520,56,Mediana,1.0,1.0,0.0,5.0
+fastjson2,alibaba,3980,2.92,520,56,Desvio Padrão,2.77,0.98,20889.98,113.47
 BadgeView,qstumn,3979,8.11,541,5,,,,,
 GuideView,binIoter,3957,8.75,654,0,,,,,
-tech-weekly,mercyblitz,3956,6.29,711,0,,,,,
-effective-java-3e-source-code,jbloch,3952,6.62,1970,0,,,,,
+tech-weekly,mercyblitz,3956,6.29,711,0,Média,,,,
+tech-weekly,mercyblitz,3956,6.29,711,0,Mediana,,,,
+tech-weekly,mercyblitz,3956,6.29,711,0,Desvio Padrão,,,,
+effective-java-3e-source-code,jbloch,3952,6.62,1970,0,Média,0.79,1.19,1.33,7.84
+effective-java-3e-source-code,jbloch,3952,6.62,1970,0,Mediana,1.0,1.0,0.0,4.0
+effective-java-3e-source-code,jbloch,3952,6.62,1970,0,Desvio Padrão,0.87,0.66,3.48,8.49
 Aliucord,Aliucord,3949,4.05,171,14,,,,,
 interviewGuide,NotFound9,3944,8.91,684,0,,,,,
 RichText,zzhoujay,3940,9.66,562,0,,,,,
-android-iconify,JoanZapata,3937,11.77,525,0,,,,,
+android-iconify,JoanZapata,3937,11.77,525,0,Média,1.73,1.23,5.19,8.37
+android-iconify,JoanZapata,3937,11.77,525,0,Mediana,1.0,1.0,1.0,4.0
+android-iconify,JoanZapata,3937,11.77,525,0,Desvio Padrão,2.38,0.43,15.31,15.33
 RxJavaSamples,rengwuxian,3937,8.99,857,3,,,,,
 XChange,knowm,3935,13.13,1960,0,,,,,
-novel-plus,201206030,3932,4.88,1352,25,,,,,
+novel-plus,201206030,3932,4.88,1352,25,Média,2.32,1.21,46.37,7.81
+novel-plus,201206030,3932,4.88,1352,25,Mediana,1.0,1.0,0.0,3.0
+novel-plus,201206030,3932,4.88,1352,25,Desvio Padrão,3.49,0.46,123.84,18.0
 LiveEventBus,JeremyLiao,3929,6.69,553,0,,,,,
 XposedInstaller,rovo89,3928,12.96,1519,0,,,,,
-jmonkeyengine,jMonkeyEngine,3925,11.0,1132,69,,,,,
+jmonkeyengine,jMonkeyEngine,3925,11.0,1132,69,Média,2.13,1.63,54.15,15.86
+jmonkeyengine,jMonkeyEngine,3925,11.0,1132,69,Mediana,1.0,1.0,0.0,4.0
+jmonkeyengine,jMonkeyEngine,3925,11.0,1132,69,Desvio Padrão,3.49,1.1,383.48,51.9
 DataMiningAlgorithm,linyiqun,3904,10.19,1704,0,,,,,
 Conductor,bluelinelabs,3902,9.01,343,36,,,,,
-jstorm,alibaba,3901,11.54,1797,22,,,,,
-jetty.project,jetty,3898,13.68,1937,113,,,,,
-learning-spark,databricks,3890,10.76,2422,0,,,,,
-awaitility,awaitility,3881,15.16,247,0,,,,,
+jstorm,alibaba,3901,11.54,1797,22,Média,1.9,1.46,42.37,16.85
+jstorm,alibaba,3901,11.54,1797,22,Mediana,1.0,1.0,1.0,5.0
+jstorm,alibaba,3901,11.54,1797,22,Desvio Padrão,3.08,1.29,526.01,288.14
+jetty.project,jetty,3898,13.68,1937,113,Média,2.64,1.51,32.48,16.06
+jetty.project,jetty,3898,13.68,1937,113,Mediana,2.0,1.0,0.0,5.0
+jetty.project,jetty,3898,13.68,1937,113,Desvio Padrão,3.51,1.18,269.37,50.99
+learning-spark,databricks,3890,10.76,2422,0,Média,2.23,1.02,1.8,12.02
+learning-spark,databricks,3890,10.76,2422,0,Mediana,1.0,1.0,0.0,5.0
+learning-spark,databricks,3890,10.76,2422,0,Desvio Padrão,2.98,0.12,12.09,18.82
+awaitility,awaitility,3881,15.16,247,0,Média,2.37,1.19,18.58,10.83
+awaitility,awaitility,3881,15.16,247,0,Mediana,1.0,1.0,0.0,4.0
+awaitility,awaitility,3881,15.16,247,0,Desvio Padrão,2.87,0.59,123.73,24.79
 Leetcode,fishercoder1534,3879,8.63,1296,0,,,,,
-grobid,kermitt2,3876,12.52,472,21,,,,,
+grobid,kermitt2,3876,12.52,472,21,Média,2.18,1.25,132.48,25.68
+grobid,kermitt2,3876,12.52,472,21,Mediana,1.0,1.0,0.0,4.0
+grobid,kermitt2,3876,12.52,472,21,Desvio Padrão,3.64,0.59,1987.77,99.68
 BackgroundLibrary,JavaNoober,3874,6.52,470,13,,,,,
-xboot,Exrick,3862,6.9,1305,6,,,,,
-bitcoin-wallet,bitcoin-wallet,3862,12.97,2126,0,,,,,
-sofa-rpc,sofastack,3862,6.94,1184,61,,,,,
-screw,pingfangushi,3859,4.74,706,0,,,,,
+xboot,Exrick,3862,6.9,1305,6,Média,3.71,1.21,2.66,12.57
+xboot,Exrick,3862,6.9,1305,6,Mediana,2.0,1.0,0.0,4.0
+xboot,Exrick,3862,6.9,1305,6,Desvio Padrão,4.79,0.53,9.35,27.09
+bitcoin-wallet,bitcoin-wallet,3862,12.97,2126,0,Média,3.47,1.71,5.41,17.69
+bitcoin-wallet,bitcoin-wallet,3862,12.97,2126,0,Mediana,2.0,1.0,0.0,5.0
+bitcoin-wallet,bitcoin-wallet,3862,12.97,2126,0,Desvio Padrão,5.52,1.12,21.75,44.78
+sofa-rpc,sofastack,3862,6.94,1184,61,Média,2.41,1.32,24.52,15.46
+sofa-rpc,sofastack,3862,6.94,1184,61,Mediana,1.0,1.0,0.0,5.0
+sofa-rpc,sofastack,3862,6.94,1184,61,Desvio Padrão,3.32,0.63,128.53,35.53
+screw,pingfangushi,3859,4.74,706,0,Média,2.89,1.35,5.24,13.21
+screw,pingfangushi,3859,4.74,706,0,Mediana,2.0,1.0,0.0,4.0
+screw,pingfangushi,3859,4.74,706,0,Desvio Padrão,3.38,0.79,9.68,19.61
 Launcher3,amirzaidi,3859,7.8,648,22,,,,,
 TinyPinyin,promeG,3855,9.47,482,2,,,,,
 Timeline-View,vipulasri,3853,9.26,646,15,,,,,
 IDDD_Samples,VaughnVernon,3839,11.95,914,0,,,,,
-java-tron,tronprotocol,3837,7.23,1444,79,,,,,
-ahbottomnavigation,aurelhubert,3835,9.01,687,14,,,,,
+java-tron,tronprotocol,3837,7.23,1444,79,Média,3.41,1.79,79.65,20.3
+java-tron,tronprotocol,3837,7.23,1444,79,Mediana,2.0,1.0,1.0,6.0
+java-tron,tronprotocol,3837,7.23,1444,79,Desvio Padrão,5.22,2.05,1194.61,85.61
+ahbottomnavigation,aurelhubert,3835,9.01,687,14,Média,2.44,1.17,57.48,15.03
+ahbottomnavigation,aurelhubert,3835,9.01,687,14,Mediana,2.0,1.0,0.0,5.0
+ahbottomnavigation,aurelhubert,3835,9.01,687,14,Desvio Padrão,3.58,0.38,313.31,62.79
 MaterialSearchView,MiguelCatalan,3830,9.51,619,6,,,,,
 DSBridge-Android,wendux,3823,8.21,623,2,,,,,
-ripme,RipMeApp,3822,8.2,630,132,,,,,
+ripme,RipMeApp,3822,8.2,630,132,Média,1.98,2.55,27.61,16.55
+ripme,RipMeApp,3822,8.2,630,132,Mediana,1.0,2.0,3.5,5.0
+ripme,RipMeApp,3822,8.2,630,132,Desvio Padrão,2.33,1.29,93.04,47.39
 CircleProgress,uknownothingsnow,3817,10.39,924,0,,,,,
-leetcode-editor,shuzijun,3812,6.0,407,55,,,,,
+leetcode-editor,shuzijun,3812,6.0,407,55,Média,2.85,1.74,20.14,15.33
+leetcode-editor,shuzijun,3812,6.0,407,55,Mediana,1.0,1.0,0.0,5.0
+leetcode-editor,shuzijun,3812,6.0,407,55,Desvio Padrão,3.94,1.18,113.55,32.19
 ShedLock,lukas-krecan,3797,8.27,535,0,,,,,
-jabref,JabRef,3787,11.02,2722,44,,,,,
-syncthing-android,syncthing,3785,11.07,449,332,,,,,
+jabref,JabRef,3787,11.02,2722,44,Média,,,,
+jabref,JabRef,3787,11.02,2722,44,Mediana,,,,
+jabref,JabRef,3787,11.02,2722,44,Desvio Padrão,,,,
+syncthing-android,syncthing,3785,11.07,449,332,Média,2.85,1.69,9.05,19.39
+syncthing-android,syncthing,3785,11.07,449,332,Mediana,2.0,1.0,0.0,7.0
+syncthing-android,syncthing,3785,11.07,449,332,Desvio Padrão,4.62,1.12,24.89,50.82
 MarqueeView,sunfusheng,3782,8.8,673,0,,,,,
 PeerBanHelper,PBH-BTN,3775,1.11,101,113,,,,,
 SuperTextView,lygttpod,3773,8.41,591,39,,,,,
 OpenPDF,LibrePDF,3772,8.69,630,73,,,,,
 AndServer,yanzhenjie,3767,8.76,768,1,,,,,
-mpush,mpusher,3767,8.89,1457,9,,,,,
-roboguice,roboguice,3759,12.6,824,0,,,,,
+mpush,mpusher,3767,8.89,1457,9,Média,1.93,1.34,24.57,10.43
+mpush,mpusher,3767,8.89,1457,9,Mediana,1.0,1.0,1.0,4.0
+mpush,mpusher,3767,8.89,1457,9,Desvio Padrão,2.89,0.7,171.61,27.45
+roboguice,roboguice,3759,12.6,824,0,Média,2.95,1.31,7.13,11.57
+roboguice,roboguice,3759,12.6,824,0,Mediana,2.0,1.0,0.0,4.0
+roboguice,roboguice,3759,12.6,824,0,Desvio Padrão,3.65,1.18,70.4,38.82
 andOTP,andOTP,3755,7.7,366,38,,,,,
 My-Blog,ZHENFENG13,3752,6.04,998,0,,,,,
 CustomActivityOnCrash,Ereza,3749,10.71,543,12,,,,,
-blurkit-android,CameraKit,3744,8.36,312,3,,,,,
-lilishop,lilishop,3744,3.84,952,3,,,,,
+blurkit-android,CameraKit,3744,8.36,312,3,Média,2.4,1.5,30.3,13.63
+blurkit-android,CameraKit,3744,8.36,312,3,Mediana,2.0,1.0,0.0,5.0
+blurkit-android,CameraKit,3744,8.36,312,3,Desvio Padrão,2.97,0.71,90.0,36.23
+lilishop,lilishop,3744,3.84,952,3,Média,3.96,1.32,13.32,12.13
+lilishop,lilishop,3744,3.84,952,3,Mediana,2.0,1.0,0.0,5.0
+lilishop,lilishop,3744,3.84,952,3,Desvio Padrão,5.1,0.58,92.79,28.73
 SwipeDelMenuLayout,mcxtzhang,3743,8.56,641,2,,,,,
-sticky-headers-recyclerview,timehop,3743,10.46,754,0,,,,,
-react-native-share,react-native-share,3743,9.47,965,133,,,,,
-mlkit,googlesamples,3731,4.81,2977,1,,,,,
-spruce-android,willowtreeapps,3720,8.07,366,3,,,,,
+sticky-headers-recyclerview,timehop,3743,10.46,754,0,Média,3.08,1.28,3.24,12.23
+sticky-headers-recyclerview,timehop,3743,10.46,754,0,Mediana,2.0,1.0,0.0,5.0
+sticky-headers-recyclerview,timehop,3743,10.46,754,0,Desvio Padrão,3.37,0.53,6.68,22.45
+react-native-share,react-native-share,3743,9.47,965,133,Média,2.23,2.07,8.61,14.13
+react-native-share,react-native-share,3743,9.47,965,133,Mediana,1.0,2.0,8.0,4.0
+react-native-share,react-native-share,3743,9.47,965,133,Desvio Padrão,3.3,0.91,11.37,28.21
+mlkit,googlesamples,3731,4.81,2977,1,Média,3.32,1.49,7.51,17.91
+mlkit,googlesamples,3731,4.81,2977,1,Mediana,2.0,1.0,0.0,7.0
+mlkit,googlesamples,3731,4.81,2977,1,Desvio Padrão,4.66,0.58,31.95,35.33
+spruce-android,willowtreeapps,3720,8.07,366,3,Média,2.76,1.37,5.35,14.23
+spruce-android,willowtreeapps,3720,8.07,366,3,Mediana,2.0,1.0,0.0,6.0
+spruce-android,willowtreeapps,3720,8.07,366,3,Desvio Padrão,3.55,0.75,30.99,34.87
 Terasology,MovingBlocks,3711,14.05,1345,70,,,,,
 NullAway,uber,3710,7.55,301,25,,,,,
 NoHttp,yanzhenjie,3707,9.64,852,0,,,,,
-atmosphere,Atmosphere,3707,14.72,756,0,,,,,
-java,kubernetes-client,3705,7.86,1967,53,,,,,
+atmosphere,Atmosphere,3707,14.72,756,0,Média,2.44,1.31,55.03,13.56
+atmosphere,Atmosphere,3707,14.72,756,0,Mediana,1.0,1.0,1.0,4.0
+atmosphere,Atmosphere,3707,14.72,756,0,Desvio Padrão,3.6,0.81,591.17,55.62
+java,kubernetes-client,3705,7.86,1967,53,Média,0.6,1.18,1.08,12.33
+java,kubernetes-client,3705,7.86,1967,53,Mediana,0.0,1.0,0.0,8.0
+java,kubernetes-client,3705,7.86,1967,53,Desvio Padrão,1.05,0.74,5.19,16.56
+java,kubernetes-client,3705,7.86,1967,53,Média,1.88,1.33,5.1,9.34
+java,kubernetes-client,3705,7.86,1967,53,Mediana,1.0,1.0,1.0,3.0
+java,kubernetes-client,3705,7.86,1967,53,Desvio Padrão,2.7,0.72,13.85,14.25
+java,kubernetes-client,3705,7.86,1967,53,Média,1.89,1.59,199.35,18.53
+java,kubernetes-client,3705,7.86,1967,53,Mediana,1.0,1.0,1.0,3.0
+java,kubernetes-client,3705,7.86,1967,53,Desvio Padrão,3.49,2.69,1997.15,505.68
+java,kubernetes-client,3705,7.86,1967,53,Média,1.44,1.05,6.94,12.96
+java,kubernetes-client,3705,7.86,1967,53,Mediana,1.0,1.0,1.0,7.0
+java,kubernetes-client,3705,7.86,1967,53,Desvio Padrão,1.09,0.29,25.52,20.61
 ChatKit,stfalcon-studio,3705,8.12,831,1,,,,,
 StylishMusicPlayer,ryanhoo,3703,8.51,767,0,,,,,
 Skeleton,ethanhua,3697,7.64,456,0,,,,,
@@ -875,129 +1986,292 @@ ByteLegend,ByteLegend,3694,4.12,144,0,,,,,
 Play-with-Algorithms,liuyubobobo,3685,8.7,1465,0,,,,,
 ASimpleCache,yangfuhai,3684,11.64,1241,0,,,,,
 BannerViewPager,zhpanvip,3682,7.98,446,56,,,,,
-kylin,apache,3682,10.21,1530,1,,,,,
-rejoiner,google,3668,7.28,139,3,,,,,
-shopizer,shopizer-ecommerce,3665,12.33,3072,18,,,,,
-groupie,lisawray,3665,8.55,295,28,,,,,
-pdfsam,torakiki,3663,11.48,356,64,,,,,
-bundletool,google,3663,6.87,394,63,,,,,
-sofa-jraft,sofastack,3663,6.04,1162,31,,,,,
-pixel-dungeon,watabou,3662,10.65,1216,0,,,,,
-databus,linkedin,3656,12.25,738,0,,,,,
+kylin,apache,3682,10.21,1530,1,Média,3.14,1.5,137.43,17.2
+kylin,apache,3682,10.21,1530,1,Mediana,2.0,1.0,1.0,6.0
+kylin,apache,3682,10.21,1530,1,Desvio Padrão,4.62,0.84,5211.62,59.46
+rejoiner,google,3668,7.28,139,3,Média,3.75,1.57,4.92,11.8
+rejoiner,google,3668,7.28,139,3,Mediana,3.0,1.0,0.0,5.0
+rejoiner,google,3668,7.28,139,3,Desvio Padrão,4.05,1.05,14.94,22.22
+shopizer,shopizer-ecommerce,3665,12.33,3072,18,Média,2.86,1.68,34.15,11.24
+shopizer,shopizer-ecommerce,3665,12.33,3072,18,Mediana,1.0,1.0,2.0,3.0
+shopizer,shopizer-ecommerce,3665,12.33,3072,18,Desvio Padrão,5.09,0.98,130.94,33.01
+groupie,lisawray,3665,8.55,295,28,Média,2.86,1.83,29.9,10.74
+groupie,lisawray,3665,8.55,295,28,Mediana,2.0,1.0,0.0,5.0
+groupie,lisawray,3665,8.55,295,28,Desvio Padrão,2.81,1.01,141.48,34.42
+pdfsam,torakiki,3663,11.48,356,64,Média,3.35,1.4,4.79,10.85
+pdfsam,torakiki,3663,11.48,356,64,Mediana,2.0,1.0,0.0,6.0
+pdfsam,torakiki,3663,11.48,356,64,Desvio Padrão,3.81,0.99,21.55,19.56
+bundletool,google,3663,6.87,394,63,Média,4.02,1.27,82.6,11.26
+bundletool,google,3663,6.87,394,63,Mediana,3.0,1.0,6.0,5.0
+bundletool,google,3663,6.87,394,63,Desvio Padrão,4.23,1.2,523.79,40.01
+sofa-jraft,sofastack,3663,6.04,1162,31,Média,2.28,1.46,74.68,16.91
+sofa-jraft,sofastack,3663,6.04,1162,31,Mediana,1.0,1.0,1.0,3.0
+sofa-jraft,sofastack,3663,6.04,1162,31,Desvio Padrão,3.73,1.06,313.23,147.54
+pixel-dungeon,watabou,3662,10.65,1216,0,Média,2.4,2.54,12.42,15.52
+pixel-dungeon,watabou,3662,10.65,1216,0,Mediana,1.0,2.0,1.0,6.0
+pixel-dungeon,watabou,3662,10.65,1216,0,Desvio Padrão,4.32,1.65,61.69,37.74
+databus,linkedin,3656,12.25,738,0,Média,2.24,1.36,46.73,18.16
+databus,linkedin,3656,12.25,738,0,Mediana,1.0,1.0,0.0,4.0
+databus,linkedin,3656,12.25,738,0,Desvio Padrão,4.1,0.8,228.18,72.6
 Linkage-RecyclerView,KunMinX,3653,5.91,462,0,,,,,
-android-common,litesuits,3647,10.81,1087,0,,,,,
-chatgpt-java,PlexPt,3636,2.28,714,24,,,,,
+android-common,litesuits,3647,10.81,1087,0,Média,1.64,1.25,124.35,16.03
+android-common,litesuits,3647,10.81,1087,0,Mediana,1.0,1.0,1.0,5.0
+android-common,litesuits,3647,10.81,1087,0,Desvio Padrão,1.81,0.6,700.44,52.02
+android-common,litesuits,3647,10.81,1087,0,Média,1.9,1.25,43.06,14.15
+android-common,litesuits,3647,10.81,1087,0,Mediana,1.0,1.0,1.0,4.0
+android-common,litesuits,3647,10.81,1087,0,Desvio Padrão,2.22,0.62,150.88,37.82
+chatgpt-java,PlexPt,3636,2.28,714,24,Média,4.46,1.1,11.93,10.01
+chatgpt-java,PlexPt,3636,2.28,714,24,Mediana,3.0,1.0,0.0,4.0
+chatgpt-java,PlexPt,3636,2.28,714,24,Desvio Padrão,5.85,0.36,137.9,29.17
+chatgpt-java,PlexPt,3636,2.28,714,24,Média,2.46,1.28,14.59,11.44
+chatgpt-java,PlexPt,3636,2.28,714,24,Mediana,2.0,1.0,0.0,4.0
+chatgpt-java,PlexPt,3636,2.28,714,24,Desvio Padrão,3.77,0.73,57.8,30.82
 FlatLaf,JFormDesigner,3636,5.58,285,85,,,,,
-light-4j,networknt,3635,8.52,636,189,,,,,
+light-4j,networknt,3635,8.52,636,189,Média,2.01,1.17,23.59,15.63
+light-4j,networknt,3635,8.52,636,189,Mediana,1.0,1.0,0.0,5.0
+light-4j,networknt,3635,8.52,636,189,Desvio Padrão,2.84,0.57,122.33,39.58
 RoaringBitmap,RoaringBitmap,3631,11.76,565,34,,,,,
-incubator-heron,apache,3629,9.48,593,56,,,,,
+incubator-heron,apache,3629,9.48,593,56,Média,2.51,1.47,20.51,12.45
+incubator-heron,apache,3629,9.48,593,56,Mediana,1.0,1.0,1.0,4.0
+incubator-heron,apache,3629,9.48,593,56,Desvio Padrão,3.46,0.91,185.18,28.23
 JCTools,JCTools,3628,11.36,569,18,,,,,
-undertow,undertow-io,3628,12.67,1012,9,,,,,
+undertow,undertow-io,3628,12.67,1012,9,Média,2.44,1.23,36.2,16.49
+undertow,undertow-io,3628,12.67,1012,9,Mediana,1.0,1.0,0.0,5.0
+undertow,undertow-io,3628,12.67,1012,9,Desvio Padrão,3.61,0.71,499.2,48.36
 Android-BluetoothKit,dingjikerbo,3625,9.45,746,0,,,,,
 BlurView,Dimezis,3619,8.91,347,29,,,,,
-emojicon,rockerhieu,3610,11.17,817,2,,,,,
-tablesaw,jtablesaw,3608,9.21,648,79,,,,,
-spotbugs,spotbugs,3602,8.37,611,68,,,,,
-helidon,helidon-io,3599,6.56,567,119,,,,,
-fernflower,fesh0r,3596,10.46,676,0,,,,,
+emojicon,rockerhieu,3610,11.17,817,2,Média,2.36,1.56,6.77,27.2
+emojicon,rockerhieu,3610,11.17,817,2,Mediana,1.0,1.0,0.0,5.0
+emojicon,rockerhieu,3610,11.17,817,2,Desvio Padrão,3.04,0.79,12.98,154.54
+tablesaw,jtablesaw,3608,9.21,648,79,Média,2.76,1.28,108.16,12.0
+tablesaw,jtablesaw,3608,9.21,648,79,Mediana,2.0,1.0,1.0,4.0
+tablesaw,jtablesaw,3608,9.21,648,79,Desvio Padrão,3.25,0.6,475.83,38.08
+spotbugs,spotbugs,3602,8.37,611,68,Média,1.88,1.38,25.98,15.26
+spotbugs,spotbugs,3602,8.37,611,68,Mediana,1.0,1.0,0.0,5.0
+spotbugs,spotbugs,3602,8.37,611,68,Desvio Padrão,3.66,0.91,368.97,92.67
+helidon,helidon-io,3599,6.56,567,119,Média,2.32,1.45,24.78,12.2
+helidon,helidon-io,3599,6.56,567,119,Mediana,2.0,1.0,1.0,4.0
+helidon,helidon-io,3599,6.56,567,119,Desvio Padrão,2.83,1.19,150.88,32.64
+fernflower,fesh0r,3596,10.46,676,0,Média,2.54,1.23,37.25,25.3
+fernflower,fesh0r,3596,10.46,676,0,Mediana,1.0,1.0,0.0,4.0
+fernflower,fesh0r,3596,10.46,676,0,Desvio Padrão,4.33,0.63,496.4,110.92
 ExplosionField,tyrantgit,3596,9.49,575,0,,,,,
 Alink,alibaba,3594,6.47,801,22,,,,,
-grpc-spring,grpc-ecosystem,3591,8.22,846,34,,,,,
+grpc-spring,grpc-ecosystem,3591,8.22,846,34,Média,3.28,1.48,5.37,10.89
+grpc-spring,grpc-ecosystem,3591,8.22,846,34,Mediana,2.0,1.0,0.0,4.0
+grpc-spring,grpc-ecosystem,3591,8.22,846,34,Desvio Padrão,3.71,1.15,24.05,20.17
 DropDownMenu,dongjunkun,3590,9.74,786,2,,,,,
 NewbieGuide,huburt-Hu,3587,7.64,522,20,,,,,
-android-stackblur,kikoso,3582,11.59,646,0,,,,,
-cyberduck,iterate-ch,3580,8.16,300,0,,,,,
-data-transfer-project,dtinit,3576,7.2,483,61,,,,,
-spock,spockframework,3574,14.27,471,25,,,,,
+android-stackblur,kikoso,3582,11.59,646,0,Média,1.78,1.1,0.59,18.3
+android-stackblur,kikoso,3582,11.59,646,0,Mediana,1.0,1.0,0.0,5.0
+android-stackblur,kikoso,3582,11.59,646,0,Desvio Padrão,2.91,0.37,1.9,34.18
+cyberduck,iterate-ch,3580,8.16,300,0,Média,2.76,1.36,65.71,11.38
+cyberduck,iterate-ch,3580,8.16,300,0,Mediana,1.0,1.0,0.0,4.0
+cyberduck,iterate-ch,3580,8.16,300,0,Desvio Padrão,5.05,0.78,1017.02,34.9
+data-transfer-project,dtinit,3576,7.2,483,61,Média,3.36,1.27,7.77,12.13
+data-transfer-project,dtinit,3576,7.2,483,61,Mediana,2.0,1.0,0.0,4.0
+data-transfer-project,dtinit,3576,7.2,483,61,Desvio Padrão,4.65,0.74,23.82,24.28
+spock,spockframework,3574,14.27,471,25,Média,2.45,1.45,35.32,9.84
+spock,spockframework,3574,14.27,471,25,Mediana,2.0,1.0,1.0,3.0
+spock,spockframework,3574,14.27,471,25,Desvio Padrão,3.48,1.11,186.99,25.95
 JavaSourceCodeLearning,coderbruis,3573,4.79,597,0,,,,,
-android-maps-utils,googlemaps,3570,11.84,1536,47,,,,,
+android-maps-utils,googlemaps,3570,11.84,1536,47,Média,2.78,1.64,38.44,15.04
+android-maps-utils,googlemaps,3570,11.84,1536,47,Mediana,2.0,1.0,1.0,5.0
+android-maps-utils,googlemaps,3570,11.84,1536,47,Desvio Padrão,3.58,0.92,145.59,42.71
 FlexibleAdapter,davideas,3566,9.88,554,30,,,,,
 ShadowLayout,lihangleo2,3563,5.69,406,28,,,,,
 ThreeTenABP,JakeWharton,3562,9.71,134,0,,,,,
-jackson-databind,FasterXML,3560,13.24,1405,0,,,,,
+jackson-databind,FasterXML,3560,13.24,1405,0,Média,2.45,1.71,24.38,12.26
+jackson-databind,FasterXML,3560,13.24,1405,0,Mediana,2.0,1.0,0.0,4.0
+jackson-databind,FasterXML,3560,13.24,1405,0,Desvio Padrão,3.27,1.77,423.96,42.04
 AppUpdate,WVector,3558,7.75,745,3,,,,,
-vertx-examples,vert-x3,3557,10.07,2085,0,,,,,
-netty-learning,code4craft,3553,11.5,1191,0,,,,,
-hackpad,dropbox,3551,9.6,527,0,,,,,
-parceler,johncarl81,3548,11.71,272,0,,,,,
+vertx-examples,vert-x3,3557,10.07,2085,0,Média,3.09,1.83,1.04,11.5
+vertx-examples,vert-x3,3557,10.07,2085,0,Mediana,2.0,2.0,1.0,8.0
+vertx-examples,vert-x3,3557,10.07,2085,0,Desvio Padrão,2.55,0.52,2.52,12.24
+netty-learning,code4craft,3553,11.5,1191,0,Média,2.15,1.65,39.25,15.49
+netty-learning,code4craft,3553,11.5,1191,0,Mediana,1.0,1.0,1.0,4.0
+netty-learning,code4craft,3553,11.5,1191,0,Desvio Padrão,2.83,1.13,377.98,55.37
+hackpad,dropbox,3551,9.6,527,0,Média,2.07,1.81,152.3,24.35
+hackpad,dropbox,3551,9.6,527,0,Mediana,1.0,1.0,1.0,5.0
+hackpad,dropbox,3551,9.6,527,0,Desvio Padrão,3.03,1.36,963.65,115.71
+parceler,johncarl81,3548,11.71,272,0,Média,2.81,1.35,16.59,9.74
+parceler,johncarl81,3548,11.71,272,0,Mediana,2.0,1.0,0.0,3.0
+parceler,johncarl81,3548,11.71,272,0,Desvio Padrão,4.43,1.32,219.62,38.55
 MagicaSakura,bilibili,3548,8.74,465,3,,,,,
 Android,hmkcode,3544,11.55,3411,0,,,,,
-floatingsearchview,arimorty,3540,9.32,667,0,,,,,
-retrolambda,luontola,3539,11.67,225,0,,,,,
-learning-note,rbmonster,3533,4.76,658,0,,,,,
+floatingsearchview,arimorty,3540,9.32,667,0,Média,2.16,1.18,26.28,14.24
+floatingsearchview,arimorty,3540,9.32,667,0,Mediana,1.0,1.0,0.0,5.0
+floatingsearchview,arimorty,3540,9.32,667,0,Desvio Padrão,4.03,0.47,242.92,60.86
+retrolambda,luontola,3539,11.67,225,0,Média,1.66,1.41,9.0,9.39
+retrolambda,luontola,3539,11.67,225,0,Mediana,1.0,1.0,0.0,4.0
+retrolambda,luontola,3539,11.67,225,0,Desvio Padrão,3.19,0.92,43.57,23.33
+learning-note,rbmonster,3533,4.76,658,0,Média,1.37,1.17,2.89,10.66
+learning-note,rbmonster,3533,4.76,658,0,Mediana,1.0,1.0,0.0,5.0
+learning-note,rbmonster,3533,4.76,658,0,Desvio Padrão,1.77,0.55,21.75,15.09
 Store,nytimes,3522,8.3,305,0,,,,,
-initializr,spring-io,3521,11.78,1752,16,,,,,
-ftgo-application,microservices-patterns,3521,7.4,1359,0,,,,,
-camunda,camunda,3520,9.0,641,364,,,,,
+initializr,spring-io,3521,11.78,1752,16,Média,3.02,1.26,32.98,10.84
+initializr,spring-io,3521,11.78,1752,16,Mediana,2.0,1.0,1.0,5.0
+initializr,spring-io,3521,11.78,1752,16,Desvio Padrão,3.36,0.62,168.99,27.89
+ftgo-application,microservices-patterns,3521,7.4,1359,0,Média,2.24,1.19,8.21,7.05
+ftgo-application,microservices-patterns,3521,7.4,1359,0,Mediana,1.0,1.0,0.0,3.0
+ftgo-application,microservices-patterns,3521,7.4,1359,0,Desvio Padrão,3.44,0.64,31.05,12.45
+camunda,camunda,3520,9.0,641,364,Média,2.72,1.44,27.9,10.59
+camunda,camunda,3520,9.0,641,364,Mediana,2.0,1.0,1.0,4.0
+camunda,camunda,3520,9.0,641,364,Desvio Padrão,4.22,1.09,160.91,26.79
 RecyclerViewPager,lsjwzh,3520,10.17,665,10,,,,,
 AndroRAT,karma9874,3519,4.99,1093,0,,,,,
-mcaselector,Querz,3517,6.9,183,68,,,,,
+mcaselector,Querz,3517,6.9,183,68,Média,2.84,1.84,38.02,20.41
+mcaselector,Querz,3517,6.9,183,68,Mediana,2.0,1.0,3.0,6.0
+mcaselector,Querz,3517,6.9,183,68,Desvio Padrão,4.01,1.08,199.18,52.0
 Music-Player,andremion,3516,8.87,700,2,,,,,
-brigadier,Mojang,3514,10.51,401,3,,,,,
-yacy_search_server,yacy,3510,9.99,443,0,,,,,
+brigadier,Mojang,3514,10.51,401,3,Média,2.95,1.15,44.55,10.46
+brigadier,Mojang,3514,10.51,401,3,Mediana,2.0,1.0,0.0,4.0
+brigadier,Mojang,3514,10.51,401,3,Desvio Padrão,3.06,0.39,231.11,29.32
+yacy_search_server,yacy,3510,9.99,443,0,Média,2.27,1.39,43.09,24.95
+yacy_search_server,yacy,3510,9.99,443,0,Mediana,1.0,1.0,0.0,7.0
+yacy_search_server,yacy,3510,9.99,443,0,Desvio Padrão,3.7,0.78,230.79,79.57
 SwipeMenuListView,baoyongzhang,3506,10.57,1259,2,,,,,
 GeekNews,codeestX,3503,8.61,822,0,,,,,
-libstreaming,fyhertz,3500,12.13,1079,0,,,,,
-akhq,tchiotludo,3498,6.52,680,41,,,,,
+libstreaming,fyhertz,3500,12.13,1079,0,Média,1.43,1.42,23.29,20.58
+libstreaming,fyhertz,3500,12.13,1079,0,Mediana,1.0,1.0,0.0,6.0
+libstreaming,fyhertz,3500,12.13,1079,0,Desvio Padrão,2.35,0.86,66.56,52.52
+akhq,tchiotludo,3498,6.52,680,41,Média,3.64,1.29,28.97,15.94
+akhq,tchiotludo,3498,6.52,680,41,Mediana,2.0,1.0,0.0,5.0
+akhq,tchiotludo,3498,6.52,680,41,Desvio Padrão,4.44,0.53,147.84,56.72
 FairEmail,M66B,3492,6.63,654,1000,,,,,
 jshERP,jishenghua,3491,8.49,1242,6,,,,,
 LoadSir,KingJA,3490,7.54,505,6,,,,,
-spring-cloud-kubernetes,spring-cloud,3486,8.26,1041,24,,,,,
-android-hidden-api,anggrayudi,3485,9.51,644,2,,,,,
+spring-cloud-kubernetes,spring-cloud,3486,8.26,1041,24,Média,3.33,1.11,3.11,11.81
+spring-cloud-kubernetes,spring-cloud,3486,8.26,1041,24,Mediana,3.0,1.0,1.0,6.0
+spring-cloud-kubernetes,spring-cloud,3486,8.26,1041,24,Desvio Padrão,2.72,0.31,7.54,15.06
+android-hidden-api,anggrayudi,3485,9.51,644,2,Média,2.16,1.0,56.5,9.3
+android-hidden-api,anggrayudi,3485,9.51,644,2,Mediana,2.0,1.0,0.5,3.0
+android-hidden-api,anggrayudi,3485,9.51,644,2,Desvio Padrão,2.2,0.0,112.33,29.32
 JavaEETest,lenve,3482,8.26,2810,0,,,,,
 RxAndroidBle,dariuszseweryn,3481,9.12,589,59,,,,,
-kubernetes-client,fabric8io,3480,9.7,1476,119,,,,,
+kubernetes-client,fabric8io,3480,9.7,1476,119,Média,3.27,1.22,61.7,7.71
+kubernetes-client,fabric8io,3480,9.7,1476,119,Mediana,1.0,1.0,15.0,3.0
+kubernetes-client,fabric8io,3480,9.7,1476,119,Desvio Padrão,7.02,0.65,278.21,20.1
 BottomNavigationViewEx,ittianyu,3476,8.35,558,19,,,,,
 PreviewSeekBar,rubensousa,3468,8.15,427,10,,,,,
 SurveyKing,javahuang,3467,3.53,516,3,,,,,
-marshalsec,mbechler,3467,7.82,682,0,,,,,
-immutables,immutables,3467,11.7,281,11,,,,,
+marshalsec,mbechler,3467,7.82,682,0,Média,3.26,1.82,14.58,11.94
+marshalsec,mbechler,3467,7.82,682,0,Mediana,2.0,1.0,1.0,5.0
+marshalsec,mbechler,3467,7.82,682,0,Desvio Padrão,3.65,1.03,39.04,24.52
+immutables,immutables,3467,11.7,281,11,Média,2.46,1.28,28.9,9.68
+immutables,immutables,3467,11.7,281,11,Mediana,2.0,1.0,0.0,3.0
+immutables,immutables,3467,11.7,281,11,Desvio Padrão,3.15,1.15,531.5,34.48
 HaE,gh0stkey,3453,4.98,258,71,,,,,
 SSM,crossoverJie,3443,8.74,1335,10,,,,,
 QNotified,ferredoxin,3443,5.99,330,28,,,,,
-logging-log4j2,apache,3441,11.77,1647,13,,,,,
-migration,phodal,3438,5.19,565,0,,,,,
+logging-log4j2,apache,3441,11.77,1647,13,Média,2.38,1.74,31.97,13.33
+logging-log4j2,apache,3441,11.77,1647,13,Mediana,1.0,1.0,1.0,4.0
+logging-log4j2,apache,3441,11.77,1647,13,Desvio Padrão,3.35,1.1,110.06,33.84
+migration,phodal,3438,5.19,565,0,Média,1.36,1.0,0.08,7.12
+migration,phodal,3438,5.19,565,0,Mediana,1.0,1.0,0.0,6.0
+migration,phodal,3438,5.19,565,0,Desvio Padrão,0.57,0.0,0.29,3.41
 Android-Week-View,alamkanak,3434,10.5,1226,4,,,,,
 SeeWeather,xcc3641,3434,9.08,722,2,,,,,
-giffun,guolindev,3433,6.14,685,0,,,,,
+giffun,guolindev,3433,6.14,685,0,Média,2.49,1.28,25.34,13.0
+giffun,guolindev,3433,6.14,685,0,Mediana,2.0,1.0,1.0,4.0
+giffun,guolindev,3433,6.14,685,0,Desvio Padrão,3.58,0.66,126.87,39.34
 Iris,IrisShaders,3432,4.4,657,140,,,,,
 AlgoDS,sherxon,3432,8.25,609,0,,,,,
 MyPerf4J,LinShunKang,3429,7.02,546,23,,,,,
-android,cSploit,3421,10.46,1116,33,,,,,
-openhab1-addons,openhab,3418,11.5,1682,14,,,,,
-maestro,Netflix,3417,0.92,209,0,,,,,
+android,cSploit,3421,10.46,1116,33,Média,2.31,1.52,15.65,18.26
+android,cSploit,3421,10.46,1116,33,Mediana,1.0,1.0,0.0,6.0
+android,cSploit,3421,10.46,1116,33,Desvio Padrão,3.58,1.04,173.81,49.45
+android,cSploit,3421,10.46,1116,33,Média,2.18,1.64,2.14,10.84
+android,cSploit,3421,10.46,1116,33,Mediana,1.0,2.0,1.0,5.0
+android,cSploit,3421,10.46,1116,33,Desvio Padrão,2.58,0.52,3.94,13.23
+android,cSploit,3421,10.46,1116,33,Média,3.14,1.71,114.9,18.62
+android,cSploit,3421,10.46,1116,33,Mediana,2.0,1.0,1.0,5.0
+android,cSploit,3421,10.46,1116,33,Desvio Padrão,6.15,1.22,680.15,73.47
+openhab1-addons,openhab,3418,11.5,1682,14,Média,1.94,1.42,143.84,16.42
+openhab1-addons,openhab,3418,11.5,1682,14,Mediana,1.0,1.0,0.0,4.0
+openhab1-addons,openhab,3418,11.5,1682,14,Desvio Padrão,4.42,1.06,5000.14,79.0
+maestro,Netflix,3417,0.92,209,0,Média,3.77,1.6,29.14,16.04
+maestro,Netflix,3417,0.92,209,0,Mediana,3.0,1.0,0.0,6.0
+maestro,Netflix,3417,0.92,209,0,Desvio Padrão,4.43,0.88,388.51,61.91
 Chronicle-Queue,OpenHFT,3417,11.8,540,520,,,,,
 LQRWeChat,GitLqr,3409,8.11,1069,0,,,,,
-chatgpt-java,Grt1228,3404,2.1,819,10,,,,,
+chatgpt-java,Grt1228,3404,2.1,819,10,Média,4.46,1.1,11.93,10.01
+chatgpt-java,Grt1228,3404,2.1,819,10,Mediana,3.0,1.0,0.0,4.0
+chatgpt-java,Grt1228,3404,2.1,819,10,Desvio Padrão,5.85,0.36,137.9,29.17
+chatgpt-java,Grt1228,3404,2.1,819,10,Média,2.46,1.28,14.59,11.44
+chatgpt-java,Grt1228,3404,2.1,819,10,Mediana,2.0,1.0,0.0,4.0
+chatgpt-java,Grt1228,3404,2.1,819,10,Desvio Padrão,3.77,0.73,57.8,30.82
 BubbleSeekBar,woxingxiao,3400,8.37,519,12,,,,,
 AxonFramework,AxonFramework,3396,13.3,798,128,,,,,
-android-priority-jobqueue,yigit,3394,10.75,393,0,,,,,
-signal-cli,AsamK,3392,9.86,315,97,,,,,
-volley,google,3386,8.15,754,9,,,,,
-red5-server,Red5,3384,11.33,1005,103,,,,,
-springdoc-openapi,springdoc,3383,5.68,516,87,,,,,
-openj9,eclipse-openj9,3379,7.56,748,50,,,,,
-blossom,blossom-editor,3375,1.61,285,17,,,,,
-android-butterknife-zelezny,avast,3374,11.24,411,8,,,,,
-http-request,kevinsawicki,3374,13.41,844,0,,,,,
+android-priority-jobqueue,yigit,3394,10.75,393,0,Média,2.66,1.72,10.84,13.19
+android-priority-jobqueue,yigit,3394,10.75,393,0,Mediana,2.0,1.0,0.0,5.0
+android-priority-jobqueue,yigit,3394,10.75,393,0,Desvio Padrão,3.22,1.31,45.0,36.01
+signal-cli,AsamK,3392,9.86,315,97,Média,3.01,1.57,47.66,14.27
+signal-cli,AsamK,3392,9.86,315,97,Mediana,2.0,1.0,0.0,4.0
+signal-cli,AsamK,3392,9.86,315,97,Desvio Padrão,5.25,2.15,381.92,51.34
+volley,google,3386,8.15,754,9,Média,3.0,1.7,12.29,14.09
+volley,google,3386,8.15,754,9,Mediana,2.0,1.0,0.0,5.0
+volley,google,3386,8.15,754,9,Desvio Padrão,3.59,2.25,80.62,33.73
+red5-server,Red5,3384,11.33,1005,103,Média,1.75,1.41,53.8,15.11
+red5-server,Red5,3384,11.33,1005,103,Mediana,1.0,1.0,1.0,3.0
+red5-server,Red5,3384,11.33,1005,103,Desvio Padrão,3.41,0.83,367.11,50.23
+springdoc-openapi,springdoc,3383,5.68,516,87,Média,2.46,1.29,8.89,7.13
+springdoc-openapi,springdoc,3383,5.68,516,87,Mediana,1.0,1.0,0.0,3.0
+springdoc-openapi,springdoc,3383,5.68,516,87,Desvio Padrão,3.53,0.59,103.76,20.16
+openj9,eclipse-openj9,3379,7.56,748,50,Média,1.42,1.54,111.18,17.2
+openj9,eclipse-openj9,3379,7.56,748,50,Mediana,1.0,1.0,0.0,5.0
+openj9,eclipse-openj9,3379,7.56,748,50,Desvio Padrão,2.3,1.38,2140.33,319.34
+blossom,blossom-editor,3375,1.61,285,17,Média,3.17,1.35,6.99,13.93
+blossom,blossom-editor,3375,1.61,285,17,Mediana,2.0,1.0,0.0,6.0
+blossom,blossom-editor,3375,1.61,285,17,Desvio Padrão,4.24,0.67,26.85,26.35
+android-butterknife-zelezny,avast,3374,11.24,411,8,Média,2.49,1.66,11.32,14.83
+android-butterknife-zelezny,avast,3374,11.24,411,8,Mediana,1.0,1.0,0.0,5.0
+android-butterknife-zelezny,avast,3374,11.24,411,8,Desvio Padrão,3.61,1.26,33.9,34.18
+http-request,kevinsawicki,3374,13.41,844,0,Média,2.04,1.11,78.51,13.22
+http-request,kevinsawicki,3374,13.41,844,0,Mediana,2.0,1.0,0.0,6.0
+http-request,kevinsawicki,3374,13.41,844,0,Desvio Padrão,1.27,0.71,1015.38,97.0
 AutoDispose,uber,3370,8.24,227,4,,,,,
 MyBatis-Spring-Boot,abel533,3370,9.25,1584,0,,,,,
-incubator-kie-optaplanner,apache,3362,14.09,957,5,,,,,
+incubator-kie-optaplanner,apache,3362,14.09,957,5,Média,3.2,1.89,57.38,12.29
+incubator-kie-optaplanner,apache,3362,14.09,957,5,Mediana,2.0,1.0,1.0,3.0
+incubator-kie-optaplanner,apache,3362,14.09,957,5,Desvio Padrão,4.02,1.29,475.52,39.47
 Java,HelloWorld521,3355,8.28,1480,0,,,,,
-my-site,WinterChenS,3353,6.88,1055,0,,,,,
-dinky,DataLinkDC,3348,3.77,1216,29,,,,,
-linkis,apache,3347,5.65,1168,32,,,,,
-sndcpy,rom1v,3347,4.77,309,2,,,,,
+my-site,WinterChenS,3353,6.88,1055,0,Média,2.84,1.19,34.79,12.3
+my-site,WinterChenS,3353,6.88,1055,0,Mediana,1.0,1.0,0.0,5.0
+my-site,WinterChenS,3353,6.88,1055,0,Desvio Padrão,4.56,0.49,169.61,35.07
+dinky,DataLinkDC,3348,3.77,1216,29,Média,2.91,1.36,25.67,13.81
+dinky,DataLinkDC,3348,3.77,1216,29,Mediana,2.0,1.0,0.0,4.0
+dinky,DataLinkDC,3348,3.77,1216,29,Desvio Padrão,4.44,0.72,111.35,38.16
+linkis,apache,3347,5.65,1168,32,Média,1.5,1.47,22.73,12.47
+linkis,apache,3347,5.65,1168,32,Mediana,1.0,1.0,0.0,3.0
+linkis,apache,3347,5.65,1168,32,Desvio Padrão,2.56,1.24,100.25,29.91
+sndcpy,rom1v,3347,4.77,309,2,Média,3.08,2.0,20.25,16.17
+sndcpy,rom1v,3347,4.77,309,2,Mediana,2.0,2.0,0.0,8.0
+sndcpy,rom1v,3347,4.77,309,2,Desvio Padrão,3.86,0.82,40.5,31.08
 ArchUnit,TNG,3342,7.91,306,40,,,,,
-ffmpeg-android-java,cropsly,3338,10.52,831,8,,,,,
+ffmpeg-android-java,cropsly,3338,10.52,831,8,Média,1.41,1.45,7.72,10.95
+ffmpeg-android-java,cropsly,3338,10.52,831,8,Mediana,1.0,1.0,1.0,5.0
+ffmpeg-android-java,cropsly,3338,10.52,831,8,Desvio Padrão,2.18,0.72,23.5,18.12
 DDComponentForAndroid,luojilab,3332,7.53,570,4,,,,,
-jvm-tools,aragozin,3327,12.89,522,0,,,,,
+jvm-tools,aragozin,3327,12.89,522,0,Média,1.91,1.21,20.65,15.62
+jvm-tools,aragozin,3327,12.89,522,0,Mediana,1.0,1.0,0.0,4.0
+jvm-tools,aragozin,3327,12.89,522,0,Desvio Padrão,2.57,0.74,132.89,42.68
 Toaster,getActivity,3325,6.5,411,33,,,,,
 ScalingLayout,iammert,3321,7.46,317,4,,,,,
-archi,ivacf,3320,9.52,494,0,,,,,
-uncle-novel,uncle-novel,3312,6.27,508,1,,,,,
-concurrency-limits,Netflix,3307,7.27,312,102,,,,,
+archi,ivacf,3320,9.52,494,0,Média,2.49,1.23,1.53,11.07
+archi,ivacf,3320,9.52,494,0,Mediana,2.0,1.0,0.0,5.0
+archi,ivacf,3320,9.52,494,0,Desvio Padrão,3.15,0.42,3.01,17.03
+uncle-novel,uncle-novel,3312,6.27,508,1,Média,2.88,1.66,10.42,21.54
+uncle-novel,uncle-novel,3312,6.27,508,1,Mediana,2.0,1.0,0.0,7.0
+uncle-novel,uncle-novel,3312,6.27,508,1,Desvio Padrão,4.63,0.85,35.72,138.11
+concurrency-limits,Netflix,3307,7.27,312,102,Média,2.5,1.28,8.28,12.45
+concurrency-limits,Netflix,3307,7.27,312,102,Mediana,2.0,1.0,1.0,4.0
+concurrency-limits,Netflix,3307,7.27,312,102,Desvio Padrão,2.99,0.71,21.32,23.19
 SuperTextView,chenBingX,3306,7.92,398,33,,,,,
 PRDownloader,amitshekhariitbhu,3304,7.35,538,8,,,,,
-99-problems,shekhargulati,3304,9.32,912,0,,,,,
-igniter,trojan-gfw,3302,6.36,734,33,,,,,
+99-problems,shekhargulati,3304,9.32,912,0,Média,1.66,1.0,1.68,9.23
+99-problems,shekhargulati,3304,9.32,912,0,Mediana,2.0,1.0,0.0,6.0
+99-problems,shekhargulati,3304,9.32,912,0,Desvio Padrão,0.87,0.0,2.92,8.42
+igniter,trojan-gfw,3302,6.36,734,33,Média,2.2,1.22,15.81,11.94
+igniter,trojan-gfw,3302,6.36,734,33,Mediana,1.0,1.0,0.0,4.0
+igniter,trojan-gfw,3302,6.36,734,33,Desvio Padrão,3.54,0.54,63.01,35.41

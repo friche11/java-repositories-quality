@@ -1,106 +1,200 @@
 import pandas as pd
 import os
+import subprocess
+import numpy as np
+import subprocess
+import os
 
-# Diretório base onde os CSVs estão armazenados
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-CK_DIR = os.path.join(BASE_DIR, "outputs", "ck")
-
-# Definir métricas de qualidade a serem analisadas
-quality_metrics = {
-    "cbo": "Acoplamento Entre Objetos (CBO)",
-    "dit": "Profundidade da Árvore de Herança (DIT)",
-    "lcom": "Falta de Coesão dos Métodos (LCOM)",
-    "loc": "Linhas de Código (LOC)"
-}
-
-# Lista para armazenar os dados dos sumários
-data_list = []
-
-# Percorrer todos os repositórios dentro de outputs/ck/
-if not os.path.exists(CK_DIR) or not os.path.isdir(CK_DIR):
-    print(f"Diretório não encontrado: {CK_DIR}")
-    exit()
-
-for repo_name in os.listdir(CK_DIR):
-    repo_path = os.path.join(CK_DIR, repo_name)
-
-    # Verificar se é um diretório (para garantir que é um repositório)
-    if not os.path.isdir(repo_path):
-        continue
-
-    # Caminho do CSV de métricas
-    class_metrics_path = os.path.join(repo_path, "metricsclass.csv")
-    output_path = os.path.join(repo_path, "summary_metrics.csv")
-
-    if not os.path.exists(class_metrics_path):
-        print(f"Arquivo não encontrado: {class_metrics_path}")
-        continue
-
-    # Carregar CSV de métricas de classe
-    class_metrics = pd.read_csv(class_metrics_path)
-
-    # Filtrar apenas as métricas disponíveis
-    available_metrics = [col for col in quality_metrics if col in class_metrics.columns]
+def executar_ck():
+    """Executa CK em todos os repositórios clonados e continua mesmo se um falhar."""
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    REPOS_DIR = os.path.join(BASE_DIR, "repositories")
+    OUTPUT_DIR = os.path.join(BASE_DIR, "outputs", "ck")
+    CK_JAR_PATH = os.path.join(BASE_DIR, "ck", "target", "ck-0.7.1-SNAPSHOT-jar-with-dependencies.jar")
+    ERROR_LOG_PATH = os.path.join(BASE_DIR, "logs", "ck_errors.log")
     
-    if not available_metrics:
-        print(f"Nenhuma métrica de qualidade encontrada para {repo_name}!")
-        continue
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(os.path.dirname(ERROR_LOG_PATH), exist_ok=True)
 
-    # Calcular estatísticas por repositório
-    grouped = class_metrics[available_metrics]
-    summary = grouped.agg(["mean", "median", "std"]).reset_index()
+    repositorios = [repo for repo in os.listdir(REPOS_DIR) if os.path.isdir(os.path.join(REPOS_DIR, repo))]
 
-    # Arredondar os valores numéricos para duas casas decimais
-    summary[available_metrics] = summary[available_metrics].round(2)
+    for repo in repositorios:
+        repo_path = os.path.join(REPOS_DIR, repo)
+        repo_output_folder = os.path.join(OUTPUT_DIR, repo)
+        os.makedirs(repo_output_folder, exist_ok=True)
 
-    # Traduzir colunas para português
-    summary.rename(columns={col: quality_metrics[col] for col in available_metrics}, inplace=True)
+        ck_command = [
+            "java", "-jar", CK_JAR_PATH,
+            repo_path, "false", "0", "false"
+        ]
 
-    # Traduzir estatísticas
-    summary.replace({
-        "mean": "Média",
-        "median": "Mediana",
-        "std": "Desvio Padrão"
-    }, inplace=True)
+        print(f"Executando CK no repositório: {repo}...")
 
-    # Renomear a coluna do índice para "Medida"
-    summary.rename(columns={"index": "Medida"}, inplace=True)
+        try:
+            subprocess.run(ck_command, check=True, cwd=repo_output_folder, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            print(f"CK finalizado para {repo}")
+        except subprocess.CalledProcessError as e:
+            error_message = f"Erro ao executar CK em {repo}: {e}\n"
+            print(error_message)
 
-    # Extrair apenas o nome do repositório (removendo o dono)
-    repo_clean_name = repo_name.split("_", 1)[-1] if "_" in repo_name else repo_name
+            # Registrar erro no arquivo de log
+            with open(ERROR_LOG_PATH, "a", encoding="utf-8") as log_file:
+                log_file.write(error_message)
+        
+        except Exception as e:
+            error_message = f"Erro inesperado em {repo}: {e}\n"
+            print(error_message)
 
-    # Adicionar nome do repositório
-    summary.insert(0, "Repositório", repo_clean_name.strip().lower())
+            with open(ERROR_LOG_PATH, "a", encoding="utf-8") as log_file:
+                log_file.write(error_message)
 
-    # Salvar dentro da pasta do próprio repositório
-    summary.to_csv(output_path, index=False, encoding="utf-8")
-    print(f"Sumarização salva em: {output_path}")
+    print(f"\nProcessamento concluído! Logs de erro (se houver) foram salvos em {ERROR_LOG_PATH}")
 
-    # Adicionar ao consolidado
-    data_list.append(summary)
 
-# Criar dataframe consolidado de summary_metrics (apenas em memória)
-if not data_list:
-    print("Nenhum sumário encontrado. Processo encerrado.")
-    exit()
+def analisar_dados():
+    """Separa repositórios por popularidade e analisa as métricas de qualidade."""
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    resultados_path = os.path.join(BASE_DIR, "docs", "resultados.csv")
 
-summary_df = pd.concat(data_list, ignore_index=True)
+    if not os.path.exists(resultados_path):
+        print("Arquivo de resultados não encontrado. Gere os resultados primeiro!")
+        return
 
-# Carregar repositories.csv
-repositories_path = os.path.join(BASE_DIR, "outputs", "repositories.csv")
+    df = pd.read_csv(resultados_path)
+    media_estrelas = df["Estrelas"].mean()
+    df["Grupo Popularidade"] = df["Estrelas"].apply(lambda x: "Abaixo da Média" if x < media_estrelas else "Acima da Média")
 
-if not os.path.exists(repositories_path):
-    print(f"Arquivo não encontrado: {repositories_path}")
-    exit()
+    stats_por_grupo = df.groupby("Grupo Popularidade")[
+        ["Acoplamento Entre Objetos (CBO)", 
+         "Profundidade da Árvore de Herança (DIT)", 
+         "Falta de Coesão dos Métodos (LCOM)", 
+         "Linhas de Código (LOC)"]
+    ].agg(["mean", "median", "std"])
+    
+    print(stats_por_grupo)
 
-repositories_df = pd.read_csv(repositories_path)
+def gerar_planilha_resultados():
+    """Gera a planilha consolidada de resultados combinando CK com repositories.csv."""
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    CK_DIR = os.path.join(BASE_DIR, "outputs", "ck")
+    DOCS_DIR = os.path.join(BASE_DIR, "docs")
+    os.makedirs(DOCS_DIR, exist_ok=True)
 
-# Juntar os dados
-resultados_df = pd.merge(repositories_df, summary_df, left_on="Repositório", right_on="Repositório", how="left")
+    quality_metrics = {
+        "cbo": "Acoplamento Entre Objetos (CBO)",
+        "dit": "Profundidade da Árvore de Herança (DIT)",
+        "lcom": "Falta de Coesão dos Métodos (LCOM)",
+        "loc": "Linhas de Código (LOC)"
+    }
 
-# Salvar a planilha final com os resultados
-resultados_path = os.path.join(BASE_DIR, "docs", "resultados.csv")
-resultados_df.to_csv(resultados_path, index=False, encoding="utf-8")
-print(f"Resultados salvos em: {resultados_path}")
+    data_list = []
+    if not os.path.exists(CK_DIR):
+        print(f"Diretório não encontrado: {CK_DIR}")
+        return
 
-print("Processo finalizado.")
+    for repo_name in os.listdir(CK_DIR):
+        repo_path = os.path.join(CK_DIR, repo_name)
+        if not os.path.isdir(repo_path):
+            continue
+
+        # Caminhos dos arquivos de métricas
+        class_metrics_path = os.path.join(repo_path, "class.csv")
+        method_metrics_path = os.path.join(repo_path, "method.csv")
+        summary_output_path = os.path.join(repo_path, "summary_metrics.csv")
+
+        # Lista para armazenar os DataFrames
+        metrics_dataframes = []
+
+        # Carregar métricas de classes, se existir e não estiver vazio
+        if os.path.exists(class_metrics_path) and os.path.getsize(class_metrics_path) > 0:
+            try:
+                class_metrics = pd.read_csv(class_metrics_path)
+                metrics_dataframes.append(class_metrics)
+            except pd.errors.EmptyDataError:
+                print(f"Aviso: {class_metrics_path} está vazio. Será substituído por valores em branco.")
+
+        # Carregar métricas de métodos, se existir e não estiver vazio
+        if os.path.exists(method_metrics_path) and os.path.getsize(method_metrics_path) > 0:
+            try:
+                method_metrics = pd.read_csv(method_metrics_path)
+                metrics_dataframes.append(method_metrics)
+            except pd.errors.EmptyDataError:
+                print(f"Aviso: {method_metrics_path} está vazio. Será substituído por valores em branco.")
+
+        # Se nenhum dado foi carregado, adiciona linha vazia para manter estrutura
+        if not metrics_dataframes:
+            print(f"Nenhum dado encontrado para {repo_name}. Inserindo linha vazia.")
+            empty_row = {col: np.nan for col in quality_metrics.keys()}
+            empty_row["Repositório"] = repo_name.strip().lower()
+            data_list.append(pd.DataFrame([empty_row]))
+            continue
+
+        # Concatenar os DataFrames
+        combined_metrics = pd.concat(metrics_dataframes, ignore_index=True)
+
+        # Selecionar apenas as métricas disponíveis
+        available_metrics = [col for col in quality_metrics if col in combined_metrics.columns]
+
+        if not available_metrics:
+            print(f"Nenhuma métrica válida encontrada em {repo_name}")
+            continue
+
+        # Gerar estatísticas de resumo
+        summary = combined_metrics[available_metrics].agg(["mean", "median", "std"]).reset_index()
+        summary[available_metrics] = summary[available_metrics].round(2)
+        summary.rename(columns={col: quality_metrics[col] for col in available_metrics}, inplace=True)
+        summary.replace({"mean": "Média", "median": "Mediana", "std": "Desvio Padrão"}, inplace=True)
+        summary.rename(columns={"index": "Medida"}, inplace=True)
+
+        repo_clean_name = repo_name.split("_", 1)[-1] if "_" in repo_name else repo_name
+        summary.insert(0, "Repositório", repo_clean_name.strip().lower())
+
+        # Salvar o sumário individual
+        summary.to_csv(summary_output_path, index=False, encoding="utf-8")
+        data_list.append(summary)
+
+    if not data_list:
+        print("Nenhum sumário encontrado. Processo encerrado.")
+        return
+
+    # Unir todos os sumários individuais em um único DataFrame
+    summary_df = pd.concat(data_list, ignore_index=True)
+
+    repositories_path = os.path.join(BASE_DIR, "outputs", "repositories.csv")
+    if not os.path.exists(repositories_path):
+        print(f"Arquivo não encontrado: {repositories_path}")
+        return
+
+    # Carregar os dados dos repositórios e mesclar com os sumários de métricas
+    repositories_df = pd.read_csv(repositories_path)
+    resultados_df = pd.merge(repositories_df, summary_df, on="Repositório", how="left")
+    
+    resultados_path = os.path.join(DOCS_DIR, "resultados.csv")
+    resultados_df.to_csv(resultados_path, index=False, encoding="utf-8")
+
+    print(f"Resultados salvos em: {resultados_path}")
+
+def main():
+    """Menu principal para o usuário escolher a ação."""
+    while True:
+        print("\nMenu Principal")
+        print("1 - Executar CK nos repositórios clonados")
+        print("2 - Analisar dados separando repositórios pela média")
+        print("3 - Gerar planilha de resultados")
+        print("4 - Sair")
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            executar_ck()
+        elif opcao == "2":
+            analisar_dados()
+        elif opcao == "3":
+            gerar_planilha_resultados()
+        elif opcao == "4":
+            print("Saindo...")
+            break
+        else:
+            print("Opção inválida. Tente novamente.")
+
+if __name__ == "__main__":
+    main()

@@ -51,7 +51,7 @@ def executar_ck():
     print(f"\nProcessamento concluído! Logs de erro (se houver) foram salvos em {ERROR_LOG_PATH}")
 
 def analisar_dados():
-    """Analisa os dados separando repositórios pela média das variáveis de análise."""
+    """Analisa os dados separando repositórios pela mediana das variáveis de análise."""
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     RESULTADOS_PATH = os.path.join(BASE_DIR, "docs", "resultados.csv")
 
@@ -69,13 +69,15 @@ def analisar_dados():
                           "Falta de Coesão dos Métodos (LCOM)", 
                           "Linhas de Código (LOC)"]
 
-    # Criar classificações por média
+    # Criar classificações por mediana
     for var in variaveis_analise:
-        media = df[var].mean()
-        df[f"{var}_Grupo"] = df[var].apply(lambda x: "Alto" if x >= media else "Baixo")
+        mediana = df[var].median()
+        df[f"{var}_Grupo"] = df[var].apply(lambda x: "Alto" if x >= mediana else "Baixo")
 
-    # Gerar estatísticas por grupo
-    resultados = {}
+    # Criar lista para armazenar os resultados
+    resultados = []
+
+    # Gerar estatísticas por grupo e salvar corretamente
     for var in variaveis_analise:
         grupo_coluna = f"{var}_Grupo"
 
@@ -85,23 +87,19 @@ def analisar_dados():
 
         estatisticas = df.groupby(grupo_coluna)[metricas_qualidade].agg(["mean", "median", "std"]).round(2)
 
-        # Renomeando colunas corretamente
-        estatisticas.columns = [f"{m[0]} - {'Média' if m[1] == 'mean' else 'Mediana' if m[1] == 'median' else 'Desvio Padrão'}"
-                                for m in estatisticas.columns]
+        # Adicionar os dados formatados à lista de resultados
+        for grupo in estatisticas.index:
+            for metrica in metricas_qualidade:
+                resultados.append([var, grupo, metrica, "Média", estatisticas.loc[grupo, (metrica, "mean")]])
+                resultados.append([var, grupo, metrica, "Mediana", estatisticas.loc[grupo, (metrica, "median")]])
+                resultados.append([var, grupo, metrica, "Desvio Padrão", estatisticas.loc[grupo, (metrica, "std")]])
 
-        resultados[var] = estatisticas
+    # Converter lista de resultados para DataFrame
+    df_resultados = pd.DataFrame(resultados, columns=["Variável de Análise", "Grupo", "Métrica", "Tipo", "Valor"])
 
-    # Exibir os resultados
-    for var, stats in resultados.items():
-        print(f"\nAnálise para {var}:\n", stats)
-
-    # Salvar análise em um arquivo CSV
+    # Salvar o arquivo CSV corretamente formatado
     ANALISE_PATH = os.path.join(BASE_DIR, "docs", "analise_resultados.csv")
-
-    with open(ANALISE_PATH, "w", encoding="utf-8") as f:
-        for var, stats in resultados.items():
-            f.write(f"\nAnálise para {var}\n")
-            stats.to_csv(f, mode="a")
+    df_resultados.to_csv(ANALISE_PATH, index=False, encoding="utf-8")
 
     print(f"\nAnálise concluída! Resultados salvos em {ANALISE_PATH}")
 
@@ -212,17 +210,17 @@ def main():
     while True:
         print("\nMenu Principal")
         print("1 - Executar CK nos repositórios clonados")
-        print("2 - Analisar dados separando repositórios pela média")
-        print("3 - Gerar planilha de resultados")
+        print("2 - Gerar planilha de resultados")
+        print("3 - Analisar dados separando repositórios pela mediana")
         print("4 - Sair")
         opcao = input("Escolha uma opção: ")
 
         if opcao == "1":
             executar_ck()
         elif opcao == "2":
-            analisar_dados()
-        elif opcao == "3":
             gerar_planilha_resultados()
+        elif opcao == "3":
+            analisar_dados()
         elif opcao == "4":
             print("Saindo...")
             break

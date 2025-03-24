@@ -2,8 +2,9 @@ import pandas as pd
 import os
 import subprocess
 import numpy as np
-import subprocess
-import os
+import seaborn as sns
+import matplotlib.pyplot as plt
+import scipy.stats as stats
 
 def executar_ck():
     """Executa CK em todos os repositórios clonados e continua mesmo se um falhar."""
@@ -49,6 +50,7 @@ def executar_ck():
                 log_file.write(error_message)
 
     print(f"\nProcessamento concluído! Logs de erro (se houver) foram salvos em {ERROR_LOG_PATH}")
+
 
 def analisar_dados():
     """Analisa os dados separando repositórios pela mediana das variáveis de análise."""
@@ -205,6 +207,73 @@ def gerar_planilha_resultados():
 
     print(f"Resultados salvos em: {resultados_path}")
 
+def analisar_correlacao():
+    """Analisa a correlação entre variáveis de análise e métricas de qualidade usando Spearman."""
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    RESULTADOS_PATH = os.path.join(BASE_DIR, "docs", "resultados.csv")
+
+    if not os.path.exists(RESULTADOS_PATH):
+        print(f"Arquivo não encontrado: {RESULTADOS_PATH}")
+        return
+
+    # Carregar os dados
+    df = pd.read_csv(RESULTADOS_PATH)
+
+    # Manter apenas colunas numéricas e remover NaN
+    df_numeric = df.select_dtypes(include=[np.number]).dropna()
+
+    # Definir variáveis de análise e métricas de qualidade
+    variaveis_analise = {
+        "Popularidade (Estrelas)": "Estrelas",
+        "Maturidade (anos)": "Maturidade (anos)",
+        "Atividade (Releases)": "Releases",
+        "Tamanho (LOC)": "Linhas de Código (LOC)"
+    }
+
+    metricas_qualidade = {
+        "Acoplamento Entre Objetos (CBO)": "Acoplamento Entre Objetos (CBO)",
+        "Profundidade da Árvore de Herança (DIT)": "Profundidade da Árvore de Herança (DIT)",
+        "Falta de Coesão dos Métodos (LCOM)": "Falta de Coesão dos Métodos (LCOM)"
+    }
+
+    # Criar DataFrame para armazenar os resultados
+    resultados = []
+
+    print("\n### Teste de Correlação de Spearman ###\n")
+    for var_nome, var in variaveis_analise.items():
+        for met_nome, met in metricas_qualidade.items():
+            if var in df_numeric.columns and met in df_numeric.columns:
+                try:
+                    coef, p_value = stats.spearmanr(df_numeric[var], df_numeric[met])
+                    resultados.append([var_nome, met_nome, round(coef, 2), round(p_value, 5)])
+                except Exception as e:
+                    print(f"Erro ao calcular correlação entre {var} e {met}: {e}")
+                    resultados.append([var_nome, met_nome, np.nan, np.nan])
+            else:
+                print(f"Coluna {var} ou {met} não encontrada no DataFrame.")
+                resultados.append([var_nome, met_nome, np.nan, np.nan])
+
+    # Converter para DataFrame
+    df_resultados = pd.DataFrame(resultados, columns=["Variável de Análise", "Métrica de Qualidade", "Coef. Spearman", "p-valor"])
+
+    # Exibir os resultados no terminal
+    print(df_resultados)
+
+    # Gerar e salvar a matriz de correlação como gráfico
+    matriz_correlacao = df_numeric.corr(method="spearman")
+    plt.figure(figsize=(14, 8))
+    sns.heatmap(matriz_correlacao, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
+    plt.title("Matriz de Correlação de Spearman")
+    plt.tight_layout()
+    plt.savefig(os.path.join(BASE_DIR, "docs", "matriz_spearman.png"))  # Salva o gráfico
+    plt.show()
+
+    # Salvar os resultados em CSV
+    ANALISE_PATH = os.path.join(BASE_DIR, "docs", "analise_correlacao_spearman.csv")
+    df_resultados.to_csv(ANALISE_PATH, index=False)
+
+    print(f"\nAnálise concluída! Resultados salvos em {ANALISE_PATH} e matriz de correlação salva como imagem.")
+
 def main():
     """Menu principal para o usuário escolher a ação."""
     while True:
@@ -212,7 +281,8 @@ def main():
         print("1 - Executar CK nos repositórios clonados")
         print("2 - Gerar planilha de resultados")
         print("3 - Analisar dados separando repositórios pela mediana")
-        print("4 - Sair")
+        print("4 - Analisar dados usando teste de correlação de Pearson")
+        print("5 - Sair")
         opcao = input("Escolha uma opção: ")
 
         if opcao == "1":
@@ -222,6 +292,8 @@ def main():
         elif opcao == "3":
             analisar_dados()
         elif opcao == "4":
+            analisar_correlacao()
+        elif opcao == "5":
             print("Saindo...")
             break
         else:

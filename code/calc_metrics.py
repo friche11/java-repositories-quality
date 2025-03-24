@@ -50,28 +50,61 @@ def executar_ck():
 
     print(f"\nProcessamento concluído! Logs de erro (se houver) foram salvos em {ERROR_LOG_PATH}")
 
-
 def analisar_dados():
-    """Separa repositórios por popularidade e analisa as métricas de qualidade."""
+    """Analisa os dados separando repositórios pela média das variáveis de análise."""
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    resultados_path = os.path.join(BASE_DIR, "docs", "resultados.csv")
+    RESULTADOS_PATH = os.path.join(BASE_DIR, "docs", "resultados.csv")
 
-    if not os.path.exists(resultados_path):
-        print("Arquivo de resultados não encontrado. Gere os resultados primeiro!")
+    if not os.path.exists(RESULTADOS_PATH):
+        print(f"Arquivo não encontrado: {RESULTADOS_PATH}")
         return
 
-    df = pd.read_csv(resultados_path)
-    media_estrelas = df["Estrelas"].mean()
-    df["Grupo Popularidade"] = df["Estrelas"].apply(lambda x: "Abaixo da Média" if x < media_estrelas else "Acima da Média")
+    # Carregar os dados
+    df = pd.read_csv(RESULTADOS_PATH)
 
-    stats_por_grupo = df.groupby("Grupo Popularidade")[
-        ["Acoplamento Entre Objetos (CBO)", 
-         "Profundidade da Árvore de Herança (DIT)", 
-         "Falta de Coesão dos Métodos (LCOM)", 
-         "Linhas de Código (LOC)"]
-    ].agg(["mean", "median", "std"])
-    
-    print(stats_por_grupo)
+    # Variáveis de análise
+    variaveis_analise = ["Estrelas", "Maturidade (anos)", "Releases", "Linhas de Código (LOC)"]
+    metricas_qualidade = ["Acoplamento Entre Objetos (CBO)", 
+                          "Profundidade da Árvore de Herança (DIT)", 
+                          "Falta de Coesão dos Métodos (LCOM)", 
+                          "Linhas de Código (LOC)"]
+
+    # Criar classificações por média
+    for var in variaveis_analise:
+        media = df[var].mean()
+        df[f"{var}_Grupo"] = df[var].apply(lambda x: "Alto" if x >= media else "Baixo")
+
+    # Gerar estatísticas por grupo
+    resultados = {}
+    for var in variaveis_analise:
+        grupo_coluna = f"{var}_Grupo"
+
+        if grupo_coluna not in df.columns:
+            print(f"Coluna {grupo_coluna} não encontrada no DataFrame.")
+            continue
+
+        estatisticas = df.groupby(grupo_coluna)[metricas_qualidade].agg(["mean", "median", "std"]).round(2)
+
+        # Renomeando colunas corretamente
+        estatisticas.columns = [f"{m[0]} - {'Média' if m[1] == 'mean' else 'Mediana' if m[1] == 'median' else 'Desvio Padrão'}"
+                                for m in estatisticas.columns]
+
+        resultados[var] = estatisticas
+
+    # Exibir os resultados
+    for var, stats in resultados.items():
+        print(f"\nAnálise para {var}:\n", stats)
+
+    # Salvar análise em um arquivo CSV
+    ANALISE_PATH = os.path.join(BASE_DIR, "docs", "analise_resultados.csv")
+
+    with open(ANALISE_PATH, "w", encoding="utf-8") as f:
+        for var, stats in resultados.items():
+            f.write(f"\nAnálise para {var}\n")
+            stats.to_csv(f, mode="a")
+
+    print(f"\nAnálise concluída! Resultados salvos em {ANALISE_PATH}")
+
 
 def gerar_planilha_resultados():
     """Gera a planilha consolidada de resultados combinando CK com repositories.csv."""
